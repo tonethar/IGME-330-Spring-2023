@@ -16,7 +16,7 @@
 <hr>
 
 
-## II. Course Content
+## II. Daily Activity
 
 - Most days will have an "attendance quiz/activity" that starts right at the beginning of class
   - there will be an associated myCourses dropbox - "Daily Checkoffs" or something like that
