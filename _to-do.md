@@ -34,26 +34,26 @@
 <hr>
 
 ## IV. HW assignments
-- about 6 of these (some possibilities?):
-  - **Technobabble**
-    - The ultimate version with ES6 modules, Ajax, JSON, mobile friendly
-  - **Drawing App**
-    - basic canvas
-    - a little Bulma?
-    - App defaults stored in JSON file
-  - **Audio Visualizer**
-    - add in canvas `imageData`
-    - WebAudio
-  - **Rhymer**
-    - RiTa.js, A word API?, Web Components?
-    - Multi-page (2) and more Bulma, Nav System & component
-  - **Web App I.**
-    - They all do the same web service, or pick 1 of 3?
-    - localStorage, favorites state persistance
+- about 6 of these ...
+- **Technobabble** 
+  - The ultimate version with ES6 modules, Ajax, JSON, mobile friendly
+- **Drawing App**
+  - basic canvas
+  - a little Bulma?
+  - App defaults stored in JSON file
+- **Audio Visualizer**
+  - add in canvas `imageData`
+  - WebAudio
+- **Rhymer**
+  - RiTa.js, A word API?, Web Components?
+  - Multi-page (2) and more Bulma, Nav System & component
+- **Web App I.**
+  - They all do the same web service, or pick 1 of 3?
+  - localStorage, favorites state persistance
     - Bulma and Web Components still required
-  - **Web App II.**
-    - Firebase
-    - App page state persistance (UI and Search reults)
+- **Web App II.**
+  - Firebase
+  - App page state persistance (UI and Search reults)
 
 <hr>
 
