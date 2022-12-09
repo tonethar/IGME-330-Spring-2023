@@ -7,7 +7,7 @@
 - Attendance: emphasize that absences are only fully excused with documentation from the college
   - Automatic early alert to be sent when a student misses 2 classes?
 - Stuff student must do:
-  - Slack: Introduction posted to Slack (so that we know they are properly enrolld in the channel)
+  - Slack: Introduction posted to Slack (so that we know they are properly enrolled in the channel)
     - 100% of course communication will be through Slack?
   - Must sign up for account with https://editor.p5js.org/ (GitHUb accounts can be connected I believe)
     - this is for some of the "Daily Checkoffs"
