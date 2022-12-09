@@ -34,7 +34,7 @@
 <hr>
 
 ## IV. HW assignments
-- about 6 of these:
+- about 6 of these (some possibilities?):
   - Technobabble (The ultimate version with Ajax, JSON, mobile friendly)
   - Drawing App - canvas
   - Audio Visualizer
