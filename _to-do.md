@@ -21,7 +21,10 @@
 - Most days will have an "attendance quiz/activity" that starts right at the beginning of class
   - there will be an associated myCourses dropbox - "Daily Checkoffs" or something like that
   - we will generally grade these just for completion, not correctness
-  - some code challenges will be like these: https://scrimba.com/learn/javascriptmas
+  - some code challenges will be like these: 
+    - https://scrimba.com/learn/javascriptmas
+    - https://practice.geeksforgeeks.org/
+    - https://leetcode.com/explore/
  
 <hr>
 
