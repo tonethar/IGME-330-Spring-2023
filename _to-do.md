@@ -42,5 +42,5 @@
 
 ## V. Exams
 - Written, there will be 2 or 3
-- Final exam is on last dat of class
+- Final exam is on last day of class
 
