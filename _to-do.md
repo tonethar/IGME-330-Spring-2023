@@ -61,3 +61,21 @@
 - Written, there will be 2 or 3
 - Final exam is on last day of class
 
+<hr>
+
+## VI. Grading?
+
+- Checkoffs - 10%
+- Practice Exercises - 20%
+- HW Assignments - 30%
+- Exams (2 or 3) - 40%
+
+<hr>
+
+## VII. Attendance policy
+- Attendance - deduction for 2 or more absences
+
+<hr>
+
+## VIII. Late Policy
+
