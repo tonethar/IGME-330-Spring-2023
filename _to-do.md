@@ -77,5 +77,5 @@
 
 <hr>
 
-## VIII. Late Policy
+## VIII. Late Assignment Policy
 
