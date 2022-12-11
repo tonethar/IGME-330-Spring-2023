@@ -76,6 +76,7 @@
 <hr>
 
 ## VII. Attendance policy?
+- Does a too generous attendance policy - "write us in advance and we'll excuse you" - hurt the weaker students (who are more likely to skip)?
 - Attendance - deduction for 2 or more absences
 - We would like you to let us know in advance if you are not going to make it to class, but absences are only excused with written documentation from the college
 
