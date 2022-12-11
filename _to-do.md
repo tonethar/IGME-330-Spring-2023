@@ -4,8 +4,6 @@
 
 ## I. Syllabus
 
-- Attendance: emphasize that absences are only fully excused with documentation from the college
-  - Automatic early alert to be sent when a student misses 2 classes?
 - Stuff students must do:
   - Slack: Introduction posted to Slack (so that we know they are properly enrolled in the channel)
     - 100% of course communication will be through Slack?
@@ -77,8 +75,8 @@
 
 ## VII. Attendance policy?
 - Does a too generous attendance policy - "write us in advance and we'll excuse you" - hurt the weaker students (who are more likely to skip)?
-- Attendance - deduction for 2 or more absences
-- We would like you to let us know in advance if you are not going to make it to class, but absences are only excused with written documentation from the college
+- *"We would like you to let us know in advance if you are not going to make it to class, but absences are only excused with written documentation from the college"*
+- Automatic early alert to be sent when a student misses 2 classes?
 
 <hr>
 
