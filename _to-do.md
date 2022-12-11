@@ -52,7 +52,7 @@
 - **Web App I.**
   - Mapbox?
   - There is a short list of location-based web services they can choose from
-  - localStorage, favorites state persistance
+  - `localStorage`, favorites state persistence
     - Bulma and Web Components still required
 - **Web App II.**
   - Firebase
