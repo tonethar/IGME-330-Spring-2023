@@ -16,7 +16,7 @@
 <hr>
 
 
-## II. Daily Activity
+## II. Daily Activity/Checkoffs
 
 - Most days will have an "attendance quiz/activity" that starts right at the beginning of class
   - there will be an associated myCourses dropbox - "Daily Checkoffs" or something like that
@@ -25,6 +25,8 @@
     - https://scrimba.com/learn/javascriptmas
     - https://practice.geeksforgeeks.org/
     - https://leetcode.com/explore/
+  - many of these will be due 15 or 20 minutes after the start of class, because we will be going over them the same day in-class
+    - no late submissions allowed
  
 <hr>
 
@@ -74,8 +76,12 @@
 
 ## VII. Attendance policy
 - Attendance - deduction for 2 or more absences
+- We would like you to let us know in advance if you are not going to make it to class, but absences are only excused with written documentation from the college
 
 <hr>
 
 ## VIII. Late Assignment Policy
-
+- The pandemic is over - "No excuses" extensions should be too
+- All assignments get a 3-hour extension (the "3AM" thing)
+- There will be a late dropbox
+- *Documented* college activities, RIT career day, etc are valid excuses
