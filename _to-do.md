@@ -6,7 +6,7 @@
 
 - Attendance: emphasize that absences are only fully excused with documentation from the college
   - Automatic early alert to be sent when a student misses 2 classes?
-- Stuff student must do:
+- Stuff students must do:
   - Slack: Introduction posted to Slack (so that we know they are properly enrolled in the channel)
     - 100% of course communication will be through Slack?
   - Must sign up for account with https://editor.p5js.org/ (GitHUb accounts can be connected I believe)
@@ -17,7 +17,7 @@
 
 
 ## II. Daily Activity/Checkoffs
-
+- I got rid of all the in-class exercises/activities when we went online during the pandemic. It's time to bring them back, but with better participation from the students
 - Most days will have an "attendance quiz/activity" that starts right at the beginning of class
   - there will be an associated myCourses dropbox - "Daily Checkoffs" or something like that
   - we will generally grade these just for completion, not correctness
@@ -50,7 +50,8 @@
   - RiTa.js, A word API?, Web Components?
   - Multi-page (2) and more Bulma, Nav System & component
 - **Web App I.**
-  - They all do the same web service, or pick 1 of 3?
+  - Mapbox?
+  - There is a short list of location-based web services they can choose from
   - localStorage, favorites state persistance
     - Bulma and Web Components still required
 - **Web App II.**
@@ -74,14 +75,18 @@
 
 <hr>
 
-## VII. Attendance policy
+## VII. Attendance policy?
 - Attendance - deduction for 2 or more absences
 - We would like you to let us know in advance if you are not going to make it to class, but absences are only excused with written documentation from the college
 
 <hr>
 
-## VIII. Late Assignment Policy
+## VIII. Late Assignment Policy?
 - The pandemic is over - "No excuses" extensions should be too
 - All assignments get a 3-hour extension (the "3AM" thing)
-- There will be a late dropbox
+- There will be a general late dropbox:
+  - 3 to 6 hours late, -10%
+  - 6 to 24 hours late, -20%
+  - 24 - 48 hours late, -40%
+  - nothing will be accepted more than 48 hours late without prior arrangement
 - *Documented* college activities, RIT career day, etc are valid excuses
