@@ -21,8 +21,10 @@
   - we will generally grade these just for completion, not correctness
   - some code challenges will be like these: 
     - https://scrimba.com/learn/javascriptmas
+    - https://www.adventofjs.com/
     - https://practice.geeksforgeeks.org/
     - https://leetcode.com/explore/
+    - https://www.sitepoint.com/premium/library/assessments
   - many of these will be due 15 or 20 minutes after the start of class, because we will be going over them the same day in-class
     - no late submissions allowed
  
