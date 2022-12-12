@@ -68,10 +68,10 @@
 
 ## VI. Grading?
 
-- Checkoffs - 10%
-- Practice Exercises - 20%
-- HW Assignments - 30%
-- Exams (2 or 3) - 40%
+- Checkoffs - 10% 
+- Practice Exercises - 20% (minimum of 70% average in this category required to pass the course?)
+- HW Assignments - 30% (minimum of 70% average in this category required to pass the course?)
+- Exams (2 or 3) - 40% (minimum of 70% average in this category required to pass the course?)
 
 <hr>
 
