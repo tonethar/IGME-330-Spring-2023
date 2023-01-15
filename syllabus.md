@@ -47,7 +47,7 @@
 - https://mycourses.rit.edu will contain additional materials, and will also be used for announcements, assignment submissions, and grading
 - keep an eye on the dropboxes in mycourses for assignment due dates
 - you will be expected to participate in this multi-section Slack workspace throughout the semester: 
-  - https://rit-igme-330-2221.slack.com
+  - https://rit-igme-330-2225.slack.com
   - read this [IGME 330 - Introduction to Slack](https://docs.google.com/document/d/e/2PACX-1vQqjfsmGnvlweL9-ruKtsLn1wExSF2vapG1sVFGBJullHnFvbBYtYb60U8gaE7igzDGyGxzzYCxMmON/pub) document for details.
 
 ### Course Textbook (these are free)
