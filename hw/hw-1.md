@@ -1,3 +1,4 @@
 # Homework 1 - Technobabble
 
-- This "ultimate version" will ES6 modules, Ajax, JSON, mobile friendly
+- This "ultimate version" will have ES6 modules, arrow functions, Ajax and data stored in JSON
+- Details coming soon!
