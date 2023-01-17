@@ -30,7 +30,7 @@
      - Exception: If you need to copy someone else in, email me at tony@mail.rit.edu, but also send a Slack DM, so that I know to go look for it.
   - Office Location: GOL-2525 (IGM "Main Hall")
   - Office hours:
-    - In person: TBA
+    - In person: TR 3:45PM-4:45PM
     - Other M-F days/times - probably in Slack - available by request
 ### Section 05 (Warren)
 - **IGME-330-05**
