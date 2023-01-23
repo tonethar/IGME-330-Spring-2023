@@ -130,7 +130,7 @@ console.log(factorial(10)); // 3628800
 ## VI. Arrow functions
 
 - Arrow functions are a compact alternative to a traditional function expression where a function is declared with the `function` keyword
-- The major difference between an arrow function and a regular function (other than the compact syntax) is that arrow functions do not bind to JS [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+- ***The major difference between an arrow function and a regular function (other than the compact syntax) is that arrow functions do not bind to JS [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)***
   - we will explore what the above statement means - and where this behavior really comes in handy - once we are working with ES6 classes and web components 
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
@@ -164,7 +164,7 @@ console.log(doubleIt(10)); // 20
 ### VI-B. Arrow Functions
 
 - We have to assign them to a variable or constant
-- Here's version #1 of `doubleIt()` as an arrow function
+- Here's **version #1** of `doubleIt()` as an arrow function
 
 ```js
 const doubleIt = (num=0) => {
@@ -174,7 +174,7 @@ const doubleIt = (num=0) => {
 console.log(doubleIt(10)); // 20
 ```
 
-- Version #2
+- **Version #2**
 - If we only have one line of code in the function body we can get rid of the curly braces
 - And we can get rid of `return` as well, and whatever that line of code evaluates to will be returned
 
@@ -182,4 +182,17 @@ console.log(doubleIt(10)); // 20
 const doubleIt = (num=0) => num * 2;
 ```
 
+- **Version #3**
+- If there is only one parameter, and we get rid of the default value, we can also get rid of the paretheses around the arguments
+- It's worth noting thoough, the many JS style guides require parentheses for arrow functions
+ 
 
+```js
+const doubleIt5 = num => num * 2;
+```
+
+- **A real example**
+
+```js
+
+```
