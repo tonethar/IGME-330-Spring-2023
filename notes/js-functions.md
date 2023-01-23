@@ -150,7 +150,7 @@ function doubleIt(num=0){
 - Although now (because we are using `const` or `let`) we can only call the function AFTER we have declared it
 
 ```js
-const doubleIt = (num=0) => {
+const doubleIt = function(num=0){
   return num * 2;
 };
 
