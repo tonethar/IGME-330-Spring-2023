@@ -128,11 +128,31 @@ console.log(factorial(10)); // 3628800
 ## VI. Arrow functions
 
 - Arrow functions are a compact alternative to a traditional function expression where a function is declared with the `function` keyword
-- The major difference between an arrow function and a regular function (other than the compact syntax) is that arrow functions do not bindings to [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+- The major difference between an arrow function and a regular function (other than the compact syntax) is that arrow functions do not bind to JS [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
   - we will explore what the above statement means - and where this behavior really comes in handy - once we are working with ES6 classes and web components 
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 
+### VI-A. Declarations with `function`
+
+- "Old school" function declaration
+- Note that we can call it *before it is declared*
+
 ```js
-d
+console.log(doubleIt(10)); // 20
+
+function doubleIt(num=0){
+  return num * 2;
+}
+```
+
+- Also note that we can assign a function to a variable as an expression
+- Although now (because we are using `const` or `let`) we can only call the function AFTER we have declared it
+
+```js
+const doubleIt = (num=0) => {
+  return num * 2;
+};
+
+console.log(doubleIt(10)); // 20
 ```
