@@ -148,7 +148,7 @@ function doubleIt(num=0){
 }
 ```
 
-- Also note that we can assign a function to a variable as an expression
+- Also note that we can assign a function to a variable as an *expression*
 - Although now (because we are using `const` or `let`) we can only call the function AFTER we have declared it
 
 ```js
@@ -158,3 +158,28 @@ const doubleIt = function(num=0){
 
 console.log(doubleIt(10)); // 20
 ```
+
+<hr>
+
+### VI-B. Arrow Functions
+
+- We have to assign them to a variable or constant
+- Here's version #1 of `doubleIt()` as an arrow function
+
+```js
+const doubleIt = (num=0) => {
+  return num * 2;
+};
+
+console.log(doubleIt(10)); // 20
+```
+
+- Version #2
+- If we only have one line of code in the function body we can get rid of the curly braces
+- And we can get rid of `return` as well, and whatever that line of code evaluates to will be returned
+
+```js
+const doubleIt = (num=0) => num * 2;
+```
+
+
