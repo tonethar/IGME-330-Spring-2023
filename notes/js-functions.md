@@ -138,7 +138,7 @@ console.log(factorial(10)); // 3628800
 ### VI-A. Declarations with `function`
 
 - "Old school" function declaration
-- Note that we can call it *before it is declared*
+- Note that we can call it *before* it is declared
 
 ```js
 console.log(doubleIt(10)); // 20
