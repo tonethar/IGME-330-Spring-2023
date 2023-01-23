@@ -98,7 +98,7 @@ console.log(capitalize("billy")); // Uncaught ReferenceError: capitalize is not 
 ```
 
 - Why would you do something like this?
-- *Encapsulation* and *information hiding* and a *stable interface* generally makes for better software
+  - *Encapsulation* and *information hiding* and a *stable interface* generally makes for better software
   - https://en.wikipedia.org/wiki/Information_hiding
 
 <hr>
