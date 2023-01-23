@@ -10,6 +10,8 @@
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
   - the "super power" of a function object is that (unlike other objects) it can be *called* or *invoked* with `()`
 
+<hr>
+
 ## I. Simple function, no parameters
 
 ```js
