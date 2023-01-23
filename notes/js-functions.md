@@ -1,9 +1,9 @@
 # JS Functions
 
 - Functions are one of the fundamental building blocks in JavaScript
-- A function is a "subprogram" that can be called by code external (or internal, in the case of recursion) to the function. 
-- Like the program itself, a function is composed of a sequence of statements called the function body. 
-- Values can be passed to a function as parameters, and the function will return a value.
+- A function is a "subprogram" that can be called by code external to the function
+- Like the program itself, a function is composed of a sequence of statements called the function body
+- Values can be passed to a function as parameters, and the function will return a value
 - In JavaScript, every function is actually a `Function` object
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
