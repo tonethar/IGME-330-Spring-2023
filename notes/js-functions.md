@@ -184,8 +184,8 @@ const doubleIt = (num=0) => num * 2;
 
 - **Version #3**
 - If there is only one parameter, and we get rid of the default value, we can also get rid of the paretheses around the arguments
-- It's worth noting thoough, the many JS style guides require parentheses for arrow functions
- 
+- It's worth noting though, the many JS style guides require parentheses for arrow functions
+  - https://github.com/airbnb/javascript#arrows--one-arg-parens
 
 ```js
 const doubleIt5 = num => num * 2;
