@@ -270,10 +270,33 @@ console.log(doSomeMaths(tripleIt, 100)); // 300
 ### VII-C. Functions can have properties and methods just like any other object
 
 ```js
-doSomeMaths.useCount = 1;
+doSomeMaths.useCount = 1; // add a property to the function - 'cause it's an object, remember?
 console.log(doSomeMaths.useCount); // 1
 ```
 
 <hr>
 
 ### VII-D. Functions can `return` other functions
+
+- Here's an example of a function that returns a function
+- This particular example creates a [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) - which we will get into later in the course
+
+
+```js
+const heroMaker = (name) => {
+	let heroHP = Math.floor(Math.random() * 10) + 1;
+	let heroName = name;
+	return (newHP) => {
+		if(newHP >= 0) heroHP = newHP;
+		console.log(`${heroName} now has ${heroHP} hitpoints`);
+		return heroHP;
+	};
+};
+
+let hero1 = heroMaker("Ace");
+let hero2 = heroMaker("Coder");
+console.log(hero1());
+console.log(hero1(20));
+console.log(hero2());
+console.log(hero2(50));
+```
