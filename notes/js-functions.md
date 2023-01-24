@@ -252,10 +252,11 @@ console.log(obj.doubleIt2(10)); // 20
 
 ```js
 const tripleIt = num => num * 3;
+
 const doSomeMaths = (funcRef, value) => {
-  let result = funcRef(value)
+  let result = funcRef(value);
   return result;
 };
 
-console.log(doSomeMaths(tripleIt, 100); // 300
+console.log(doSomeMaths(tripleIt, 100)); // 300
 ```
