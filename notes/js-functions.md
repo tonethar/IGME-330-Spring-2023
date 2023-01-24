@@ -208,6 +208,8 @@ const filteredScores2 = scores.filter(function(s){
 console.log(filteredScores2);
 ```
 
+<hr>
+
 ## VII. Functions are "First class" objects
 - In JavaScript, functions are [first-class](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function) objects:
   - because they can be passed to other functions
@@ -215,6 +217,8 @@ console.log(filteredScores2);
   - and assigned to variables and properties
 - They can also have properties and methods just like any other object
 - What distinguishes them from other objects is that functions can be called
+
+<hr>
 
 ### VII-A. Functions can be assigned to variables and properties
 
@@ -233,4 +237,13 @@ let dub2 = doubleItAgainAgain;
 // Call them
 console.log(dub(10)); // 20
 console.log(dub2(10)); // 20
+
+// Assign as a property of an object and call it
+const obj = {
+  doubleIt: dub
+};
+obj.doubleIt2 = dub2;
+
+console.log(obj.doubleIt(10)); // 40
+console.log(obj.doubleIt2(10)); // 20
 ```
