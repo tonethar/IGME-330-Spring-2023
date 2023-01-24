@@ -279,7 +279,8 @@ console.log(doSomeMaths.useCount); // 1
 ### VII-D. Functions can `return` other functions
 
 - Here's an example of a function that returns a function
-- This particular example creates a [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) - which we will get into later in the course
+- This particular example creates a [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) - and true encapsulation/privacy of the `heroHP` and `heroName` variables
+- we will  talk more about closures later in the course
 
 
 ```js
