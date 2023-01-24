@@ -194,5 +194,9 @@ const doubleIt5 = num => num * 2;
 - **A real example**
 
 ```js
-
+const scores = [100000, 90, 85, 500, 22, 54321, 1001];
+// get rid of scores higher than 999
+// #1 - Use an arrow function
+const filteredScores = score.filter(s => s < 1000);
+console.log(filteredScores);
 ```
