@@ -51,6 +51,7 @@ function doubleIt(num=0){
 }
 
 console.log(doubleIt()); // returns 0 * 2, which is 0
+console.log(num); // ERROR - num is not in scope outside of function
 ```
 
 - Because the above function does NOT have any *side effects*, it can be called a *pure function*
