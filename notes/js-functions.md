@@ -60,8 +60,8 @@ console.log(doubleIt()); // returns 0 * 2, which is 0
 <hr>
 
 ## III. Functions declared with the `function` keyword can be called *before* they are declared
-
-- ... so long as they are declared in the same file and scope
+- the `function` declaration creates functions that are [hoisted](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_hoisting)
+- which means that they can be called *before* they are declared
 
 ```js
 console.log(doubleIt(10)); // 20
