@@ -219,5 +219,18 @@ console.log(filteredScores2);
 ### VII-A. Functions can be assigned to variables and properties
 
 ```js
+// Declare some functions
+const doubleItAgain = function(num=0){
+  return num * 2;
+};
 
+const doubleItAgainAgain = num => num * 2;
+
+// Assign them to variables
+let dub = doubleItAgain;
+let dub2 = doubleItAgainAgain;
+
+// Call them
+console.log(dub(10)); // 20
+console.log(dub2(10)); // 20
 ```
