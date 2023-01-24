@@ -249,6 +249,8 @@ console.log(obj.doubleIt(10)); // 20
 console.log(obj.doubleIt2(10)); // 20
 ```
 
+<hr>
+
 ### VII-B. Functions can be can be passed to other functions as parameters
 
 ```js
@@ -262,11 +264,15 @@ const doSomeMaths = (funcRef, value) => {
 console.log(doSomeMaths(tripleIt, 100)); // 300
 ```
 
+<hr>
+
 ### VII-C. Functions can have properties and methods just like any other object
 
 ```js
 doSomeMaths.useCount = 1;
 console.log(doSomeMaths.useCount); // 1
 ```
+
+<hr>
 
 ### VII-D. Functions can `return` other functions
