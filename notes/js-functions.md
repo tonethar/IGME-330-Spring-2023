@@ -212,7 +212,7 @@ console.log(filteredScores2);
 
 ## VII. Functions are "First class" objects
 - In JavaScript, functions are [first-class](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function) objects:
-  - because they can be passed to other functions
+  - because they can be passed to other functions as parameters
   - returned from functions
   - and assigned to variables and properties
 - They can also have properties and methods just like any other object
@@ -244,6 +244,18 @@ const obj = {
 };
 obj.doubleIt2 = dub2;
 
-console.log(obj.doubleIt(10)); // 40
+console.log(obj.doubleIt(10)); // 20
 console.log(obj.doubleIt2(10)); // 20
+```
+
+### VII-B. Functions can be can be passed to other functions as parameters
+
+```js
+const tripleIt = num => num * 3;
+const doSomeMaths = (funcRef, value) => {
+  let result = funcRef(value)
+  return result;
+};
+
+console.log(doSomeMaths(tripleIt, 100); // 300
 ```
