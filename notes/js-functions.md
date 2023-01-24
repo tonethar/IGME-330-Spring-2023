@@ -188,7 +188,7 @@ const doubleIt = (num=0) => num * 2;
   - https://github.com/airbnb/javascript#arrows--one-arg-parens
 
 ```js
-const doubleIt5 = num => num * 2;
+const doubleIt = num => num * 2;
 ```
 
 - **A real example**
@@ -206,5 +206,18 @@ const filteredScores2 = scores.filter(function(s){
   return s < 1000;
 });
 console.log(filteredScores2);
+```
+
+## VII. Functions are "First class" objects
+- In JavaScript, functions are [first-class](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function) objects:
+  - because they can be passed to other functions
+  - returned from functions
+  - and assigned to variables and properties
+- They can also have properties and methods just like any other object
+- What distinguishes them from other objects is that functions can be called
+
+### VII-A. Functions can be assigned to variables and properties
+
+```js
 
 ```
