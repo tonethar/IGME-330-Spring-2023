@@ -192,11 +192,19 @@ const doubleIt5 = num => num * 2;
 ```
 
 - **A real example**
+- Which is easier to read?
 
 ```js
 const scores = [100000, 90, 85, 500, 22, 54321, 1001];
 // get rid of scores higher than 999
 // #1 - Use an arrow function
-const filteredScores = score.filter(s => s < 1000);
+const filteredScores = scores.filter(s => s < 1000);
 console.log(filteredScores);
+
+// #2 - Use a regular function
+const filteredScores2 = scores.filter(function(s){
+  return s < 1000;
+});
+console.log(filteredScores2);
+
 ```
