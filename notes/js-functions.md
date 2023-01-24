@@ -105,7 +105,7 @@ console.log(capitalize("billy")); // Uncaught ReferenceError: capitalize is not 
 
 ## V. Recursion - functions can "call themselves"
 
-- The act of a function calling itself, recursion is used to solve problems that contain smaller sub-problems
+- Recursion is the act of a function calling itself, and is used to solve problems that contain smaller sub-problems
 - Recursion is limited by the call stack size limit of the JS run-time (which varies by machine & browser, but is usually over 10,000 on modern browsers)
 - https://developer.mozilla.org/en-US/docs/Glossary/Recursion
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Too_much_recursion
