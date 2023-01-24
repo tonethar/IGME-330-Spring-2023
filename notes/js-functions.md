@@ -285,13 +285,13 @@ console.log(doSomeMaths.useCount); // 1
 
 ```js
 const heroMaker = (name) => {
-	let heroHP = Math.floor(Math.random() * 10) + 1;
-	let heroName = name;
-	return (newHP) => {
-		if(newHP >= 0) heroHP = newHP;
-		console.log(`${heroName} now has ${heroHP} hitpoints`);
-		return heroHP;
-	};
+  let heroHP = Math.floor(Math.random() * 10) + 1;
+  let heroName = name;
+  return (newHP) => {
+    if(newHP >= 0) heroHP = newHP;
+    console.log(`${heroName} now has ${heroHP} hitpoints`);
+    return heroHP;
+  };
 };
 
 let hero1 = heroMaker("Ace");
