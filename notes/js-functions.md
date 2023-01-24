@@ -226,7 +226,7 @@ console.log(filteredScores2);
 
 ```js
 // Declare some functions
-const doubleItAgain = function(num=0){
+ function doubleItAgain(num=0){
   return num * 2;
 };
 
