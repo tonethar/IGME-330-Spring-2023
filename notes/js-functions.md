@@ -56,7 +56,7 @@ console.log(num); // ERROR - num is not in scope outside of function
 
 - Because the above function does NOT have any *side effects*, it can be called a *pure function*
   - https://www.freecodecamp.org/news/pure-function-vs-impure-function/
-- Note that `n` above is *defined* inside the `doubleIt()` function and cannot be accessed from anywhere outside the `doubleIt()` function
+- Note that `num` above is *defined* inside the `doubleIt()` function and cannot be accessed from anywhere outside the `doubleIt()` function
  
 <hr>
 
