@@ -261,3 +261,12 @@ const doSomeMaths = (funcRef, value) => {
 
 console.log(doSomeMaths(tripleIt, 100)); // 300
 ```
+
+### VII-C. Functions can have properties and methods just like any other object
+
+```js
+doSomeMaths.useCount = 1;
+console.log(doSomeMaths.useCount); // 1
+```
+
+### VII-D. Functions can `return` other functions
