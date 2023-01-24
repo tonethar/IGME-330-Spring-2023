@@ -135,6 +135,7 @@ console.log(factorial(10)); // 3628800
   - we will explore what the above statement means - and where this behavior really comes in handy - once we are working with ES6 classes and web components 
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
+<hr>
 
 ### VI-A. Declarations with `function`
 
@@ -162,7 +163,7 @@ console.log(doubleIt(10)); // 20
 
 <hr>
 
-### VI-B. Arrow Functions
+### VI-B. Arrow Function examples
 
 - We have to assign them to a variable or constant
 - Here's **version #1** of `doubleIt()` as an arrow function
