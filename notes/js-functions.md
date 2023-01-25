@@ -93,8 +93,8 @@ function sayHello(name,capFirstLetter){
   return "Hello " + name;
 }
 
-console.log(sayHello("ace"));
-console.log(sayHello("ace", true));
+console.log(sayHello("ace")); // Hello ace
+console.log(sayHello("ace", true)); // Hello Ace
 console.log(capitalize("billy")); // Uncaught ReferenceError: capitalize is not defined
 ```
 
