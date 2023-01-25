@@ -228,7 +228,7 @@ console.log(filteredScores1); // [90, 85, 500, 22]
 console.log(filteredScores2); // [82, 77, 900, 11]
 ```
 
-- `array.filter()` above calls the `removeInvalidScores()` function on every element in the `scores1` and `scores2`  arrays, and returns a new array 
+- `array.filter()` above calls the `removeInvalidScores()` function on every element in the `scores1` and `scores2` arrays, and returns a new array with only those elements "that pass the test" implemented by the provided function
 - BTW - functions that operate on other functions, either by taking them as arguments or by returning them, are called *higher-order functions*
 - Meaning that `array.filter()` is a *higher-order function* (or *higher-order method*, because `filter()` is a method of the `Array` object)
 
@@ -308,7 +308,7 @@ console.log(doSomeMaths.useCount); // 1
 
 - Here's an example of a function that returns a function
 - This particular example creates a [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) - and true encapsulation/privacy of the `heroHP` and `heroName` variables
-- we will  talk more about closures later in the course
+- we will talk more about closures later in the course
 
 
 ```js
