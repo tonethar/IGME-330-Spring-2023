@@ -328,4 +328,5 @@ console.log(hero1());
 console.log(hero1(20));
 console.log(hero2());
 console.log(hero2(50));
+console.log(hero1()); // still has 20 hitpoints
 ```
