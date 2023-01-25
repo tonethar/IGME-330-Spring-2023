@@ -168,7 +168,7 @@ console.log(doubleIt(10)); // 20
 ### VI-B. Arrow Function examples
 
 - We have to assign them to a variable or constant
-- Here's **version #1** of `doubleIt()` as an arrow function
+- **Version #1** of `doubleIt()` as an arrow function
 
 ```js
 const doubleIt = (num=0) => {
@@ -179,16 +179,16 @@ console.log(doubleIt(10)); // 20
 ```
 
 - **Version #2**
-- If we only have one line of code in the function body we can get rid of the curly braces
-- And we can get rid of `return` as well, and whatever that line of code evaluates to will be returned
+  - If we only have one line of code in the function body we can get rid of the curly braces
+  - And we can get rid of `return` as well, and whatever that line of code evaluates to will be returned
 
 ```js
 const doubleIt = (num=0) => num * 2;
 ```
 
 - **Version #3**
-- If there is only one parameter, and we get rid of the default value, we can also get rid of the paretheses around the arguments
-- It's worth noting though, the many JS style guides require parentheses for arrow functions
+  - If there is only one parameter, and we get rid of the default value, we can also get rid of the paretheses around the arguments
+  - It's worth noting though, the many JS style guides require parentheses for arrow functions
   - https://github.com/airbnb/javascript#arrows--one-arg-parens
 
 ```js
@@ -196,7 +196,7 @@ const doubleIt = num => num * 2;
 ```
 
 - **A real example**
-- Which is easier to read?
+  - Which is easier to read?
 
 ```js
 const scores = [100000, 90, 85, 500, 22, 54321, 1001];
