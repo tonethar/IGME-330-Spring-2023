@@ -286,7 +286,7 @@ const doSomeMaths = (funcRef, value) => {
 console.log(doSomeMaths(tripleIt, 100)); // 300
 ```
 
-- `doSomeMaths()` above is a *higher-order function* 
+- `doSomeMaths()` above is a *higher-order function*  because we are passing it a function as an argument, and it is performing operations with that function
 
 <hr>
 
