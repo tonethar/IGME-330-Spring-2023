@@ -212,11 +212,24 @@ const filteredScores2 = scores.filter(function(s){
 console.log(filteredScores2);
 ```
 
-- Note above that both of the functions being passed to array.filter() are anonymous functions, but alternatively they could have been *named* function expressions
+- Note above that both of the functions being passed to `array.filter()` above are *anonymous functions*, but alternatively they could have been *named* function expressions
 
 ```js
-x
+const scores1 = [100000, 90, 85, 500, 22, 54321, 1001];
+const scores2 = [-13, 82, 300000, 77, 900, 11, 54321, 1001];
+
+const removeInvalidScores = s => s >= 0 && s <= 1000;
+
+const filteredScores1 = scores1.filter(removeInvalidScores);
+const filteredScores2 = scores2.filter(removeInvalidScores);
+console.log(filteredScores1); // [90, 85, 500, 22]
+console.log(filteredScores2); // [82, 77, 900, 11]
 ```
+
+- One obvious advantage of naming the filtering function above is that we can *reuse* them
+- BTW - functions that operate on other functions, either by taking them as arguments or by returning them, are called *higher-order functions*
+- Meaning that `array.filter()` is a *higher-order function* (or *higher-order method*, because `filter()` is a method of the `Array` object)
+
 
 <hr>
 
@@ -272,6 +285,8 @@ const doSomeMaths = (funcRef, value) => {
 
 console.log(doSomeMaths(tripleIt, 100)); // 300
 ```
+
+- `doSomeMaths()` above is a *higher-order function* 
 
 <hr>
 
