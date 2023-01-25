@@ -212,6 +212,12 @@ const filteredScores2 = scores.filter(function(s){
 console.log(filteredScores2);
 ```
 
+- Note above that both of the functions being passed to array.filter() are anonymous functions, but alternatively they could have been *named* function expressions
+
+```js
+x
+```
+
 <hr>
 
 ## VII. Functions are "First class" objects
