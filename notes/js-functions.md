@@ -154,7 +154,8 @@ function doubleIt(num=0){
 - Although now (because we are using `const` or `let`) we can only call the function AFTER we have declared it
 
 ```js
-console.log(doubleIt(10)); // ERROR
+console.log(doubleIt(10)); // ERROR: Uncaught ReferenceError: doubleIt is not defined
+
 const doubleIt = function(num=0){
   return num * 2;
 };
