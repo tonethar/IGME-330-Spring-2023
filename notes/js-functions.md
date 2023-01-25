@@ -220,7 +220,7 @@ console.log(filteredScores2);
   - returned from functions
   - and assigned to variables and properties
 - They can also have properties and methods just like any other object
-- What distinguishes them from other objects is that functions can be called
+- What distinguishes them from other objects is that functions can be *called* (or *invoked*) with `()`
 
 <hr>
 
