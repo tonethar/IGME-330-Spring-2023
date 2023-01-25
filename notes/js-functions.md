@@ -297,6 +297,9 @@ doSomeMaths.useCount = 1; // add a property to the function - 'cause it's an obj
 console.log(doSomeMaths.useCount); // 1
 ```
 
+- Note: We don't usually add properties or methods to our function objects, but it's good to know that we CAN
+- Note: in the debugger, you can see that functions have a `name` property (this is sometimes useful for the developer when debugging code)
+
 <hr>
 
 ### VII-D. Functions can `return` other functions
