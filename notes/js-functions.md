@@ -150,10 +150,11 @@ function doubleIt(num=0){
 }
 ```
 
-- Also note that we can assign a function to a variable as an *expression*
+- See below that we can assign a `function` to a variable as an *expression*
 - Although now (because we are using `const` or `let`) we can only call the function AFTER we have declared it
 
 ```js
+console.log(doubleIt(10)); // ERROR
 const doubleIt = function(num=0){
   return num * 2;
 };
