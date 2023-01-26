@@ -65,5 +65,5 @@ console.log("counter =",counter);
   - *Yes! One thing you can do is to set up VSCode to automatically lint your code - https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code*
 - **Is code linting required in IGME-330?**
   - No, but it might be a good idea to run your project code through a linter at some point to catch any potential issues
-  - But we **DO** have a written [IGME-330 - Course Code Style Requirements](330-code-style.md) though
+  - But we **DO** have a written [IGME-330 - Course Code Style Requirements](code-style-required-330.md) though
   
