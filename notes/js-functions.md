@@ -220,7 +220,7 @@ console.log(filteredScores2);
 const scores1 = [100000, 90, 85, 500, 22, 54321, 1001];
 const scores2 = [-13, 82, 300000, 77, 900, 11, 54321, 1001];
 
-const removeInvalidScores = s => s >= 0 && s <= 1000;
+const removeInvalidScores = s => s >= 0 && s <= 1000; // OK, this line is a little ugly!
 
 const filteredScores1 = scores1.filter(removeInvalidScores);
 const filteredScores2 = scores2.filter(removeInvalidScores);
