@@ -124,7 +124,7 @@ function factorial(n){
 console.log(factorial(10)); // 3628800
 ```
 
-- Let's run tis code in the browser, open the debugger, and pop in a breakpoint so that we can see the *call stack* in action
+- Let's run this code in the browser, open the debugger, and pop in a breakpoint so that we can see the *call stack* in action
 
 <hr>
 
