@@ -77,7 +77,7 @@
 
 | Deduction  | Reason  |
 |---|---|
-| -1-?%  | Section I. see rubric linked above |
+| -1% to ??%  | Section I. see rubric linked above |
 | -20%  | Section II. above not complete |
 | -5%  | Section III. per code standard violation |
 | -5%  | Section IV-1. per function not converted |
