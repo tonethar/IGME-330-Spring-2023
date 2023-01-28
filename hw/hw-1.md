@@ -15,9 +15,10 @@
 ## II. Add another button that's only visible at `1408px` width or higher
 
 - See the requirements here: [Technobabble Generator III](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-technobabble-3.md)
-  - For the "both buttons MUST call the SAME function - named something like `generateTechno(num)`" requirement - you can use the "wrapper function" technique we demoed in class and that you used on the final version of "Greeter"
+  - For the requirement "both buttons MUST call the SAME function - named something like `generateTechno(num)`"
+    - you can use the "wrapper function" technique we demoed in class and that you used on the final version of "Greeter"
   - Also, you MUST use a loop to build each line of babble
-  - Also, you MUST use *template strings* when building each line of babble
+  - Also, you MUST use [*template strings*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) when building each line of babble
   - PS - When the app starts up, it still needs to show a single random Technobabble to the user. Meaning - don't forget to call `generateTechno(1)` right after the page loads
 
 <hr>
