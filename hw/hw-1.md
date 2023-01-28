@@ -57,7 +57,8 @@
     - Use a JSON validation tool - like https://jsonlint.com/ - to be sure that  your JSON is valid and well-formed
     - Use `XHR` to load the  **data/babble-data.json** file - and assign the data to the `words1`, `words2` and `words3` arrays
       - You will probably have a `loadBabble()` function that will be called just ONCE, *after* the page has loaded
-      - You will probably have a `babbleLoaded()` callback function - which is called when `xhr.onload` fires: 
+        - `loadBabble()` will initiate the download of the JSON file with `xhr.send()`
+      - You will probably have a `babbleLoaded()` callback function - which is called later on when `xhr.onload` fires: 
         - `babbleLoaded()` parses the JSON
         - `babbleLoaded()` will initialize the values of the "words" arrays
         - `babbleLoaded()` will then initialize the button click events
