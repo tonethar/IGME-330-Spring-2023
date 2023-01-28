@@ -88,7 +88,7 @@
 | -30%  | Section IV-4. not done |
 | -20%  | Clicking button does not show random babble |
 | -20%  | Errors in console  |
-| -20%  | App does not display babble when page first loads (instead of just loading it ONCE)  |
-| -10%  | App loads JSON data everytime button is clicked  |
+| -20%  | App does not display babble when page first loads  |
+| -10%  | App loads JSON data every time a button is clicked (instead of just loading it ONCE)  |
 | -10%  | App folder is not named **lastName-firstInitial-HW1**  |
 
