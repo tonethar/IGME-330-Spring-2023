@@ -54,8 +54,9 @@
 
 4) Delete the "babble" arrays and move that data to an external JSON file named **babble-data.json**
    
-    - Place this JSON file in a folder named **data/**, so that the path to it is **data/babble-data.json** (do NOT put this into your **src/** folder)
-    - Use a JSON validation tool - like https://jsonlint.com/ - to be sure that  your JSON is valid and well-formed
+    - Place this JSON file in a folder named **data/**, so that the path to it is **data/babble-data.json**
+      - do NOT put this JSON file into your **src/** folder
+    - Use a JSON validation tool - like https://jsonlint.com/ - to be sure that your JSON is valid and well-formed
     - Use `XHR` to load the  **data/babble-data.json** file - and assign the data to the `words1`, `words2` and `words3` arrays
       - You will probably have a `loadBabble()` function that will be called just ONCE, *after* the page has loaded
         - `loadBabble()` will initiate the download of the JSON file with `xhr.send()`
