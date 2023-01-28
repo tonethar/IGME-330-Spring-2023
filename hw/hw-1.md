@@ -1,4 +1,4 @@
-# HW-1 - Technobabble - Ultimate Version (DRAFT)
+# HW-1 - Technobabble - Ultimate Version
 
 ## Overview
 - The ultimate version of Technobabble with external JS in an ES6 module, template strings, arrow functions, Ajax, JSON and still mobile friendly
