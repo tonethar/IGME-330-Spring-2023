@@ -70,7 +70,7 @@
 
 ## V. Submission 
 
-- Name the top level folder that contains all the files **lastName-firstName-HW1**
+- Name the top level folder that contains all the files **lastName-firstInitial-HW1**
 - ZIP and POST to myCourses dropbox
 
 <hr>
@@ -90,5 +90,5 @@
 | -20%  | Errors in console  |
 | -20%  | App does not display babble when page first loads  |
 | -10%  | App loads JSON data everytime button is clicked  |
-| -10%  | App folder is not named **lastName-firstName-HW1**  |
+| -10%  | App folder is not named **lastName-firstInitial-HW1**  |
 
