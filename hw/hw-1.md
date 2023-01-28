@@ -24,7 +24,7 @@
 
 ## III. Refactor your HTML/CSS/JS (and Test it!)
 - Rename the HTML file to **technobabble-final.html**
-- Make sure that your HTML element `id` and `class` values are following the course coding standards, for example:
+- Make sure that your HTML element `id` and `class` values are following the [course coding standards](../notes/code-style-required-330.md), for example:
   - buttons should have ids such as `btn-gen-1` and `btn-gen-5` - NOT ~~`btnGen1`~~ or ~~`btnGen5`~~
   - file and folder names and are all lower case, no spaces, etc
   - variable, function, method and parameter names all begin in a lower case letter
