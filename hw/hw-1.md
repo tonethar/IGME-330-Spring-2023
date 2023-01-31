@@ -71,7 +71,7 @@
 
 ## V. Submission 
 
-- Name the top level folder that contains all the files **lastName-firstInitial-HW1**
+- Name the top level folder that contains all the files **lastName-firstInitial-hw1**
 - ZIP and POST to myCourses dropbox
 
 <hr>
