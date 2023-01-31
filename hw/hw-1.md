@@ -37,7 +37,7 @@
 
 ## IV. Additional Requirements
 
-1) Convert all JS functions - `init()`, `generateTechno()`, `randomElement()` etc to ES6 arrow functions. You also may need to move your functions or when you call them.
+1) Convert all JS functions - `init()`, `generateTechno()`, `randomElement()` etc to ES6 arrow functions. You also may need to move your functions to before you call them.
 
     - ***Test the app thoroughly to be sure it still works! Fix things as necessary. And then move on.***
 
