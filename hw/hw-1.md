@@ -52,7 +52,7 @@
     - Note: `randomElement()` is a good function to move to **utils.js** because it is easily reused, and a "pure function" that does not have any *dependencies* or produce any *side effects*  (unlike `generateTechno()`, which depends on the babble arrays and modifies the DOM)
     - ***Test the app thoroughly to be sure it still works! Fix things as necessary. And then move on.***
 
-4) Delete the "babble" arrays and move that data to an external JSON file named **babble-data.json**
+4) Delete the contents of the "babble" arrays and move that data to an external JSON file named **babble-data.json**
    
     - Place this JSON file in a folder named **data/**, so that the path to it is **data/babble-data.json**
       - do NOT put this JSON file into your **src/** folder
