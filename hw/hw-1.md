@@ -57,7 +57,7 @@
     - Place this JSON file in a folder named **data/**, so that the path to it is **data/babble-data.json**
       - do NOT put this JSON file into your **src/** folder
     - Use a JSON validation tool - like https://jsonlint.com/ - to be sure that your JSON is valid and well-formed
-    - Important: structure your JSON data to be a simple as possible - it just needs to contain the 3 arrays of babble - so it can look very similar to the **simple-pet-names.json** in [Ajax-4](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-4.md#ii-start-files)
+    - Important: structure your JSON data to be a simple as possible - it just needs to contain the 3 arrays of babble - so it can look very similar to the **simple-pet-names.json** file in [Ajax-4](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-4.md#ii-start-files)
     - Use `XHR` to load the  **data/babble-data.json** file - and assign the data to the `words1`, `words2` and `words3` arrays
       - You will probably have a `loadBabble()` function that will be called just ONCE, *after* the page has loaded
         - `loadBabble()` will initiate the download of the JSON file with `xhr.send()`
