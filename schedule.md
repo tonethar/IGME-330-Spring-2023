@@ -9,12 +9,12 @@
 | Week # | Dates | Topics |
 | ------ | ----- | ------ |
 | 01 | **01/17** & **01/19** | Course Intro & Review of Basic Web App Structure |
-| 02 | **01/24** & **01/26** | ES6 Modules, `XHR`, higher-order methods of array, arrow functions |
-| 03 | **01/31** & **02/02** | TBA |
-| 04 | **02/07** & **02/09** | TBA |
+| 02 | **01/24** & **01/26** | Code Quality, `XHR`, higher-order methods of array, arrow functions |
+| 03 | **01/31** & **02/02** | ES6 Modules, JSON |
+| 04 | **02/07** & **02/09** | Canvas |
 | 05 | **02/14** & **02/16** | TBA |
 | 06 | **02/21** & **02/23** | TBA |
-|    |  | **Exam #1** |
+|    |  | **Exam #1 given in-class on Tuesday 2/21** |
 | 07 | **02/28** & **03/02** | TBA |
 |    |                       | *3/02/23 - [Creative Industry Day](https://www.rit.edu/careerservices/creative-industry-day) - 1PM-5PM* |
 | 08 | **03/07** & **03/09** | TBA |
