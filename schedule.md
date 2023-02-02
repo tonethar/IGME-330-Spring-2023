@@ -12,8 +12,8 @@
 | 02 | **01/24** & **01/26** | Code Quality, `XHR`, higher-order methods of array, arrow functions |
 | 03 | **01/31** & **02/02** | ES6 Modules, JSON |
 | 04 | **02/07** & **02/09** | Canvas |
-| 05 | **02/14** & **02/16** | TBA |
-| 06 | **02/21** & **02/23** | TBA |
+| 05 | **02/14** & **02/16** | Canvas |
+| 06 | **02/21** & **02/23** | Exam #1 & Canvas |
 |    |  | **Exam #1 given in-class on Tuesday 2/21** |
 | 07 | **02/28** & **03/02** | TBA |
 |    |                       | *3/02/23 - [Creative Industry Day](https://www.rit.edu/careerservices/creative-industry-day) - 1PM-5PM* |
