@@ -102,6 +102,9 @@
 - One solution is to pass a *single object* as a function parameter, instead of a bunch of regular parameters
 - Then use object destructuring syntax. That will get us *named parameters* - which are much easier to read:
   - https://www.geeksforgeeks.org/parameter-destructuring/
+  - here's an example:
+  
+![screenshot](_images/refactor-screensaver-3.png)
 
 <hr>
 
