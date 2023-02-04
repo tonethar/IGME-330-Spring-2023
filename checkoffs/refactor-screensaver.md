@@ -36,8 +36,8 @@
 
 ### II-C. Template Strings
 
-- Replace all instances of string concatenation with [template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-  - for example - in the `getRandomColor()` function
+- Replace all instances of *string concatenation* with [template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+  - for example - in the `getRandomColor()` function (this might be the only oncurrence of *string concatenation* you need to fix)
 - ***Test the app thoroughly to be sure it still works! Fix things as necessary. And then move on.***
 
 <hr>
