@@ -1,7 +1,7 @@
-# - Checkoff - Refactor the Canvas Screensaver
+# Checkoff - Refactor the Canvas Screensaver
 
 ## I. Start code
-- Your starting point will be the completed vrsion. of [PE-04 - Canvas Screensaver](../PE/04/pe-04.md)
+- Your starting point will be the completed vrsion. of [PE-04 - Canvas Screensaver](../pe/04/pe-04.md)
 
 <hr>
 
