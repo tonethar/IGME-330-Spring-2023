@@ -52,7 +52,11 @@
 ### II-E. ES6 Modules
 
 - Convert the app over to ES6 module syntax
-
-    - Move all of the java
-    - X
-    - XXX
+  - move all of the JavaScript to **src/main.js**
+  - link to this file from your HTML file with a script tad that is type="module" 
+    - ex. `<script src="src/main.js" type="module"></script>`
+    - get rid of `"use strict"` - you don't need it anymore
+    - replace `window.onload=init` with `init()` (the call to `init()` will probably be at the bottom of **main.js**)
+    - test the app and be sure it still works
+- Now create **utils.js**
+  - move 
