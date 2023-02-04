@@ -12,7 +12,7 @@
   - name this copy ***lastName-firstInitial*-screensaver-done.html**
   - put the copy in the above folder you just created
 
-## II-A. Meet the 330 coding standard
+### II-A. Meet the 330 coding standard
 
 - Make sure that your HTML and JS is following our [IGME-330 class code standards](../notes/code-style-required-330.md)
   - examples:
@@ -25,7 +25,7 @@
 
 <hr>
 
-## II-B. Arrow functions
+### II-B. Arrow functions
 
 - Convert ALL of the functions in the app to [arrow functions](../notes/js-functions.md#vi-b-arrow-function-examples)
   - this included any anonymous and/or "wrapper" functions
