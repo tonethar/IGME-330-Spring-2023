@@ -30,6 +30,7 @@
 
 - Convert ALL of the functions in the app to [arrow functions](../notes/js-functions.md#vi-b-arrow-function-examples)
   - this included any anonymous and/or "wrapper" functions
+  - utilize the "short form" of the arrow function where practical
 - ***Test the app thoroughly to be sure it still works! Fix things and move code as necessary. And then move on.***
 
 <hr>
