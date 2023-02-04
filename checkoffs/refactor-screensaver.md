@@ -42,10 +42,17 @@
 
 <hr>
 
-### II-D. ES6 Modules
+### II-D. External CSS
+- Create a folder named **styles**
+- Inside of this folder create a file named **default-styles.css**
+- `<link>` to this file, and move all of the CSS styles into it
+
+<hr>
+
+### II-E. ES6 Modules
 
 - Convert the app over to ES6 module syntax
 
-    - X
+    - Move all of the java
     - X
     - XXX
