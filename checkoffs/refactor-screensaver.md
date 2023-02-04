@@ -58,9 +58,22 @@
     - get rid of `"use strict"` - you don't need it anymore
     - replace `window.onload=init` with `init()` (the call to `init()` will probably be at the bottom of **main.js**)
     - test the app and be sure it still works
-- Now create **utils.js** and move the folling functions to it
+- Now create **utils.js**, move the following functions to it, and `export` both of them:
   - `getRandomColor()` 
   - `getRandomInt()`
+- Now `import` both functions into **main.js**
+- Test the app - it should work as before
+- Now create **canvas-utils.js**, move the following functions to it, and `export` all 3 of them:
   - `drawRectangle()`
   - `drawArc()`
-  - `drawLine()`
+  - `drawLine()
+- Now `import` both functions into **main.js**
+  - you can `import` these normally OR
+  - you `import` them using a *namespace*
+  - it's up to you
+- Test the app - it should work as before
+
+
+<hr>
+
+## III. Submission
