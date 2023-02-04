@@ -18,9 +18,9 @@
   - examples:
   - `<button id="btnPlay">Play</button>` needs to be `<button id="btn-play">Play</button>`
   - `<button id="btnPause">Pause</button>` needs to be `<button id="btn-pause">Pause</button>`
-  - `<input type="checkbox" id="cbRectangles">`mneeds to be `<input type="checkbox" id="cb-rectangles">`
+  - `<input type="checkbox" id="cbRectangles">`needs to be `<input type="checkbox" id="cb-rectangles">`
   - etc
-- Be sure to refactor your CSS & JS to match the new `id` values
+- Be sure to refactor your JS (and CSS if necessary) to match the new `id` values
 - ***Test the app thoroughly to be sure it still works! Fix things as necessary. And then move on.***
 
 <hr>
