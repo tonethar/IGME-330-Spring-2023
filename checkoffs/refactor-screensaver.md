@@ -85,9 +85,19 @@
   - `drawRandomArc()`
   - `drawRandomLine()`
   - were *impure functions* because they were ***depending*** on the `width` of the canvas to function
-- Optional challenge: Make these 3 functions "pure" and move them to **canvas-utils.js**
+  - so we left them in **main.js**
 
 
 <hr>
 
-## IV. Submission
+## IV. Optionasl Challenge
+
+- Optional challenge: Turn those 3 "impure" functions into "pure" functions, and move them to **canvas-utils.js**
+- This will cut **main.js** down to about 95 lines of code
+- Here's an example:
+
+![screenshot](_images/refactor-screensaver-1.png)
+
+<hr>
+
+## V. Submission
