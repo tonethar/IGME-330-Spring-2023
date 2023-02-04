@@ -7,7 +7,7 @@
 
 ## II. Refactor the code!
 
-- Create a folder named ***lastName-firstInitial*-screensaver-refactor**
+- Create a folder named ***lastName-firstInitial*-screensaver-refactored**
 - Make a copy of ***lastName-firstInitial*-cs-canvas-5.html**
   - name this copy ***lastName-firstInitial*-screensaver-done.html**
   - put the copy in the above folder you just created
