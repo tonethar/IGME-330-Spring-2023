@@ -90,7 +90,7 @@
 
 <hr>
 
-## IV. Optionasl Challenge
+## IV. Optional Challenge
 
 - Optional challenge: Turn those 3 "impure" functions into "pure" functions, and move them to **canvas-utils.js**
 - This will cut **main.js** down to about 95 lines of code
