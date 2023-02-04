@@ -101,3 +101,8 @@
 <hr>
 
 ## V. Submission
+
+- ZIP and post the folder to myCourses
+- The directory structure should look like this:
+
+![screenshot](_images/refactor-screensaver-2.png)
