@@ -77,7 +77,9 @@
 <hr>
 
 ## III. Discussion
+- After deleting extraneous comments and moving code, **main.js** should be down to about 120 lines of code
 - Note that we moved all of the *pure functions* (the one's that did not have "side effects") to one of the "utils" files
+  - This is an advantage of writing pure functions, they are easy to "factor out", which will simplify your code
 - And that functions such as:
   - `drawRandomRect()`
   - `drawRandomArc()`
