@@ -58,5 +58,9 @@
     - get rid of `"use strict"` - you don't need it anymore
     - replace `window.onload=init` with `init()` (the call to `init()` will probably be at the bottom of **main.js**)
     - test the app and be sure it still works
-- Now create **utils.js**
-  - move 
+- Now create **utils.js** and move the folling functions to it
+  - `getRandomColor()` 
+  - `getRandomInt()`
+  - `drawRectangle()`
+  - `drawArc()`
+  - `drawLine()`
