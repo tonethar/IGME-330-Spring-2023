@@ -2,6 +2,7 @@
 
 ## I. Start code
 - Your starting point will be the completed vrsion. of [PE-04 - Canvas Screensaver](../pe/04/pe-04.md)
+- This app is aready up to 200+ lines of code - we need to "clean it up" and do some refactoring
 
 <hr>
 
