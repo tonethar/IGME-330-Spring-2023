@@ -76,4 +76,16 @@
 
 <hr>
 
-## III. Submission
+## III. Discussion
+- Note that we moved all of the *pure functions* (the one's that did not have "side effects") to one of the "utils" files
+- And that functions such as:
+  - `drawRandomRect()`
+  - `drawRandomArc()`
+  - `drawRandomLine()`
+  - were *impure functions* because they were ***depending*** on the `width` of the canvas to function
+- Optional challenge: Make these 3 functions "pure" and move them to **canvas-utils.js**
+
+
+<hr>
+
+## IV. Submission
