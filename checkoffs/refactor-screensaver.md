@@ -61,17 +61,17 @@
 - Now create **utils.js**, move the following functions to it, and `export` both of them:
   - `getRandomColor()` 
   - `getRandomInt()`
-- Now `import` both functions into **main.js**
-- Test the app - it should work as before
+  - now `import` both functions into **main.js**
+  - test the app - it should work as before
 - Now create **canvas-utils.js**, move the following functions to it, and `export` all 3 of them:
   - `drawRectangle()`
   - `drawArc()`
   - `drawLine()
-- Now `import` both functions into **main.js**
-  - you can `import` these normally OR
-  - you `import` them using a *namespace*
-  - it's up to you
-- Test the app - it should work as before
+  - now `import` both functions into **main.js**
+    - you can `import` these normally OR
+    - you `import` them using a *namespace* (but if you do it this way, you'll need to add the namespce to every call to `drawRectangle()`, `drawArc()` and `drawLine()`
+    - it's up to you which way to do it
+  - test the app - it should work as before
 
 
 <hr>
