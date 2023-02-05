@@ -66,8 +66,8 @@
 - Now create **canvas-utils.js**, move the following functions to it, and `export` all 3 of them:
   - `drawRectangle()`
   - `drawArc()`
-  - `drawLine()
-  - now `import` both functions into **main.js**
+  - `drawLine()`
+  - now `import` these functions into **main.js**
     - you can `import` these normally OR
     - you `import` them using a *namespace* (but if you do it this way, you'll need to add the namespce to every call to `drawRectangle()`, `drawArc()` and `drawLine()`
     - it's up to you which way to do it
