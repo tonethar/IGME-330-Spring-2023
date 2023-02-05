@@ -1,7 +1,7 @@
 # Checkoff - Refactor the Canvas Screensaver
 
 ## I. Start code
-- Your starting point will be the completed version. of [PE-04 - Canvas Screensaver](../pe/04/pe-04.md)
+- Your starting point will be the completed version. of [PE-04 - Canvas Screensaver](../pe/pe-04.md)
 - This app is aready up to 200+ lines of code - we need to "clean it up" and do some refactoring
 
 <hr>
