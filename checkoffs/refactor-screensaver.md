@@ -69,7 +69,7 @@
   - `drawLine()`
   - now `import` these functions into **main.js**
     - you can `import` these normally OR
-    - you `import` them using a *namespace* (but if you do it this way, you'll need to add the namespce to every call to `drawRectangle()`, `drawArc()` and `drawLine()`
+    - you `import` them using a *namespace* (using the `as` keyword - but if you do it this way, you'll need to add the namespace to every call to `drawRectangle()`, `drawArc()` and `drawLine()`
     - it's up to you which way to do it
   - test the app - it should work as before
 
