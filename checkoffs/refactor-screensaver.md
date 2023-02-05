@@ -99,6 +99,7 @@
 
 ![screenshot](_images/refactor-screensaver-1.png)
 
+- Once you have this working ...
 - You might have noticed that some of these helper functions have very long function signatures
 - One solution is to pass a *single object* as a function parameter, instead of a bunch of regular parameters
 - Then use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax. That will get us *named parameters* - which are much easier to read:
