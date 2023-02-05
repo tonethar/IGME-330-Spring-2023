@@ -1,4 +1,4 @@
-# More JavaScript
+# More JavaScript (DRAFT)
 
 
 ## I. Array destructuring
@@ -44,7 +44,9 @@ orderTaco2({
   glutenFree: false});
 ```
 
-## III. Conditions & assignment
+<hr>
+
+## IV. Conditions & assignment
 - Never use `if(myBool == false)`
 - `if/else` statement
 - Ternary Operator
@@ -53,4 +55,4 @@ orderTaco2({
 
 <hr>
 
-## IV. Method chaining
+## V. Method chaining
