@@ -53,7 +53,7 @@
 
 - Convert the app over to ES6 module syntax
   - move all of the JavaScript to **src/main.js**
-  - link to this file from your HTML file with a script tad that is type="module" 
+  - link to this file from your HTML file with a `<script>` tag that is `type="module"`
     - ex. `<script src="src/main.js" type="module"></script>`
     - get rid of `"use strict"` - you don't need it anymore
     - replace `window.onload=init` with `init()` (the call to `init()` will probably be at the bottom of **main.js**)
@@ -102,6 +102,7 @@
 - One solution is to pass a *single object* as a function parameter, instead of a bunch of regular parameters
 - Then use object destructuring syntax. That will get us *named parameters* - which are much easier to read:
   - https://www.geeksforgeeks.org/parameter-destructuring/
+  - [Notes - More JS#amed-parameters-in-functions](../notes/more-js.md#iii-named-parameters-in-functions)
   - here's an example. It's more verbose, but the named parameters make the function call much more readable:
   
 ![screenshot](_images/refactor-screensaver-3.png)
