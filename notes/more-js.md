@@ -33,6 +33,8 @@ const orderTaco2 = ({type,size,price,meat,cheese,supreme,spicy,glutenFree}) => {
 };
 
 // and instead of 7 parameters, here we pass in a single object literal as a parameter
+// which meaans that our parameters are each individually *named*
+// which one is easier to read?
 orderTaco2({
   type: "Extreme",
   size: "Large",
