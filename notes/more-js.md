@@ -20,7 +20,7 @@ const orderTaco = (type,size,price,meat,cheese,supreme,spicy,glutenFree) => {
   console.log("Taco order: ", type,size,price,meat,cheese,supreme,spicy,glutenFree);
 };
 
-// Lot's of parameters!
+// Lot's of parameters - what is the order of the last 3 booleans again?
 orderTaco("Extreme","Large",9.99,"Chicken","mex-mix",true,true,false);
 ```
 
