@@ -15,6 +15,8 @@
 
 ## III. Named parameters in functions
 
+- Once you get up to 5 or more parameters in a function, getting the order right can get problematic - see below:
+
 ```js
 const orderTaco = (type,size,price,meat,cheese,supreme,spicy,glutenFree) => {
   console.log("Taco order: ", type,size,price,meat,cheese,supreme,spicy,glutenFree);
@@ -24,7 +26,7 @@ const orderTaco = (type,size,price,meat,cheese,supreme,spicy,glutenFree) => {
 orderTaco("Extreme","Large",9.99,"Chicken","mex-mix",true,true,false);
 ```
 
-- We can use object destructuring to simulate named function parameters
+- But we can instead use object destructuring to simulate named function parameters
 
 ```js
 // just need to add `{...}` around the parameter list
