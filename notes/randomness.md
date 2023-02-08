@@ -103,7 +103,7 @@ In this post, he lists 5 differentiators that programming brings to art:
 <hr>
 
 ## VII. Randomness in this course
-*(No, I don't mean the grading and lectures!)*
+*(No, we don't mean the grading and lectures!)*
 
 We will give you several opportunities to explore the use of randomness in digital media:
 
