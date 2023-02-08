@@ -13,6 +13,7 @@
 
 ## II. Generative Art & Randomness
 - [Randomness and Aesthetics Notes](./randomness.md)
+- For this exercise, we'll use loops, "primitive" canvas shapes and animation to create some simple generative art
 - PS - Next week we'll look other generative art techniques - that don't use randomness - for example "Phyllotaxis - Procedural Flower generation"
 
 <hr>
