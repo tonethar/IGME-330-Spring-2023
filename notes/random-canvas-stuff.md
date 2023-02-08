@@ -64,4 +64,4 @@
 
 ## II. Examples
 
-![screenshot](_images/random-canvas-1.gid)
+![screenshot](_images/random-canvas-1.gif)
