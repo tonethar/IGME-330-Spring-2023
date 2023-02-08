@@ -4,7 +4,7 @@
 - https://genuary.art/
   - "GENUARY is an artificially generated month of time where we build code that makes beautiful things."
 - "Made in 10 Minutes" prompt
-  - https://app.joyn.xyz/contest/genuary-day-gallery-made-in-minutes-cae91e45aed8?
+  - https://app.joyn.xyz/contest/genuary-day-gallery-made-in-minutes-cae91e45aed8
   - I suspect most of these submissions took longer than 10 minutes
   - I made the done version below in around 30-40 minutes ...
   - which is pretty good when using canvas because we don't have all the built-in functions that [p5.js](https://p5js.org/) has for 3D primitives, perlin noise etc
