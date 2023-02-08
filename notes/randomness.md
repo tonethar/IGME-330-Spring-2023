@@ -7,6 +7,8 @@
 - "Randomness is the lack of pattern or predictability in events." - https://en.wikipedia.org/wiki/Randomness
 - Randomness is sometimes used as a generative principle in art, both traditional and digital.
 
+<hr>
+
 ## I. The Dada movement
 
 The Dada art movement from the early 20th century was an "anti-art" movement that challenged conventional notions of aesthetics and cultural norms. It came into being in reaction to the horrors of World War I, and the bourgeois culture that was blamed on bringing the war about.  Pure reason and logic were seen as having failed the world. 
@@ -21,6 +23,8 @@ Dadaist works often seem designed to offend and reject logic, while embracing ch
 
 See: https://en.wikipedia.org/wiki/Dada#Art_techniques_developed
 
+<hr>
+
 ## II. Dada - Chance & Randomness
 
 The Dadaist *Collage* and *Cut-up* techniques frequently involved the use of randomness in the creation of artistic works. **Watch this video -->**  *Dada - Chance & Randomness* (4:05) - https://www.youtube.com/watch?v=k40U4UPiiPs
@@ -29,6 +33,7 @@ The narration at the beginning of this video is hard to understand - here it is:
 
 *"The official belief in the infallibility of reason, logic and causality seemed to us senseless - as senseless as the destruction of the world and the systematic elimination of every particle of human feeling. This was the reason why were were forced to look for something that would re-establish our humanity. What we needed to find was a balance between heaven and hell. A new unity combining chance and design."* - Hans Richter
 
+<hr>
 
 ## III. Jean Arp
 
@@ -41,6 +46,8 @@ Works:
 - **And** --> https://www.guggenheim.org/artwork/artist/jean-arp
 
 It was pointed out in the video above that his collage of squares did not appear to be fully random, but instead was curated by modifying where the pieces of paper dropped, or was created many times until an interesting arrangment of squares presented itself. 
+
+<hr>
 
 ## IV. Tristan Tzara
 
@@ -61,12 +68,16 @@ How "To make a Dadaist Poem" (1920):
 
 You may have heard of the author William Burroughs and his *Naked Lunch* novel, which also utilized this cut-up method.
 
+<hr>
+
 ## V. Automatism
 
 *Automatism* refers to creating art without conscious thought, accessing material from the unconscious mind as part of the creative process - https://www.tate.org.uk/art/art-terms/a/automatism
 
 - **Check out *Danger of Death* by Jean Arp - which uses "earthquake lines" to produce an apparently random drawing -->** https://www.tate.org.uk/art/artworks/arp-danger-of-death-t05007
 - As with his collage of squares above, there are indications of premeditation (fainter pencil marks and partial erasures) that suggest that the work is not fully random.
+
+<hr>
 
 ## VI. Moving to the digital medium
 
@@ -89,6 +100,7 @@ In this post, he lists 5 differentiators that programming brings to art:
   - Reuse
   - Scale
   
+<hr>
 
 ## VII. Randomness in this course
 *(No, I don't mean the grading and lectures!)*
@@ -96,13 +108,9 @@ In this post, he lists 5 differentiators that programming brings to art:
 We will give you several opportunities to explore the use of randomness in digital media:
 
 - Here is a demo using a library named SimplexNoise - which is procedural nosie similar to Perline Noise - [simplex-noise-1.md](./simplex-noise-1.md)
-- The "screensaver" exercise in [canvas-1.md](./canvas-1.md) (inspired by Arp's *Collage with Squares Arranged according to the Laws of Chance*)
-- The [HW-random-walker.md](./HW-random-walker.md) exercise (inspired by Arp's *Danger of Death*)
-- The [HW-hello-canvas.md](./HW-hello-canvas.md) exercise
-- NLP ("Natural Language Processing") and computational text exercises that we will do later in the semester. These are inspired by Tristan Tzara's "cut-up" method of creating random text.  We will use JavaScript libraries such as *RiTa* (pronounced "Rita") --> https://rednoise.org/rita/ and *NLP Compromise* --> http://compromise.cool to accomplish this.
-
-
-
-
+- The "screensaver" exercise in [PE-04 - Canvas Screensaver](../pe/pe-04.md) (inspired by Arp's *Collage with Squares Arranged according to the Laws of Chance*)
+- The [HW-random-walker.md](./HW-random-walker.md) (an old exercise, inspired by Arp's *Danger of Death*)
+- The [HW-hello-canvas.md](./HW-hello-canvas.md) (an old exercise)
+- NLP ("Natural Language Processing") and computational text exercises that we will do later in the semester. These are inspired by Tristan Tzara's "cut-up" method of creating random text.  We will use JavaScript libraries such as *RiTa* (pronounced "Rita") --> https://rednoise.org/rita/
 
 
