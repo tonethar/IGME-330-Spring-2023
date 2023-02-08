@@ -72,6 +72,6 @@
 
 <hr>
 
-## II. Examples
+## III. Examples
 
 ![screenshot](_images/random-canvas-1.gif)
