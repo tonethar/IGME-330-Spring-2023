@@ -109,8 +109,7 @@ We will give you several opportunities to explore the use of randomness in digit
 
 - Here is a demo using a library named SimplexNoise - which is procedural nosie similar to Perlin Noise - [simplex-noise-1.md](https://github.com/tonethar/IGME-330-Master/blob/master/notes/simplex-noise-1.md)
 - The "screensaver" exercise in [PE-04 - Canvas Screensaver](../pe/pe-04.md) (inspired by Arp's *Collage with Squares Arranged according to the Laws of Chance*)
-- The [HW-random-walker.md](./HW-random-walker.md) (an old exercise, inspired by Arp's *Danger of Death*)
-- The [HW-hello-canvas.md](./HW-hello-canvas.md) (an old exercise)
-- NLP ("Natural Language Processing") and computational text exercises that we will do later in the semester. These are inspired by Tristan Tzara's "cut-up" method of creating random text.  We will use JavaScript libraries such as *RiTa* (pronounced "Rita") --> https://rednoise.org/rita/
+- The [HW-random-walker.md](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-random-walker.md) (an old exercise, inspired by Arp's *Danger of Death*)
+- Computational text exercises that we will do later in the semester. These are inspired by Tristan Tzara's "cut-up" method of creating random text.  We will use JavaScript libraries such as *RiTa* (pronounced "Rita") --> https://rednoise.org/rita/
 
 
