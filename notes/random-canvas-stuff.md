@@ -11,7 +11,12 @@
 
 <hr>
 
-## II. Start Code
+## II. Generative Art & Randomness
+- [Randomness and Aesthetics Notes](./randomness-1.md)
+
+<hr>
+
+## III. Start Code
 
 **random-stuff-start.html**
 
@@ -72,6 +77,6 @@
 
 <hr>
 
-## III. Examples
+## IV. Examples
 
 ![screenshot](_images/random-canvas-1.gif)
