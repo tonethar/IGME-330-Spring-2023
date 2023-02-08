@@ -39,7 +39,7 @@
 				ctx.stroke();
 			}
 			
-			// circle center of screen - large to small radius
+			// circles center of screen - large to small radius
 			
 			
 			// wandering line
