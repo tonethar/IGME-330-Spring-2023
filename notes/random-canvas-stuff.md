@@ -26,7 +26,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Random Stuff</title>
+	<title>Random Canvas Stuff</title>
 	<style>
 	canvas{
 		border:1px solid gray;
