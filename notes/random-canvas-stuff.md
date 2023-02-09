@@ -1,5 +1,9 @@
 # Random Canvas drawing - Demo/Walkthrough
 
+- Video link -> coming soon
+
+<hr> 
+
 ## I. Genuary 
 - https://genuary.art/
   - "GENUARY is an artificially generated month of time where we build code that makes beautiful things."
