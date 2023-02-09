@@ -1,6 +1,6 @@
 # Random Canvas drawing - Demo/Walkthrough
 
-- Video link -> coming soon
+- Video walkthrough link -> coming soon
 
 <hr> 
 
