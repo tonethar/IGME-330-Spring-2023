@@ -1,6 +1,6 @@
 # Random Canvas drawing - Demo/Walkthrough
 
-- Video walkthrough link -> [Random Canvas - Loops and Animation(19:21)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0c5c788-92e0-4328-badb-afa4000665d0)
+- Video walkthrough link -> [Random Canvas - Loops and Animation (19:21)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0c5c788-92e0-4328-badb-afa4000665d0)
 
 <hr> 
 
