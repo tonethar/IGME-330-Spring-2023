@@ -12,10 +12,11 @@
 
 ## I-A. ES6 Modules
 - Go ahead and convert the app over to ES6 module syntax
-- Come up with a **utils.js** module that contains all of the "pure" functions with no dependencies
+- Come up with a **utils.js** module that contains the single "pure" function with no dependencies, and the `quotes` array
 - Then import those functions into a **main.js**
 - Don't forget to write a `<script>` tag of `type="module"` that points at **main.js**
 - And get rid of any code you don't need anymore
+- One interesting decision: the code in **main.js** depends on the length of the `quotes` array - how will you handlle that?
 
 <hr>
 
