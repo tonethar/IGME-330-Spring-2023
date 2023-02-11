@@ -82,7 +82,7 @@
 	// START CODE
 	"use strict";
 	
- // https://www.brainyquote.com/topics/education-quotes
+        // https://www.brainyquote.com/topics/education-quotes
 	const quotes = [
 	"It is the mark of an educated mind to be able to entertain a thought without accepting it. - Aristotle",
 	"In the first place, God made idiots. That was for practice. Then he made school boards. - Mark Twain",
