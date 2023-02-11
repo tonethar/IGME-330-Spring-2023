@@ -35,6 +35,10 @@
 })();
 ```
 
+- And if you really want to get crazy - you could *minify* the code:
+  - https://www.toptal.com/developers/javascript-minifier
+  - which is what JS bundling tools do - which we'll see later on in the semester when we work with Node.js and Webpack
+
 ---
 
 ## II. The start code
