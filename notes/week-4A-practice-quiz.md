@@ -6,8 +6,13 @@
 - Copy the code below and open it in a web browser to be sure it works
   - Pop in a breakpoint at the bottom of `init()` - you should see that we have 7 functions and 1 variable in what Chrome calls "script scope" - which is basically a *global* scope where things declared with `let` and `const` show up
   - Putting all your variables and functions in the global scope works fine for simple apps, but becomes potentially problematic with larger apps
-  - For example you will see that HW-2 Audio Visualizer starts will end up hving a large amount of JS code, and being able to break it into discrete modules with well-defined functionality will make 
-- Let's get req-write the code in a couple of ways to pratice some o 
+  - For example you will see that **HW-2 Audio Visualizer** will end up having a large amount of JS code, and being able to break it into discrete modules with well-defined functionality and interfaces will make it a lot easier to debug while you are implementing it
+
+
+## I-A. ES6 Modules
+- Go ahead and convert the app over to ES6 module syntax
+- Come up with a **utils.js** module that contains all of the "pure" functions with no dependencies
+- Then import those functions into **main.js**
 
 ---
 
