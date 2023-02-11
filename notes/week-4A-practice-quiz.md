@@ -26,7 +26,8 @@
 - Go ahead and wrap everything in an anonymous function
   - get rid of any code you don't need anymore
   - invoke the function
-  - put it a breakpoint and check the debugger - no more "script scope" variables at all!
+  - put in a breakpoint at the bottom of the IIFE and check the debugger - no more "script scope" variables at all!
+  - put a breakpoint in `nextQuote()` and click the "Next Quote" button - you can see the [Closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) variables and functions in the debugger
 
 ```js
 (() => {
