@@ -23,7 +23,10 @@
 - Make a copy of **quote-app.html** named **quote-app-IIFE.html**
 - Get ALL of the variables and functions out of "script scope" by wrapping everything in a single anonymous function
 - Remember the [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)? - "Immediately Invoked Function Expression"
-- Go ahead and wrap everything in anonymous function, and invoke it. Put it a breakpoint and check the debugger - no more "script scope" variables at all!
+- Go ahead and wrap everything in an anonymous function
+  - get rid of any code you don't need anymore
+  - invoke the function
+  - put it a breakpoint and check the debugger - no more "script scope" variables at all!
 
 ```js
 (() => {
@@ -131,10 +134,10 @@
 	</script>
 </head>
 <body>
-<h2>QUOTES</h2>
-<button id="btn-prev">Previous Quote</button><button id="btn-next">Next Quote</button>
-<p id="lbl-pagination">? of ?</p>
-<p id="lbl-output">???</p>
+  <h2>QUOTES</h2>
+  <button id="btn-prev">Previous Quote</button><button id="btn-next">Next Quote</button>
+  <p id="lbl-pagination">? of ?</p>
+  <p id="lbl-output">???</p>
 </body>
 </html>
 ```
