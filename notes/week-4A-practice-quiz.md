@@ -8,11 +8,28 @@
   - Putting all your variables and functions in the global scope works fine for simple apps, but becomes potentially problematic with larger apps
   - For example you will see that **HW-2 Audio Visualizer** will end up having a large amount of JS code, and being able to break it into discrete modules with well-defined functionality and interfaces will make it a lot easier to debug while you are implementing it
 
+<hr>
 
 ## I-A. ES6 Modules
 - Go ahead and convert the app over to ES6 module syntax
 - Come up with a **utils.js** module that contains all of the "pure" functions with no dependencies
-- Then import those functions into **main.js**
+- Then import those functions into a **main.js**
+- Don't forget to write a `<script>` tag of `type="module"` that points at **main.js**
+- And get rid of any code you don't need anymore
+
+<hr>
+
+## I-B. Sounds "Iffy" to me
+- Make a copy of **quote-app.html** named **quote-app-IIFE.html**
+- Get ALL of the variables and functions out of "script scope" by wrapping everything in a single anonymous function
+- Remember the [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)? - "Immediately Invoked Function Expression"
+- Go ahead and wrap everything in anonymous function, and invoke it. Put it a breakpoint and check the debugger - no more "script scope" variables at all!
+
+```js
+(() => {
+    //... put the code here ...
+})();
+```
 
 ---
 
