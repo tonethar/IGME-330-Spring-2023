@@ -1,5 +1,7 @@
 # Exam #1 Details (DRAFT)
 
+<hr>
+
 ## I. What's on it?
 - *Anything* and *everything* we have covered weeks 1-5 of this semester is fair game
 
