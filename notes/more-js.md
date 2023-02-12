@@ -1,4 +1,4 @@
-# More JavaScript (DRAFT)
+# More JavaScript
 
 
 ## I. Array destructuring
