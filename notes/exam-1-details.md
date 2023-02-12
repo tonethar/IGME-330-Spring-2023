@@ -14,7 +14,8 @@
 ## III. Review & Study Resources
 
 ### III-A. Class Notes
-- Week 1A - Week 5B
+- [Week 1A](../weekly/01A.md) - [Week 5B](../weekly/05B.md)
+- [Class "notes" and content](../notes)
 
 ### III-B. Quizzes 
 - In myCourses:
@@ -30,4 +31,6 @@
 
 ### III-C. Assignments
 
-- XXX
+- [Checkoffs](../checkoffs)
+- [Practice Exercises](../pe)
+- [HW-1](../hw/hw-1.md)
