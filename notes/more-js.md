@@ -3,7 +3,7 @@
 
 ## I. Array destructuring
 
-- We saw these in [Ajax-2](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-2.md);
+- We saw *array destructuriing* in [Ajax-2](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-2.md);
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 - *The destructuring assignment syntax (for arrays and objects) is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.*
 
@@ -73,7 +73,7 @@ const orderTaco = (type,size,price,meat,cheese,supreme,spicy,glutenFree) => {
 orderTaco("Extreme","Large",9.99,"Chicken","mex-mix",true,true,false);
 ```
 
-- But we can instead use object destructuring to simulate named function parameters
+- But we can instead use *object destructuring* to simulate named function parameters
 
 ```js
 // just need to add `{...}` around the parameter list
