@@ -11,7 +11,7 @@
 ## II. What's the format?
 - Written exam (bring 2 pencils)
 - Question types: multiple choice, true/false, short answer and "write some code"
-- 1 hour is allotted for the eam
+- 1 hour is allotted for the exam
 
 <hr>
 
