@@ -3,13 +3,60 @@
 
 ## I. Array destructuring
 
+- We saw these in [Ajax-2](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-2.md);
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+- *The destructuring assignment syntax (for arrays and objects) is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.*
+
+```js
+let a, b, rest;
+[a, b] = [10, 20];
+
+console.log(a);
+// Expected output: 10
+
+console.log(b);
+// Expected output: 20
+
+[a, b, ...rest] = [10, 20, 30, 40, 50];
+
+console.log(rest);
+// Expected output: Array [30, 40, 50]
+```
+
+- More examples: [Destructuring_assignment#array_destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#array_destructuring)
 
 <hr>
 
 ## II. Object destructuring
 
-- declaring/initializing
-- initializing only - a special case
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring
+
+```js
+const user = {
+  id: 42,
+  isVerified: true,
+};
+
+const { id, isVerified } = user;
+
+console.log(id); // 42
+console.log(isVerified); // true
+```
+
+- OR, if the variables have already been previously declared, we'll need to wrap parentheses around the destructuring assignment
+
+```js
+const user = {
+  id: 42,
+  isVerified: true,
+};
+
+let id, isVerified;
+({ id, isVerified } = user);
+
+console.log(id); // 42
+console.log(isVerified); // true
+```
 
 <hr>
 
