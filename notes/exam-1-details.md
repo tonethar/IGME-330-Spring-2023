@@ -8,14 +8,15 @@
 ## II. What's the format?
 - Written exam (bring 2 pencils)
 - Question types: multiple choice, true/false, short answer and "write some code"
+- 1 hour is allotted for the eam
 
 <hr>
 
 ## III. Review & Study Resources
 
-### III-A. Class Notes
+### III-A. Class Lecture Notes
 - [Week 1A](../weekly/01A.md) - [Week 5B](../weekly/05B.md)
-- [Class "notes" and content](../notes)
+- [Class "notes" and content  folder](../notes)
 
 ### III-B. Quizzes 
 - In myCourses:
