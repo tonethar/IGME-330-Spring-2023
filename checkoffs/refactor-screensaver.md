@@ -104,7 +104,7 @@
 - One solution is to pass a *single object* as a function parameter, instead of a bunch of regular parameters
 - Then use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax. That will get us *named parameters* - which are much easier to read:
   - https://www.geeksforgeeks.org/parameter-destructuring/
-  - [More JS Notes#amed-parameters-in-functions](../notes/more-js.md#iii-named-parameters-in-functions)
+  - [More JS Notes#named-parameters-in-functions](../notes/more-js.md#iii-named-parameters-in-functions)
   - here's an example. It's more verbose, but the named parameters make the function call much more readable:
   
 ![screenshot](_images/refactor-screensaver-3.png)
