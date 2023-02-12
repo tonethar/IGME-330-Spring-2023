@@ -2,7 +2,8 @@
 
 <hr>
 
-## I. What's on it?
+## I. When is it? / What's on it?
+- Week 6A - Tuesday 2/21/23
 - *Anything* and *everything* we have covered weeks 1-5 of this semester is fair game
 
 <hr>
