@@ -36,5 +36,5 @@
 ### III-C. Assignments
 
 - [Checkoffs](../checkoffs)
-- [Practice Exercises](../pe)
+- [Practice Exercises #1-#4](../pe)
 - [HW-1](../hw/hw-1.md)
