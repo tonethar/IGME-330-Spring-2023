@@ -42,5 +42,5 @@
 <hr>
 
 ## IV. What's not on it?
-- Media queries
-- Randomness and Aesthetics
+- Media queries (covered in TB & HW-1)
+- Randomness and Aesthetics Notes
