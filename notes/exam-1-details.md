@@ -38,3 +38,9 @@
 - [Checkoffs](../checkoffs)
 - [Practice Exercises #1-#4](../pe)
 - [HW-1](../hw/hw-1.md)
+
+<hr>
+
+## IV. What's not on it?
+- Media queries
+- Randomness and Aesthetics
