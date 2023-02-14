@@ -1,4 +1,4 @@
-# Exam #1 Details (DRAFT)
+# Exam #1 Details
 
 <hr>
 
