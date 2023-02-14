@@ -163,3 +163,42 @@
 
 
 ```
+
+---
+
+**4B-quiz-start.html**
+
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Random Canvas Stuff</title>
+	<style>
+	canvas{
+		border:1px solid gray;
+	}
+	</style>
+	<script>
+		"use strict";
+		
+		const init = () => {
+			let canvas = document.querySelector("canvas");
+			let ctx = canvas.getContext("2d");
+			ctx.fillStyle = "salmon"; 
+			ctx.fillRect(20,20,600,440); 
+
+			
+			
+		};
+		
+		window.onload = init;
+	</script>
+</head>
+<body>
+	<canvas width="640" height="480">
+		Get a real browser!
+	</canvas>
+</body>
+</html>
+```
