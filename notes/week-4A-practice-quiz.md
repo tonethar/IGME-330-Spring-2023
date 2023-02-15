@@ -21,7 +21,7 @@
 <hr>
 
 ## I-B. Sounds "Iffy" to me
-- Make a copy of **quote-app.html** named **quote-app-IIFE.html**
+- Make a new copy of **quote-app.html** below and name it **quote-app-IIFE.html**
 - Get ALL of the variables and functions out of "script scope" by wrapping everything in a single anonymous function
 - Remember the [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)? - "Immediately Invoked Function Expression"
 - Go ahead and wrap everything in an anonymous function
