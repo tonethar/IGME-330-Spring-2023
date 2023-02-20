@@ -44,3 +44,4 @@
 ## IV. What's not on it?
 - Media queries (covered in TB & HW-1)
 - Randomness and Aesthetics Notes
+- `...` ("rest" syntax for arrays or objects)
