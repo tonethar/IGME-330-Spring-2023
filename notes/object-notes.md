@@ -161,6 +161,7 @@ console.log(colorEnum.GREENISH_COLOR); // rgb(0,200,0)
 ```
 
 - [`Object.create()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+- NB - `Object.create()` can also be used to create object inheritance hierarchies, but most developers will utilize ES6 classes and the `extends` keyword instead
  
 <hr>
 
