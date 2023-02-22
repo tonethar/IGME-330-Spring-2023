@@ -51,6 +51,8 @@ d.sayGoodbye();
 {name: 'Danny', job: 'Dog Walker', sayHello: ƒ, sayGoodbye: ƒ}
 ```
 
+<hr>
+
 ### I-B. Handy `Object` "class" methods
 
 - If we "misspell" a property - it will get added to the object as a new property!
@@ -66,8 +68,17 @@ console.log(d); // {name: 'Danny', job: 'Dog Walker', joob: 'Donut Maker', sayHe
 
 ```js
 Object.seal(d);
-d.naame = "Donut Maker"; // should be .name, not .naame - gives an ERROR
+d.naame = "Donut Maker"; // should be .name, not .naame - gives an ERROR or fails silently
+console.log(d); // no .naame property was added
 ```
+
+- [`Object.freeze()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) will make it so we can't add properties to an existing object OR modify existing ones
+
+```js
+Object.freeze(d);
+d.age = 55; // gives an ERROR or fails silently
+```
+<hr>
 
 ### I-C. Object Prototypes
 
