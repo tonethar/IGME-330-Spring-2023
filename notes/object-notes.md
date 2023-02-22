@@ -254,7 +254,7 @@ let obj = {
 // E6 shorthand way
 let obj2 = {
   city, // "city" will be the name of the property, and the value of the city variable will be the value of the property
-  founded, // founded
+  founded, // ditto
   "population" : 2697000 // we can still assign properties the usual way
 };
 
