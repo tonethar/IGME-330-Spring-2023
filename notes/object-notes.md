@@ -299,5 +299,6 @@ console.log(obj2); // {city: 'Chicago', founded: 1837, population: 2697000}
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set
   - https://javascript.info/property-accessors
-- JS prototype chain
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+- [JS Object prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [Object Property Privacy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
