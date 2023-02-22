@@ -172,7 +172,7 @@ const obj = {
   "h2-ref": h2, // Object reference
   "info" : {}, // Object literal (also a reference)
   "stuff" : ["thing 1", "thing 2"], // Array (also an object reference)
-  "sayHello" : sayHello // Function - also an object - also a reference
+  "sayHello" : sayHello, // Function - also an object - also a reference
 };
 
 console.log(obj.title);
