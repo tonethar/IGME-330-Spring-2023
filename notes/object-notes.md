@@ -121,8 +121,8 @@ console.log(e); // ['Maroon', 'green', 'blue', 'cyan']
 
 <hr>
 
-- Let's test out `.toString()`
-- And then implement our own `.toString()`
+- Let's test out the built-in `.toString()` method
+- And then implement our own `.toString()` method
 
 ```js
 console.log(a.toString()); // '[object Object]'
@@ -134,6 +134,27 @@ console.log(a.toString()); // My job is Ambulance Driver
 ```
 
 <hr>
+
+
+### I-D. Setting and getting properties
+
+- We typically use dot notation
+- But can also use square brackets - `[]` - which are required when our property names have spaces
+- If the property name does not exist, the value is `undefined`
+
+```js
+console.log(d.job); // Dog Walker
+console.log(d["job"]); // Dog Walker
+console.log(d.jawb); // undefined
+
+// Handling a property name with spaces requires square brackets
+d["dream job"] = "Lion Tamer";
+console.log(d["dream job"]); // Lion Tamer
+console.log(d.dream job); // ERROR
+```
+
+
+
 
 ## II. Classes in ES6
 
