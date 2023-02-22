@@ -135,6 +135,21 @@ console.log(a.toString()); // My job is Ambulance Driver
 
 <hr>
 
+### I-C-i. Setting the object prototype to `null`
+- Why would we do this? 
+- What if we just needed the key:value associative properties of an object, but none of its other capabilities?
+
+```js
+const enum = Object.create(null); // enum has no protoype
+console.log(enum.toString()); // ERROR
+
+enum.REDDISH_COLOR = "rgb(200,0,0)";
+enum.GREENISH_COLOR = "rgb(0,200,0)";
+console.log(REDDISH_COLOR);
+console.log(enum.GREENISH_COLOR);
+```
+
+<hr>
 
 ### I-D. Setting and getting properties
 
