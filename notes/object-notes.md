@@ -34,11 +34,11 @@ console.log(c);
 ```js
 let d = {
   "name": "Danny",
-  "sayHello": function(){ console.log(`Hello - my name is ${this.name}`);}
+  "sayHello": function(){ console.log(`Hello - my name is ${this.name}`); }
 };
 
 d.job = "Dog Walker";
-d.sayGoodbye = function(){ console.log(`Goodbye - my job is ${this.job}`);}
+d.sayGoodbye = function(){ console.log(`Goodbye - my job is ${this.job}`); };
 
 console.log(d);
 d.sayHello();
@@ -120,7 +120,12 @@ console.log(e); // ['Maroon', 'green', 'blue', 'cyan']
 ![screenshot](_images/objects-classes-1.png)
 
 ```js
-console.log(a.toString())
+console.log(a.toString()); // '[object Object]'
+
+// Let's add our own .toString() method
+// this will override (or "shadow") the existing .toString()
+a.toString = function(){ console.log(`My job is ${this.job}`); };
+console.log(a.toString()); // My job is Ambulance Driver
 ```
 
 <hr>
