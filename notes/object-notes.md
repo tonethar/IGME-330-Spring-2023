@@ -18,17 +18,17 @@
 // we could use the Object() constructor to make a new object
 let a = new Object();
 a.job = "Ambulance Driver";
-console.log(a);
+console.log(a); // {job: 'Ambulance Driver'}
 
 // but more commonly we'll use object literal syntax
 let b = {};
 b.job = "Baker";
-console.log(b);
+console.log(b); // {job: 'Baker'}
 
 // we can also give the object properties when we declare it
-let c = {"job" : "Criminal"};
+let c = { "job" : "Criminal" };
 c.job = "Criminal";
-console.log(c);
+console.log(c); // {job: 'Criminal'}
 ```
 
 - Object keys (e.g. property names) are usally quoted strings - `"job"`
