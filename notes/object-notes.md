@@ -242,24 +242,24 @@ console.log(d3.sayHello()); // Hello - my name is
 
 ```js
 // The traditonal way
-let name = "Fred";
+let lastName = "Jones";
 let age = 21;
 
 let obj = {
-  "name" : name,
+  "lastName" : lastName,
   "age" : age,
   "job" : "Man of Mystery"
 };
 
 // E6 shorthand way
 let obj2 = {
-  name, // "name" wll be the property name, and the value of the name variable will be the value if the property
+  lastName, // "lastName" wll be the name of the property, and the value of the lastName variable will be the value if the property
   age, // ditto
   "job" : "Man of Mystery" // we can still assign properties the usual way
 };
 
-console.log(obj); // {name: 'Fred', age: 21, job: 'Man of Mystery'}
-console.log(obj2); // {name: 'Fred', age: 21, job: 'Man of Mystery'}
+console.log(obj); // {lastName: 'Fred', age: 21, job: 'Man of Mystery'}
+console.log(obj2); // {lastName: 'Fred', age: 21, job: 'Man of Mystery'}
 ```
 
 <hr>
