@@ -160,7 +160,7 @@ console.log(d.dream job); // SYNTAX ERROR
 
 ```js
 const h2 = document.querySelector("h2");
-const sayHello = function(){ console.log("Hello!); };
+const sayHello = function(){ console.log("Hello!"); };
 
 const obj = {
   "title" : "My Object", // String
