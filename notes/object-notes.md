@@ -205,7 +205,7 @@ let d = {
    job: "Door-to-door Salesperson"
 };
 
-console.log(d.hello());
+console.log(d.sayHello());
 
 // Most developers prefer this newer syntax though
 let d2 = {
@@ -216,5 +216,5 @@ let d2 = {
   job: "Ding-dong Ditcher"
 };
 
-console.log(d2.hello());
+console.log(d2.sayHello());
 ```
