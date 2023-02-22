@@ -82,6 +82,19 @@ d.age = 55; // NOR add a new property
 console.log(d); // no changes or new properties
 ```
 
+- BTW: In JavaScript, arrays are objects too - and can be sealed and frozen
+
+```js
+const e = ["red","green","blue"];
+e.push("cyan");
+console.log(e); //
+
+Object.seal(e);
+e.push("yellow"); // fails because we can't add index `4` (which is a property key) 
+e[0] = "Maroon"; // but we CAN do this
+console.log(e); //
+```
+
 <hr>
 
 ### I-C. Object Prototypes
