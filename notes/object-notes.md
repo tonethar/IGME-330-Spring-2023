@@ -153,10 +153,12 @@ console.log(d["dream job"]); // Lion Tamer
 console.log(d.dream job); // SYNTAX ERROR
 ```
 
+<hr>
+
 ### I-E. More about Object properties
 
-- Object properties can point at primitive values such as string, numbers, booleans
-- They can also point at other objects - for example another object literals, or a reference to a DOM element
+- Object properties can point at primitive values ("value types") such as strings, numbers, booleans
+- They can also point at objects ("reference types") - for example another object literals, or a reference to a DOM element
 - They can even point at function references - because in JS functions are objects
 
 ```js
@@ -186,4 +188,33 @@ console.log(obj.info);
 console.log(obj.stuff);
 console.log(obj.sayHello); // function reference
 console.log(obj.sayHello()); // call the function
+```
+
+<hr>
+
+### I-F. Function properties
+- When an object has a property that points at a function, we usually call that a *method*
+- These are all valid ways to initialize methods on an object
+
+```js
+let d = {
+  "name": "Danny",
+  "sayHello": function(){ 
+    console.log(`Hello - my name is ${this.name}`); // note that `this` is required to access the `name` property
+   },
+   job: "Door-to-door Salesperson"
+};
+
+console.log(d.hello());
+
+// Most developers prefer this newer syntax though
+let d2 = {
+  "name": "Denny",
+  sayHello(){ 
+    console.log(`Hello - my name is ${this.name}`); 
+  },
+  job: "Ding-dong Ditcher"
+};
+
+console.log(d2.hello());
 ```
