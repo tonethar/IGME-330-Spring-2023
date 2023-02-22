@@ -103,7 +103,7 @@ console.log(e); // ['Maroon', 'green', 'blue', 'cyan']
 
 ### I-C. Object Prototypes
 
-- Note that all these first 3 objects we made above, all look the same in the console/debugger, no matter how they were created:
+- Note that the first 3 objects we made above, each look the same in the console/debugger, no matter how they were created:
 
 ```js
 {job: 'Ambulance Driver'}
@@ -113,13 +113,14 @@ console.log(e); // ['Maroon', 'green', 'blue', 'cyan']
 
 <hr>
 
-- And if we take a look inside each object, we'll see that *"a typical object inherits properties (including methods) from `Object.prototype`, although these properties may be shadowed (a.k.a. overridden)"* 
-  - Examples: meaning that these object literals have default `toString()` and `toValue()` methods, ways to define setters and getter, and so on
+- And if we take a look inside each object, we'll see that these objects have other methods that they "inherited" from the object *prototype*
+-  *"A typical object inherits properties (including methods) from `Object.prototype`, although these properties may be shadowed (a.k.a. overridden)"* 
+- Meaning that these object literals have default `toString()` and `toValue()` methods, ways to define setters and getter, and so on
 
 ![screenshot](_images/objects-classes-1.png)
 
 ```js
-
+console.log(a.toString())
 ```
 
 <hr>
