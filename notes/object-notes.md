@@ -258,8 +258,8 @@ let obj2 = {
   "job" : "Man of Mystery" // we can still assign properties the usual way
 };
 
-console.log(obj); // {lastName: 'Fred', age: 21, job: 'Man of Mystery'}
-console.log(obj2); // {lastName: 'Fred', age: 21, job: 'Man of Mystery'}
+console.log(obj); // {lastName: 'Jones', age: 21, job: 'Man of Mystery'}
+console.log(obj2); // {lastName: 'Jones', age: 21, job: 'Man of Mystery'}
 ```
 
 <hr>
