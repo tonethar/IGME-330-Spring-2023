@@ -220,7 +220,7 @@ console.log(d2.sayHello());
 ```
 
 - You can also have arrow functions as methods of object literals
-- But because they don't have access to the object's `this` keyword, `sayHello()` will fail in this case
+- But because they don't have access to the object's `this` keyword, `sayHello()` will not function as expected in this case
 - Occasionally though, an arrow function as an object property does have its uses
 
 ```js
@@ -232,6 +232,7 @@ let d3 = {
   job: "Ding-dong Ditcher"
 };
 
+// this.name will be undefined
 console.log(d3.sayHello()); // Hello - my name is 
 ```
 
