@@ -79,6 +79,7 @@ console.log(d); // no .naame property was added
 Object.freeze(d);
 d.job = "Ditch Digger"; // cannot modify existing property
 d.age = 55; // NOR add a new property
+console.log(d); // no changes or new properties
 ```
 
 <hr>
