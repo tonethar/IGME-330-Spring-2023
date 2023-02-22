@@ -65,7 +65,7 @@ d.sayGoodbye();
 - And if we take a look inside each object, we'll see that *"a typical object inherits properties (including methods) from `Object.prototype`, although these properties may be shadowed (a.k.a. overridden)"* 
   - Examples: meaning that these object literals have default `toString()` and `toValue()` methods, ways to define setters and getter, and so on
 
-![screenshot](_images/)
+![screenshot](_images/objects-classes-1.png)
 
 ```js
 
