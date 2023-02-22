@@ -73,11 +73,14 @@ console.log(d); // no .naame property was added
 ```
 
 - [`Object.freeze()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) will make it so we can't add properties to an existing object OR modify existing ones
+- *"Freezing an object prevents extensions and makes existing properties non-writable and non-configurable. A frozen object can no longer be changed: new properties cannot be added, existing properties cannot be removed, their enumerability, configurability, writability, or value cannot be changed, and the object's prototype cannot be re-assigned. freeze() returns the same object that was passed in. Freezing an object is the highest integrity level that JavaScript provides."*
 
 ```js
 Object.freeze(d);
-d.age = 55; // gives an ERROR or fails silently
+d.job = "Ditch Digger"; // cannot modify existing property
+d.age = 55; // NOR add a new property
 ```
+
 <hr>
 
 ### I-C. Object Prototypes
