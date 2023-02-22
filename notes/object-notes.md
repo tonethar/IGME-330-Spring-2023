@@ -145,18 +145,44 @@ console.log(a.toString()); // My job is Ambulance Driver
 ```js
 console.log(d.job); // Dog Walker
 console.log(d["job"]); // Dog Walker
-console.log(d.jawb); // undefined because .jawd property does not exist (but this is an ERROR in most languages)
+console.log(d.jawb); // undefined because .jawb property does not exist (but this is an ERROR in most languages)
 
 // Handling a property name with spaces requires square brackets
 d["dream job"] = "Lion Tamer";
 console.log(d["dream job"]); // Lion Tamer
-console.log(d.dream job); // ERROR
+console.log(d.dream job); // SYNTAX ERROR
 ```
 
+### I-E. More about Object properties
 
+- Object properties can point at primitive values such as string, numbers, booleans
+- They can also point at other objects - for example another object literals, or a reference to a DOM element
 
+```js
+const h2 = document.querySelector("h2");
+const sayHello = function(){ console.log("Hello!); };
 
-## II. Classes in ES6
+const obj = {
+  "title" : "My Object", // String
+  "rating" : 5, // Number
+  "active" : true, // Boolean
+  "created" : new Date(), // Object reference
+  "last-edited" : undefined,
+  "deleted" : null,
+  "h2-ref": h2, // Object reference
+  "info" : {}, // Object literal (also a reference)
+  "stuff" : ["thing 1", "thing 2"], // Array (also an object reference)
+  "sayHello" : sayHello // Function - also an object - also a reference
+};
 
-- ES6 classes
-  - [MDN Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+console.log(obj.title);
+console.log(obj.rating);
+console.log(obj.active);
+console.log(obj["last-edited"]);
+console.log(obj.deleted);
+console.log(obj.h2-ref);
+console.log(obj.info);
+console.log(obj.stuff);
+console.log(obj.sayHello); // function reference
+console.log(obj.sayHello()); // call the function
+```
