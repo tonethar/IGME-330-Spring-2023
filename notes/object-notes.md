@@ -153,9 +153,9 @@ console.log(colorEnum); // {} - missing the prototype methods
 colorEnum.REDDISH_COLOR = "rgb(200,0,0)";
 colorEnum.GREENISH_COLOR = "rgb(0,200,0)";
 
-console.log(colorEnum); {REDDISH_COLOR: 'rgb(200,0,0)', GREENISH_COLOR: 'rgb(0,200,0)'}
-console.log(colorEnum.REDDISH_COLOR);
-console.log(colorEnum.GREENISH_COLOR);
+console.log(colorEnum); // {REDDISH_COLOR: 'rgb(200,0,0)', GREENISH_COLOR: 'rgb(0,200,0)'}
+console.log(colorEnum.REDDISH_COLOR); // rgb(200,0,0)
+console.log(colorEnum.GREENISH_COLOR); // rgb(0,200,0)
 ```
 
 <hr>
