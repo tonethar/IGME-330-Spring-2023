@@ -96,6 +96,7 @@ console.log(e); // ['Maroon', 'green', 'blue', 'cyan']
 
 Object.freeze(e);
 e[1] = "Emerald"; // now this will fail too
+console.log(e); // ['Maroon', 'green', 'blue', 'cyan']
 ```
 
 <hr>
