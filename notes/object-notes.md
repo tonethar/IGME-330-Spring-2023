@@ -247,13 +247,15 @@ let age = 21;
 
 let obj = {
   "name" : name,
-  "age" : age
+  "age" : age,
+  "job" : "Man of Mystery"
 };
 
 // E6 shorthand way
 let obj2 = {
-  name,
-  age
+  name, // "name" wll be the property name, and the value of the name variable will be the value if the property
+  age, // ditto
+  "job" : "Man of Mystery"
 };
 
 console.log(obj); // {name: 'Fred', age: 21}
