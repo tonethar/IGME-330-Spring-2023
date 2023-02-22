@@ -187,7 +187,7 @@ console.log(d.dream job); // SYNTAX ERROR
 ### I-E. More about Object properties
 
 - Object properties can point at primitive values ("value types") such as strings, numbers, booleans
-- They can also point at objects ("reference types") - for example another object literals, or a reference to a DOM element
+- They can also point at objects ("reference types") - for example another object literal, or a reference to a DOM element
 - They can even point at function references - because in JS functions are objects
 
 ```js
