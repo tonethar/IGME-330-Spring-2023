@@ -51,6 +51,13 @@ d.sayGoodbye();
 {name: 'Danny', job: 'Dog Walker', sayHello: ƒ, sayGoodbye: ƒ}
 ```
 
+- And if we "misspell" a property - it will get added too!
+
+```js
+d.joob = "Donut Maker";
+console.log(d);
+
+```
 
 ### I-B. Object Prototypes
 
