@@ -135,7 +135,7 @@ console.log(a.toString()); // My job is Ambulance Driver
 
 <hr>
 
-### I-C-i. Setting the object prototype to `null`
+#### I-C-i. Setting the object prototype to `null`
 - Why would we do this? 
 - What if we just needed the key:value associative properties of an object, but none of its other capabilities?
 
