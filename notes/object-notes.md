@@ -160,6 +160,8 @@ console.log(colorEnum.REDDISH_COLOR); // rgb(200,0,0)
 console.log(colorEnum.GREENISH_COLOR); // rgb(0,200,0)
 ```
 
+- [`Object.create()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+ 
 <hr>
 
 ### I-D. Setting and getting properties
