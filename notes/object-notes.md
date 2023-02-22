@@ -145,7 +145,7 @@ console.log(a.toString()); // My job is Ambulance Driver
 ```js
 console.log(d.job); // Dog Walker
 console.log(d["job"]); // Dog Walker
-console.log(d.jawb); // undefined
+console.log(d.jawb); // undefined because .jawd property does not exist (but this is an ERROR in most languages)
 
 // Handling a property name with spaces requires square brackets
 d["dream job"] = "Lion Tamer";
