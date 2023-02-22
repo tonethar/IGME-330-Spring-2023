@@ -258,8 +258,8 @@ let obj2 = {
   "population" : 2697000 // we can still assign properties the usual way
 };
 
-console.log(obj); // {lastName: 'Jones', age: 21, job: 'Man of Mystery'}
-console.log(obj2); // {lastName: 'Jones', age: 21, job: 'Man of Mystery'}
+console.log(obj); // {city: 'Chicago', founded: 1837, population: 2697000}
+console.log(obj2); // {city: 'Chicago', founded: 1837, population: 2697000}
 ```
 
 <hr>
