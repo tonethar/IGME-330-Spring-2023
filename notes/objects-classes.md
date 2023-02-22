@@ -1,4 +1,4 @@
-# ES6 Classes
+# ES6 Objects & Classes
 
 ## I. Objects in ES6
 
