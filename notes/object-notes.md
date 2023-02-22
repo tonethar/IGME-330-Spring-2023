@@ -198,7 +198,7 @@ const obj = {
   "created" : new Date(), // Object reference
   "last-edited" : undefined,
   "deleted" : null,
-  "h2-ref": h2, // Object reference
+  "h2-ref": h2, // DOM object reference
   "info" : {}, // Object literal (also a reference)
   "stuff" : ["thing 1", "thing 2"], // Array (also an object reference)
   "sayHello" : sayHello, // Function - also an object - also a reference
