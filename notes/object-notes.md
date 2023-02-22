@@ -141,10 +141,13 @@ console.log(a.toString()); // My job is Ambulance Driver
 
 ```js
 const colorEnum = Object.create(null); // enum has no protoype
-console.log(colorEnum.toString()); // ERROR
+console.log(colorEnum); // {}
+//console.log(colorEnum.toString()); // ERROR
 
 colorEnum.REDDISH_COLOR = "rgb(200,0,0)";
 colorEnum.GREENISH_COLOR = "rgb(0,200,0)";
+
+console.log(colorEnum);
 console.log(colorEnum.REDDISH_COLOR);
 console.log(colorEnum.GREENISH_COLOR);
 ```
