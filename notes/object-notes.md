@@ -290,5 +290,9 @@ console.log(obj2); // {city: 'Chicago', founded: 1837, population: 2697000}
 
 ## II. Other nice stuff to know about JS objects (we'll cover some of this later on on course)
 
-- getter/setter syntax
+- getter/setter syntax:
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set
+  - https://javascript.info/property-accessors
 - JS prototype chain
+- [Object Property Privacy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
