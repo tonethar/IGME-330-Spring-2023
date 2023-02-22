@@ -140,13 +140,13 @@ console.log(a.toString()); // My job is Ambulance Driver
 - What if we just needed the key:value associative properties of an object, but none of its other capabilities?
 
 ```js
-const enum = Object.create(null); // enum has no protoype
-console.log(enum.toString()); // ERROR
+const colorEnum = Object.create(null); // enum has no protoype
+console.log(colorEnum.toString()); // ERROR
 
-enum.REDDISH_COLOR = "rgb(200,0,0)";
-enum.GREENISH_COLOR = "rgb(0,200,0)";
-console.log(REDDISH_COLOR);
-console.log(enum.GREENISH_COLOR);
+colorEnum.REDDISH_COLOR = "rgb(200,0,0)";
+colorEnum.GREENISH_COLOR = "rgb(0,200,0)";
+console.log(colorEnum.REDDISH_COLOR);
+console.log(colorEnum.GREENISH_COLOR);
 ```
 
 <hr>
