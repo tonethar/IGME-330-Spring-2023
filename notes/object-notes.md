@@ -45,7 +45,7 @@ d.sayHello();
 d.sayGoodbye();
 ```
 
-- Note that in the console, we can see that both properties and both methods are present the `d` object, regardless of whether they were present when the object was created, or added later on"
+- Note that in the console, we can see that both properties and both methods are present on the `d` object, regardless of whether they were there when the object was created, or added later on:
 
 ```
 {name: 'Danny', job: 'Dog Walker', sayHello: ƒ, sayGoodbye: ƒ}
