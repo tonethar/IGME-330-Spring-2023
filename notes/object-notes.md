@@ -238,6 +238,29 @@ console.log(d3.sayHello()); // Hello - my name is
 
 <hr>
 
+### I-G. Initializing object properties
+
+```js
+// The traditonal way
+let name = "Fred";
+let age = 21;
+
+let obj = {
+  "name" : name,
+  "age" : age
+};
+
+// E6 shorthand way
+let obj2 = {
+  name,
+  age
+};
+
+console.log(obj);
+console.log(obj2);
+```
+
+
 
 ## II. Other nice stuff to know about JS objects (we'll cover some of this later on on course)
 
