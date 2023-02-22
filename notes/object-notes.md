@@ -1,4 +1,4 @@
-# ES6 Objects & Classes
+# ES6 Objects
 
 ## I. Objects in ES6
 
@@ -234,3 +234,11 @@ let d3 = {
 
 console.log(d3.sayHello()); // Hello - my name is 
 ```
+
+<hr>
+
+
+## II. Other nice stuff to know about JS objects (we'll cover some of this later on on course)
+
+- getter/setter syntax
+- JS prototype chain
