@@ -180,7 +180,7 @@ console.log(obj.rating);
 console.log(obj.active);
 console.log(obj["last-edited"]);
 console.log(obj.deleted);
-console.log(obj.["h2-ref"]);
+console.log(obj["h2-ref"]);
 console.log(obj.info);
 console.log(obj.stuff);
 console.log(obj.sayHello); // function reference
