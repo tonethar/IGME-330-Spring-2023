@@ -62,6 +62,7 @@ console.log(d); // {name: 'Danny', job: 'Dog Walker', joob: 'Donut Maker', sayHe
 
 - [`Object.seal()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) will make it so we can't add properties to an existing object
   - new properties cannot be added to the passed in object
+  - *"Attempting to delete or add properties to a sealed object, or to convert a data property to accessor or vice versa, will fail, either silently or by throwing a TypeError"*
 
 ```js
 Object.seal(d);
