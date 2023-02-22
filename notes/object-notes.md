@@ -255,14 +255,14 @@ let obj = {
 let obj2 = {
   name, // "name" wll be the property name, and the value of the name variable will be the value if the property
   age, // ditto
-  "job" : "Man of Mystery"
+  "job" : "Man of Mystery" // we can still assign properties the usual way
 };
 
 console.log(obj); // {name: 'Fred', age: 21, job: 'Man of Mystery'}
 console.log(obj2); // {name: 'Fred', age: 21, job: 'Man of Mystery'}
 ```
 
-
+<hr>
 
 ## II. Other nice stuff to know about JS objects (we'll cover some of this later on on course)
 
