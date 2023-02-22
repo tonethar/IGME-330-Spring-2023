@@ -232,5 +232,5 @@ let d3 = {
   job: "Ding-dong Ditcher"
 };
 
-console.log(d3.sayHello());
+console.log(d3.sayHello()); // Hello - my name is 
 ```
