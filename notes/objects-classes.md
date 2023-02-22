@@ -51,17 +51,26 @@ d.sayGoodbye();
 {name: 'Danny', job: 'Dog Walker', sayHello: ƒ, sayGoodbye: ƒ}
 ```
 
-- And if we "misspell" a property - it will get added too!
+### I-B. Handy `Object` "class" methods
+
+- If we "misspell" a property - it will get added to the object as a new property!
 
 ```js
-d.joob = "Donut Maker";
-console.log(d);
-
+d.joob = "Donut Maker"; // should be .job, not .joob
+console.log(d); // {name: 'Danny', job: 'Dog Walker', joob: 'Donut Maker', sayHello: ƒ, sayGoodbye: ƒ}
 ```
 
-### I-B. Object Prototypes
+- [`Object.seal()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) will make it so we can't add properties to an existing object
+  - new properties cannot be added to the passed in object
 
-- Note that all these objects look the same in the console/debugger, no matter how they were created:
+```js
+Object.seal(d);
+d.naame = "Donut Maker"; // should be .name, not .naame - gives an ERROR
+```
+
+### I-C. Object Prototypes
+
+- Note that all these first 3 objects we made above, all look the same in the console/debugger, no matter how they were created:
 
 ```js
 {job: 'Ambulance Driver'}
