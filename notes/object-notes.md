@@ -119,6 +119,11 @@ console.log(e); // ['Maroon', 'green', 'blue', 'cyan']
 
 ![screenshot](_images/objects-classes-1.png)
 
+<hr>
+
+- Let's test out `.toString()`
+- And then implement our own `.toString()`
+
 ```js
 console.log(a.toString()); // '[object Object]'
 
