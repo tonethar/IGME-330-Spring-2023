@@ -270,7 +270,7 @@ console.log(d3.sayHello()); // Hello - my name is
 ### I-G. Initializing object properties
 
 ```js
-// The traditonal way
+// The traditonal way to initializa object properties
 let city = "Chicago";
 let founded = 1837;
 
@@ -280,7 +280,7 @@ let obj = {
   "population" : 2697000
 };
 
-// E6 shorthand way
+// E6 "shorthand" way to initializa object properties
 let obj2 = {
   city, // "city" will be the name of the property, and the value of the city variable will be the value of the property
   founded, // ditto
