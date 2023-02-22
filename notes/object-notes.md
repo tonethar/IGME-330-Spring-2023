@@ -135,19 +135,19 @@ console.log(a.toString()); // My job is Ambulance Driver
 
 <hr>
 
-#### I-C-i. Setting the object prototype to `null`
+#### I-C-i. Setting the object `prototype` to `null`
 - Why would we do this? 
 - What if we just needed the key:value associative properties of an object, but none of its other capabilities?
 
 ```js
 const colorEnum = Object.create(null); // enum has no protoype
-console.log(colorEnum); // {}
+console.log(colorEnum); // {} - missing the prototype methods
 //console.log(colorEnum.toString()); // ERROR
 
 colorEnum.REDDISH_COLOR = "rgb(200,0,0)";
 colorEnum.GREENISH_COLOR = "rgb(0,200,0)";
 
-console.log(colorEnum);
+console.log(colorEnum); {REDDISH_COLOR: 'rgb(200,0,0)', GREENISH_COLOR: 'rgb(0,200,0)'}
 console.log(colorEnum.REDDISH_COLOR);
 console.log(colorEnum.GREENISH_COLOR);
 ```
