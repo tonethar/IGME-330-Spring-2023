@@ -258,8 +258,8 @@ let obj2 = {
   "job" : "Man of Mystery"
 };
 
-console.log(obj); // {name: 'Fred', age: 21}
-console.log(obj2); // {name: 'Fred', age: 21}
+console.log(obj); // {name: 'Fred', age: 21, job: 'Man of Mystery'}
+console.log(obj2); // {name: 'Fred', age: 21, job: 'Man of Mystery'}
 ```
 
 
