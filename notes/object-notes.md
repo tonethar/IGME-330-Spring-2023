@@ -29,7 +29,6 @@ console.log(b); // {job: 'Baker'}
 
 // we can also give the object properties when we declare it
 let c = { "job" : "Criminal" };
-c.job = "Criminal";
 console.log(c); // {job: 'Criminal'}
 ```
 
