@@ -174,9 +174,10 @@ console.log(alien.fireDeathRay()); // Feel the power of my Evil ray!
 
 ```js
 class CircleSprite{
-  static type = "arc"; // demoing a class variable here
+  static type = "arc"; // demoing a static (class) variable here
   constructor(x,y,radius,color){
-   // YOU DO THIS - initialize .x, .y, .radius and .color properties
+    console.log(`${this.constructor.type} created`); // access static property
+    // YOU DO THIS - initialize .x, .y, .radius and .color properties
   
   }
   
