@@ -215,4 +215,4 @@ arc created
 
 ### III-D. Get a-move-on!
 
-- Now write code in `loop()` that "loops through" the `sprites` array an calls the `update()` and `draw()` methods of the `CircleSprite` instances
+- Now write code in `loop()` that "loops through" the `sprites` array and calls the `update()` and `draw()` methods of the `CircleSprite` instances
