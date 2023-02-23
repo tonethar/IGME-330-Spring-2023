@@ -87,12 +87,15 @@
   - `update()` and `draw()` methods
   - `x`, `y`, `n`, `divergence` and `c` properties
 
+
 <hr>
 
 ## IV. Create instances of `PhylloFlower`
 
 - Create 2 instances of `PhylloFlower` with distinct constructor values
-- Put them on the screen, one of the left side, the other on the right, and call their `update()` and `draw()` methods
+  - You'll need a `sprites` array of course
+  - You'll need `init` and `loop` methods
+- Put them on the screen, one on the left side, the other on the right, and call their `update()` and `draw()` methods
 
 <hr>
 
