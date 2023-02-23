@@ -1,7 +1,6 @@
 # ES6 Class Notes
 
-- *"Classes are a template for creating objects."*
-- [MDN - ES6 Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [MDN - ES6 Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) - *"Classes are a template for creating objects."*
 
 <hr>
 
