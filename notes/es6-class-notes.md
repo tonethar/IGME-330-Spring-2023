@@ -61,3 +61,17 @@ let thing3 = new Thing3("Stinky");
 console.log(thing3); // Thing3 {type: 'Stinky'}
 console.log(thing3.sayHello()); // I am a Thing3 of type=Stinky
 ```
+
+- OR, just create an object literal instead of a class
+
+```js
+const thing4 = {
+  "type" : "Slippery",
+  sayHello(){
+    console.log(`I am a ${this.constructor.name} of type=${this.type}`);
+  }
+};
+
+console.log(thing4); // Thing4 {type: 'Slippery'}
+console.log(thing4.sayHello()); // I am a Thing4 of type=Slippery
+```
