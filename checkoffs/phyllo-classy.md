@@ -91,8 +91,8 @@
 
 ## IV. Create instances of `PhylloFlower`
 
-- Create instances of `PhylloFlower`
-- Put them on the screen and animate them
+- Create 2 instances of `PhylloFlower` with distinct constructor values
+- Put them on the screen, one of the left side, the other on the right, and call their `update()` and `draw()` methods
 
 <hr>
 
