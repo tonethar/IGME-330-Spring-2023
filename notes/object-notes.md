@@ -94,7 +94,7 @@ console.log(d); // no changes or new properties
 
 ```js
 const e = ["red","green","blue"];
-e.push("cyan");
+e.push("cyan"); // WHY DOES THIS WORK?
 console.log(e); // ['red', 'green', 'blue', 'cyan']
 
 Object.seal(e);
