@@ -7,7 +7,7 @@
   - OR the start file below (a demo version of Phyllotaxis from class)
   - Other resources:
     - [ES6 Object Notes](../notes/object-notes.md)
-    - [ES6 Class Notes](../notes/es6-class-notes.md) - the start file here might be handy too
+    - [ES6 Class Notes](../notes/es6-class-notes.md) - the start file and the `CircleSprite` class we built may be handy too
 
 <hr>
 
