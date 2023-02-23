@@ -270,7 +270,7 @@ console.log(d3.sayHello()); // Hello - my name is
 ### I-G. Initializing object properties
 
 ```js
-// The traditonal way to initializa object properties
+// The traditonal way to initialize object properties
 let city = "Chicago";
 let founded = 1837;
 
