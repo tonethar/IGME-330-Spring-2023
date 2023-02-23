@@ -99,7 +99,7 @@
 - Create 2 instances of `PhylloFlower` with distinct constructor values
   - You'll need a `sprites` array of course
   - You'll need `init` and `loop` methods
-- Put them on the screen, one on the left side, the other on the right, and call their `draw()` methods
+- Put them on the screen, one on the left side, the other on the right, and call their `draw()` methods in `loop()`
 - Here's an example:
   - `new PhylloFlower(200, 200, 137.5, 4)` - on left
   - `new PhylloFlower(450, 200, 137.1, 3)` - on right
