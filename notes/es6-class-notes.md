@@ -189,10 +189,11 @@ class CircleSprite{
     // fill a circle - utilize the ctx argument, and the .x, .y, .radius and .color properties
   }
 }
+```
 
 <hr>
 
 ### III-C. Create instances of the class
 
 
-```
+
