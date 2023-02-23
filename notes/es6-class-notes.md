@@ -211,3 +211,8 @@ arc created
   1: CircleSprite {x: 100, y: 200, radius: 30, color: 'red'}
 ```
 
+<hr>
+
+### III-D. Get a-move-on!
+
+- Now write code in `loop()` that "loops through" the `sprites` array an calls the `update()` and `draw()` methods of the `CircleSprite` instances
