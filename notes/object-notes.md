@@ -4,7 +4,7 @@
 - A software *object* is an entity which defines:
   - the "states" the object can exist in (i.e. properties)
   - and a set of functions that define the behavior of that object (i.e. methods)
-- IGME-235 Object Reference material - https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-apps-7.md
+- [IGME-235 - Object Reference Material](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-apps-7.md)
 
 <hr>
 
