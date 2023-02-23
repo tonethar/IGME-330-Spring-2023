@@ -216,3 +216,23 @@ arc created
 ### III-D. Get a-move-on!
 
 - Now write code in `loop()` that "loops through" the `sprites` array and calls the `update()` and `draw()` methods of the `CircleSprite` instances
+- Don't forget to pass `ctx` into `draw()`
+- When everything is working right, you should see your two circles (green and red) moving diagonally down the screen from the upper-left corner to the bottom-right corner
+
+<hr>
+
+### III-E. One more thing - `Object.assign()`
+
+- Check it out here - [`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+- Can you use it in your constructor to replace 4 lines of code, with one line of code?
+
+<hr>
+
+## IV. More things you could add (but don't have to)
+
+- `xSpeed` and `ySpeed` variables (or better yet use vectors like you did in IGME-202 and have a normalized `fwd` property etc)
+- "Bouncing" (or wrapping) when the circle encounters the edge of the canvas
+- Add params to the constructor for `strokeWidth`, `strokeStyle`, `startAngle`, `endAngle` etc
+- Modify the constructor to use object destructuring and default parameter values, and pass in single object of multiple properties to the constructor when calling it
+- Create a `Sprite` super class and extend it
+- And so on ...
