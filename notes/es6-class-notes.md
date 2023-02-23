@@ -62,7 +62,7 @@ console.log(thing3); // Thing3 {type: 'Stinky'}
 console.log(thing3.sayHello()); // I am a Thing3 of type=Stinky
 ```
 
-- OR, just create an object literal instead of a class
+- OR, just create an *object literal* instead of a class
 
 ```js
 const thing4 = {
