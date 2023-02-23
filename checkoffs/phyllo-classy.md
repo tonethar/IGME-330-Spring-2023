@@ -49,7 +49,7 @@
 		let y = r * Math.sin(a) + canvasHeight/2;
 		let color = `hsl(${n/5 % 361},100%,50%)`;
 		drawCircle(ctx,x,y,2,color);
-   	n++;
+                n++;
 	}
 
 
