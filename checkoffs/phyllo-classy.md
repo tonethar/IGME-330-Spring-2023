@@ -107,7 +107,7 @@
 
 <hr>
 
-- Add additional constructor parameters if you want - an `fps` property for example - or a fucntion that calculates the `color` of each petal, etc
+- Add additional constructor parameters if you want - an `fps` property for example - or a function that calculates the `color` of each petal, etc
 
 <hr>
 
