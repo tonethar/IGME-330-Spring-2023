@@ -14,7 +14,7 @@ class Thing{
     this.type = type;
   }
   sayHello(){
-    console.log(`I am a ${this.constructor} of type=${this.type}`);
+    console.log(`I am a ${this.constructor.name} of type=${this.type}`);
   }
 }
 
@@ -36,7 +36,7 @@ const Thing2 = class{
     this.type = type;
   }
   sayHello(){
-    console.log(`I am a ${this.constructor} of type=${this.type}`);
+    console.log(`I am a ${this.constructor.name} of type=${this.type}`);
   }
 };
 
