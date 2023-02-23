@@ -187,13 +187,14 @@ class CircleSprite{
   draw(ctx){
     // YOU DO THIS 
     // fill a circle - utilize the ctx argument, and the .x, .y, .radius and .color properties
+    // don't forget about ctx.save() and ctx.restore()
   }
 }
 ```
 
 <hr>
 
-### III-C. Create instances of the class
+### III-C. Create instances of `CircleSprite`
 
 
 
