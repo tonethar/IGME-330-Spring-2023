@@ -11,12 +11,12 @@
 // Define the class
 class Thing{
   constructor(type){
-    this.name = type;
+    this.type = type;
   }
 }
 
 // Create an instance of that class
 let thing = new Thing("Slimy");
-console.log(thing); // Thing {name: 'Slimy'}
+console.log(thing); // Thing {type: 'Slimy'}
 ```
 
