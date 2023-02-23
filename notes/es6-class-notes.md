@@ -144,15 +144,15 @@ console.log(alien.fireDeathRay()); // Feel the power of my Evil ray!
 	let ctx;
 
 	const loop = () => {
-    setTimeout(loop,1000/30);
-		ctx.fillRect(0,0,canvasWidth,canvasHeight);
+          setTimeout(loop,1000/60);
+          ctx.fillRect(0,0,canvasWidth,canvasHeight);
 	}
 	
 	const init = () => {
-		ctx = canvas.getContext("2d");
-		canvas.width = canvasWidth;
-		canvas.height = canvasHeight;
-		loop();
+	  ctx = canvas.getContext("2d");
+	  canvas.width = canvasWidth;
+	  canvas.height = canvasHeight;
+	  loop();
 	};
 	
 	window.onload = init;
@@ -164,4 +164,35 @@ console.log(alien.fireDeathRay()); // Feel the power of my Evil ray!
 
 </body>
 </html>
+```
+
+<hr>
+
+### III-B. Get started on `CircleSprite`
+
+- add this to the top of the `<script>` tag in **sprites-start.html**
+
+```js
+class CircleSprite{
+  static type = "arc"; // demoing a class variable here
+  constructor(x,y,radius,color){
+   // YOU DO THIS - initialize .x, .y, .radius and .color properties
+  
+  }
+  
+  update(){
+     // YOU DO THIS - increase the .x, and .y properties by 1
+  }
+  
+  draw(ctx){
+    // YOU DO THIS 
+    // fill a circle - utilize the ctx argument, and the .x, .y, .radius and .color properties
+  }
+}
+
+<hr>
+
+### III-C. Create instances of the class
+
+
 ```
