@@ -92,7 +92,7 @@ console.log(thing4);
 
 ## II. Inheritance
 
-- Briefly, because we won't be using it this semester (but if want to use inheritance on an assignment, have at it!)
+- Briefly, because we won't be using it this semester (but if you want to use inheritance on an assignment, have at it!)
 
 ```js
 class Thing{
