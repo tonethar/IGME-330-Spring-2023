@@ -123,8 +123,45 @@ console.log(alien.fireDeathRay()); // Feel the power of my Evil ray!
 
 <hr>
 
-## III. A `CircleSprite` class
+## III. Building a `CircleSprite` class
 
-```js
+### III-A. Start code
 
+**sprites-start.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Sprites Start</title>
+	<style>canvas{ border: 1px solid black; }</style>
+	<script>
+	
+	"use strict";
+	const canvasWidth = 400, canvasHeight = 300;
+	
+	let ctx;
+
+	const loop = () => {
+    setTimeout(loop,1000/30);
+		ctx.fillRect(0,0,canvasWidth,canvasHeight);
+	}
+	
+	const init = () => {
+		ctx = canvas.getContext("2d");
+		canvas.width = canvasWidth;
+		canvas.height = canvasHeight;
+		loop();
+	};
+	
+	window.onload = init;
+
+	</script>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+
+</body>
+</html>
 ```
