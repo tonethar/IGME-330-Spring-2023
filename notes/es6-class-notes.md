@@ -21,7 +21,7 @@ class Thing{
 // Create an instance of that class
 let thing = new Thing("Slimy");
 console.log(thing); // Thing {type: 'Slimy'}
-console.log(thing.sayHello());
+console.log(thing.sayHello()); // I am a Thing of type=Slimy
 ```
 
 <hr>
@@ -43,14 +43,21 @@ const Thing2 = class{
 // gives us the same thing
 let thing2 = new Thing2("Smelly");
 console.log(thing2); // Thing2 {type: 'Smelly'}
-console.log(thing2.sayHello());
+console.log(thing2.sayHello()); // I am a Thing2 of type=Smelly
 ```
 
-- Function constructors - the usual way to simulate classes before ES6
+- [Function constructors](https://javascript.info/constructor-new) - the usual JS way to simulate classes before ES6
 
 ```js
 function Thing3(type){
-  constructor(type){
-    this.type = type;
-  }
+  this.type = type;
+}
+
+Thing3.prototype.sayHello = function(){
+  console.log(`I am a ${this.constructor.name} of type=${this.type}`);
+};
+
+let thing3 = new Thing3("Stinky");
+console.log(thing3); // Thing3 {type: 'Stinky'}
+console.log(thing3.sayHello()); // I am a Thing3 of type=Stinky
 ```
