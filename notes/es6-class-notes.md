@@ -20,3 +20,19 @@ let thing = new Thing("Slimy");
 console.log(thing); // Thing {type: 'Slimy'}
 ```
 
+<hr>
+
+### I-A. More ways to define a class
+
+```js
+// Assign an anonymous class to a variable
+const Thing2 = class{
+  constructor(type){
+    this.type = type;
+  }
+};
+
+// gives us the same thing
+let thing2 = new Thing2("Smelly");
+console.log(thing2); // Thing {type: 'Smelly'}
+```
