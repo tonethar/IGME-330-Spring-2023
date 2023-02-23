@@ -74,3 +74,27 @@ const thing4 = {
 console.log(thing4); // {type: 'Slippery', sayHello: ƒ}
 console.log(thing4.sayHello()); // I am a Object of type=Slippery
 ```
+
+### I-B. These 4 versions look and behave similarly
+
+```js
+console.log(thing);
+console.log(thing2);
+console.log(thing3);
+console.log(thing4);
+```
+
+![screenshot](_images/objects-classes-2.png)
+
+- For today we'll just use the regular `class` way (`Thing` above)
+
+<hr>
+
+## II. Inheritance
+
+- Briefly, because we won't be using it this semester (but if want to use inheritance on an assignment, have at it!)
+
+```js
+
+```
+
