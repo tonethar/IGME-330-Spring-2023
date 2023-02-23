@@ -1,8 +1,7 @@
 # Checkoff - "Phyllo-classy"
 
+## I. Overview
 - Mission: Modify the Phyllotaxis assignment to utilize an ES6 class
-
-## I. Start code
 - Your starting point can be:
   - the completed version of your Phyllotaxis app from [PE-05 - Algorthmic Botany](../pe/pe-05.md)
   - OR the start file below (a demo version of Phyllotaxis from class)
