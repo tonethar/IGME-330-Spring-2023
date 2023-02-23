@@ -222,6 +222,10 @@ arc created
 
 <hr>
 
+![screenshot](_images/objects-classes-3.gif)
+
+<hr>
+
 ### III-E. One more thing - `Object.assign()`
 
 - Check it out here - [`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
