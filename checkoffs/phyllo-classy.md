@@ -101,8 +101,8 @@
   - You'll need `init` and `loop` methods
 - Put them on the screen, one on the left side, the other on the right, and call their `draw()` methods
 - Here's an example:
-  - `new PhylloFlower(200,200,137.5,4)` - on left
-  - `new PhylloFlower(450,200,137.1,3)` - on right
+  - `new PhylloFlower(200, 200, 137.5, 4)` - on left
+  - `new PhylloFlower(450, 200, 137.1, 3)` - on right
 
 <hr>
 
