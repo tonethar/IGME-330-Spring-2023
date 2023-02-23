@@ -84,8 +84,8 @@
 ## III. Create the `PhylloFlower` class
 
 - Convert the Phyllotaxis code to utilze an ES6 class named `PhylloFlower`, which has:
-  - `update()` and `draw()` methods
-  -  `n`, `x`, `y`, `divergence` and `c` properties
+  - a `draw()` method that takes a `ctx` argument
+  - a constrctor that intitializes  `n`, `x`, `y`, `divergence` and `c` properties
     -  `n` should be initialized to `0` in your constructor
     -  The values of the other 4 properties must be passed into the constructor as parameters
 
@@ -97,7 +97,7 @@
 - Create 2 instances of `PhylloFlower` with distinct constructor values
   - You'll need a `sprites` array of course
   - You'll need `init` and `loop` methods
-- Put them on the screen, one on the left side, the other on the right, and call their `update()` and `draw()` methods
+- Put them on the screen, one on the left side, the other on the right, and call their `draw()` methods
 
 <hr>
 
