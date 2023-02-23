@@ -72,6 +72,6 @@ const thing4 = {
   }
 };
 
-console.log(thing4); // Thing4 {type: 'Slippery'}
-console.log(thing4.sayHello()); // I am a Thing4 of type=Slippery
+console.log(thing4); // {type: 'Slippery', sayHello: ƒ}
+console.log(thing4.sayHello()); // I am a Object of type=Slippery
 ```
