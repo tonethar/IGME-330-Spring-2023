@@ -139,20 +139,20 @@ console.log(alien.fireDeathRay()); // Feel the power of my Evil ray!
 	<script>
 	
 	"use strict";
-	const canvasWidth = 400, canvasHeight = 300;
+	const canvasWidth = 640, canvasHeight = 480;
 	
 	let ctx;
 
 	const loop = () => {
-          setTimeout(loop,1000/60);
-          ctx.fillRect(0,0,canvasWidth,canvasHeight);
+    setTimeout(loop, 1000/60);
+		ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 	}
 	
 	const init = () => {
-	  ctx = canvas.getContext("2d");
-	  canvas.width = canvasWidth;
-	  canvas.height = canvasHeight;
-	  loop();
+		ctx = canvas.getContext("2d");
+		canvas.width = canvasWidth;
+		canvas.height = canvasHeight;
+		loop();
 	};
 	
 	window.onload = init;
@@ -196,5 +196,7 @@ class CircleSprite{
 
 ### III-C. Create instances of `CircleSprite`
 
-
+- Right after where `ctx` is declared, declare a variable named `sprites` that points at an empty array
+- Inside of `init`, create 2 instances of `CircleSprite` and add them to the array
+  - `CircleSprite` #1 - x=100, y=100, radius = 20, color = green
 
