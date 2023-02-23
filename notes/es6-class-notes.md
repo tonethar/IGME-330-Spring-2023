@@ -197,7 +197,7 @@ class CircleSprite{
 ### III-C. Create instances of `CircleSprite`
 
 - Right after where `ctx` is declared, declare a variable named `sprites` that points at an empty array
-- Inside of `init`, create 2 instances of `CircleSprite` and add them to the array
+- Inside of `init`, and *before* the call to `loop()`, create 2 instances of `CircleSprite` and add them to the array
   - `CircleSprite` #1 - x=100, y=100, radius = 20, color = green
   - `CircleSprite` #2 - x=100, y=200, radius = 30, color = red
   - Log out the `sprites` array to be sure that you were successful - check the console - it should appear similar to below:
