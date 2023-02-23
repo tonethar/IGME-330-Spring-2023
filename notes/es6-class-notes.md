@@ -13,26 +13,44 @@ class Thing{
   constructor(type){
     this.type = type;
   }
+  sayHello(){
+    console.log(`I am a ${this.constructor} of type=${this.type}`);
+  }
 }
 
 // Create an instance of that class
 let thing = new Thing("Slimy");
 console.log(thing); // Thing {type: 'Slimy'}
+console.log(thing.sayHello());
 ```
 
 <hr>
 
 ### I-A. More ways to define a class
 
+- Assign an anonymous class to a *variable*
+
 ```js
-// Assign an anonymous class to a variable
 const Thing2 = class{
   constructor(type){
     this.type = type;
+  }
+  sayHello(){
+    console.log(`I am a ${this.constructor} of type=${this.type}`);
   }
 };
 
 // gives us the same thing
 let thing2 = new Thing2("Smelly");
-console.log(thing2); // Thing {type: 'Smelly'}
+console.log(thing2); // Thing2 {type: 'Smelly'}
+console.log(thing2.sayHello());
+```
+
+- Function constructors - the usual way to simulate classes before ES6
+
+```js
+function Thing3(type){
+  constructor(type){
+    this.type = type;
+  }
 ```
