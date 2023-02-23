@@ -205,6 +205,6 @@ class CircleSprite{
 ```js
 (2) [CircleSprite, CircleSprite]
   0: CircleSprite {x: 100, y: 100, radius: 20, color: 'green'}
-  1: CircleSprite {x: 100, y: 300, radius: 30, color: 'red'}
+  1: CircleSprite {x: 100, y: 200, radius: 30, color: 'red'}
 ```
 
