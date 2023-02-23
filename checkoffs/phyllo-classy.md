@@ -42,7 +42,7 @@
 	}
 	
 	function loop(){
-    setTimeout(loop,1000/30);
+                setTimeout(loop,1000/30);
 		let a = n * dtr(divergence);
 		let r = c * Math.sqrt(n);
 		let x = r * Math.cos(a) + canvasWidth/2;
