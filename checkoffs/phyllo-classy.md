@@ -99,7 +99,7 @@
 ## V. Submission
 
 - You are free to put the `PhylloFlower` class in the HTML file, or in a separate JS file
-  - if you have multiple files, name your root folder ***lastName-firstInitial*-phylloclassy**
+  - if you have multiple HTML & JS files, name your root folder ***lastName-firstInitial*-phylloclassy**
   - if you have everything in just 1 HTML file, name your HTML file ***lastName-firstInitial*-phylloclassy.html**
 - ZIP and post the folder (or file) to myCourses
 
