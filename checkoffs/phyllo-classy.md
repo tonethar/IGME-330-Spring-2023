@@ -85,7 +85,9 @@
 
 - Convert the Phyllotaxis code to utilze an ES6 class named `PhylloFlower`, which has:
   - `update()` and `draw()` methods
-  - `x`, `y`, `n`, `divergence` and `c` properties
+  -  `n`, `x`, `y`, `divergence` and `c` properties
+    -  `n` should be initialized to `0` in your constructor
+    -  The values of the other 4 properties must be passed into the constructor as parameters
 
 
 <hr>
