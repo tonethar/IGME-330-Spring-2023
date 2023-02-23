@@ -1,6 +1,6 @@
 # Checkoff - "Phyllo-classy"
 
-- Mission: Convert the Phyllotaxis assignment to utilize an ES6 class
+- Mission: Modify the Phyllotaxis assignment to utilize an ES6 class
 
 ## I. Start code
 - Your starting point can be:
@@ -12,7 +12,77 @@
 
 <hr>
 
-## II. Create the `PhylloFlower` class
+## II. Start code
+- Use this if you want
+
+**phylloclassy-START.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Phyllo-Classy Start</title>
+	<style>canvas{ border: 1px solid black; }</style>
+	<script>
+	
+	"use strict";
+	const canvasWidth = 640, canvasHeight = 480;
+	let n = 0;
+	const divergence = 137.5;
+	const c = 4;
+	
+	let ctx;
+
+	function init(){
+		ctx = canvas.getContext("2d");
+		canvas.width = canvasWidth;
+		canvas.height = canvasHeight;
+		ctx.fillRect(0,0,canvasWidth,canvasHeight);
+		loop();
+	}
+	
+	function loop(){
+    setTimeout(loop,1000/30);
+		let a = n * dtr(divergence);
+		let r = c * Math.sqrt(n);
+		let x = r * Math.cos(a) + canvasWidth/2;
+		let y = r * Math.sin(a) + canvasHeight/2;
+		let color = `hsl(${n/5 % 361},100%,50%)`;
+		drawCircle(ctx,x,y,2,color);
+   	n++;
+	}
+
+
+	// helpers
+	function dtr(degrees){
+		return degrees * (Math.PI/180);
+	}
+
+	function drawCircle(ctx,x,y,radius,color){
+		ctx.save();
+		ctx.fillStyle = color;
+		ctx.beginPath();
+		ctx.arc(x,y,radius,0,Math.PI * 2);
+		ctx.closePath();
+		ctx.fill();
+		ctx.restore();
+	}
+	
+	window.onload = init;
+
+	</script>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+
+</body>
+</html>
+```
+
+<hr>
+
+## III. Create the `PhylloFlower` class
 
 - Convert the Phyllotaxis code to utilze an ES6 class named `PhylloFlower`, which has:
   - `update()` and `draw()` methods
@@ -20,14 +90,14 @@
 
 <hr>
 
-## III. Create instances of `PhylloFlower`
+## IV. Create instances of `PhylloFlower`
 
 - Create instances of `PhylloFlower`
 - Put them on the screen and animate them
 
 <hr>
 
-## IV. Submission
+## V. Submission
 
 - You are free to put the `PhylloFlower` class in the HTML file, or in a separate JS file
   - if you have multiple files, name your root folder ***lastName-firstInitial*-phylloclassy**
