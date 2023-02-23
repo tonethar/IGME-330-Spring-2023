@@ -121,3 +121,10 @@ console.log(alien.sayHello()); // I am a AlienThing of type=Slinky
 console.log(alien.fireDeathRay()); // Feel the power of my Evil ray!
 ```
 
+<hr>
+
+## III. A `CircleSprite` class
+
+```js
+
+```
