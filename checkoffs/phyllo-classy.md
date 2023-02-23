@@ -84,12 +84,13 @@
 ## III. Create the `PhylloFlower` class
 
 - Convert the Phyllotaxis code to utilze an ES6 class named `PhylloFlower`, which has:
-  - a `draw()` method that takes a `ctx` argument
-    - HINT: replace `canvasWidth/2` and `canvasHeight/2` with `this.centerX` and `this.centerY`
   - a constructor that initializes  `n`, `centerX`, `centerY`, `divergence` and `c` properties
     -  `n` should be initialized to `0` in your constructor
     -  The values of the other 4 properties must be passed into the constructor as parameters
+  - a `draw()` method that takes a `ctx` argument
+    - HINT: replace `canvasWidth/2` and `canvasHeight/2` with `this.centerX` and `this.centerY`
   - the `dtr()` and `drawCircle()` code can get ported to this class
+  - another HINT: You'll be adding a lot of `this.` code
 
 <hr>
 
