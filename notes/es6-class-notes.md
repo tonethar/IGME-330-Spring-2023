@@ -138,21 +138,21 @@ console.log(alien.fireDeathRay()); // Feel the power of my Evil ray!
 	<style>canvas{ border: 1px solid black; }</style>
 	<script>
 	
-	"use strict";
-	const canvasWidth = 640, canvasHeight = 480;
+        "use strict";
+        const canvasWidth = 640, canvasHeight = 480;
 	
-	let ctx;
+        let ctx;
 
 	const loop = () => {
-    setTimeout(loop, 1000/60);
-		ctx.fillRect(0, 0, canvasWidth, canvasHeight);
+          setTimeout(loop, 1000/60);
+          ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 	}
 	
 	const init = () => {
-		ctx = canvas.getContext("2d");
-		canvas.width = canvasWidth;
-		canvas.height = canvasHeight;
-		loop();
+          ctx = canvas.getContext("2d");
+          canvas.width = canvasWidth;
+          canvas.height = canvasHeight;
+          loop();
 	};
 	
 	window.onload = init;
