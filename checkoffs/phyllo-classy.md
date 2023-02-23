@@ -12,7 +12,7 @@
 <hr>
 
 ## II. Start code
-- Use this if you want
+- Use this if you want, or use your PE-05 code
 
 **phylloclassy-START.html**
 
