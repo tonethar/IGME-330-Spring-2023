@@ -100,7 +100,13 @@
 - Put them on the screen, one on the left side, the other on the right, and call their `draw()` methods
 - Here's an example - for `new PhylloFlower(200,200,137.5,4)` and `new PhylloFlower(450,200,137.1,3)`
 
+<hr>
+
 ![screenshot](_images/phyllo-classy-1.gif)
+
+<hr>
+
+- Add additional constructor parameters if you want - an `fps` property for example - or a fucntion that calculates the `color` of each petal, etc
 
 <hr>
 
