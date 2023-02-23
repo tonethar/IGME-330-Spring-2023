@@ -280,7 +280,7 @@ let obj = {
   "population" : 2697000
 };
 
-// E6 "shorthand" way to initializa object properties
+// E6 "shorthand" way to initialize object properties
 let obj2 = {
   city, // "city" will be the name of the property, and the value of the city variable will be the value of the property
   founded, // ditto
