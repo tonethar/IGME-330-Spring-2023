@@ -1,4 +1,4 @@
-# ES6 Objects
+# ES6 Object Notes
 
 ## Overview
 - A software *object* is an entity which defines:
