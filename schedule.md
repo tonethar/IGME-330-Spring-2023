@@ -23,7 +23,7 @@
 | 09 | **03/21** & **03/23** | TBA |
 |    |                       | *[GDC - All Week](https://gdconf.com/)* |
 | 10 | **03/28** & **03/30** | TBA |
-|    |  | **Exam #2** given in-class on Thursday 3/30** |
+|    |  | **Exam #2 given in-class on Thursday 3/30** |
 | 11 | **04/04** & **04/06** | TBA |
 | 12 | **04/11** & **04/13** | TBA |
 | 13 | **04/18** & **04/20** | TBA |
