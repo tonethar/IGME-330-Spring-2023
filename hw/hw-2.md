@@ -69,6 +69,7 @@
   - lines with `ctx.moveTo()` and `ctx.lineTo()`
   - curves with `ctx.arcTo()`, `ctx.bezierCurveTo()`, `ctx.quadraticCurveTo()`
   - gradients and images - animated or otherwise
+  - interesting applications of `ctx.translate()`, `ctx.rotate()` and `ctx.scale()`
   - resources - [Canvas IV - Gradients & Bezier Curves](https://github.com/tonethar/IGME-330-Master/blob/master/notes/canvas-4.md)
 
 <hr>
