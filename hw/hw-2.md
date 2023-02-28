@@ -80,7 +80,7 @@
   - III. Tell us your Sprite's class name, what it looks like/what it does in the visualization
   - IV. Tell us what app data you put in your **av-data.json** file
   - V. Tell us how you improved the aesthetics of the app over the AV HW:
-    - be sure to give yourself a grade for this section, between 0% and 15%
+    - ***be sure to give yourself a grade for this section, between 0% and 15%***
     - 0% would be if there was not a meaningful improvement over the AV HW
     - 15% would be substantial improvement over the AV HW - a "wow" experience
     - and everything in between
