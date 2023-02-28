@@ -48,7 +48,7 @@
   - Use a JSON validation tool - like https://jsonlint.com/ - to be sure that your JSON is valid and well-formed
 - Required data:
   - 1) The **title** of your app
-        - this will appear in the `<title>` of th HTML page, and possibly an `<h1>` on the page
+        - this will appear in the `<title>` of the HTML page, and possibly in an `<h1>` on the page
   - 2) The file names of your app's audio files, AND any other associated *meta data* (for example, the name of each track)
   - 3) At least ONE other piece of information - for example:
         - app instructions
