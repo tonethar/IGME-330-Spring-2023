@@ -148,3 +148,11 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
 - **V. Aesthetic Requirements - 0%-15%**
 - **VI. Documentation Requirements**
   - (-10%) if not done
+
+<hr>
+
+## IX. Submission
+
+- Put the files from above into a parent folder named lastName-firstInitial-hw-2
+  - (-5%) for a misnamed folder
+- ZIP the folder and post to myCourses
