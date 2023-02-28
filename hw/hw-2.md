@@ -13,7 +13,7 @@
   - `playButton` to `btn-play`
   - `volumeSlider` to `slider-volume`
   - `gradientCB` to `cb-gradient` and so on
-- Convert ALL regular functions to arrow functions
+- Convert ALL regular functions (delared with the `function` keyword) to arrow functions
 - ***But don't worry about the sound files names - they don't have to follow the naming standards***
 
 
