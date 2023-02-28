@@ -35,6 +35,8 @@
 - Add at least 2 instances of a *Sprite* to the AV
   - Create an ES6 class with `update()` and `draw()` methods (similar to what we did with `CircleSprite`, and in the "Phyllo Classy" checkoff)
   - Periodically animate these sprites and change their state in some way that reflects the change in the audio data
+- Make sure that your visualizer does not run at more than 60 FPS on a user's machine:
+  - get rid of the `requestAnimationFrame()` code and replace it with [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 
 <hr>
 
