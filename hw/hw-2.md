@@ -7,7 +7,7 @@
 
 <hr>
 
-## I. Refactor the code to our course coding standards
+## I. Refactor the starting code to meet our course coding standards
 - [IGME-330 - Course Code Style Requirements](../notes/code-style-required-330.md)
 - HTML DOM element `id` values:
   - `playButton` to `btn-play`
