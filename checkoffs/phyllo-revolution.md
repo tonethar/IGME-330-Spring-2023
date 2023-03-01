@@ -7,9 +7,11 @@
 <hr>
 
 
-## II. Create `RotatingPhylloFlower`
-- Make a copy of your `PhylloFlower` and name it `RotatingPhylloFlower`
+## II. Create a `RotatingPhylloFlower` class
+- Make a copy of your `PhylloFlower` class and name it `RotatingPhylloFlower`
   - if you really want to, you can use class inheritance instead of just copying the entire class (but you don't have to)
+  - update the rest of your code (replace `PhylloFlower` with `RotatingPhylloFlower`) and be sure that everything still works
+- XX
 
 <hr>
 
