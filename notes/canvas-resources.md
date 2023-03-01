@@ -1,6 +1,6 @@
 # Canvas & WebAudio Resources
 
-## I. Web Audio Concepts& Notes
+## I. Web Audio Concepts & Notes
 
 - [Web Audio I - Build a Simple Audio Visualizer](https://github.com/tonethar/IGME-330-Master/master/notes/demo-web-audio-1.md)
 - [Web Audio II - Treble, Bass & Distortion Nodes](https://github.com/tonethar/IGME-330-Master/master/notes/demo-web-audio-2.md)
@@ -11,11 +11,20 @@
 
 <hr>
 
-## II. Canvas Concepts
+## II. WebAudio Book Resources
+
+- [Web Audio Study Guide - Chapter 1 - *Fundamentals*](https://github.com/tonethar/IGME-330-Master/master/notes/web-audio-chapter-1.md)
+- [Web Audio Study Guide - Chapter 2 - *Perfect Timing and Latency*](https://github.com/tonethar/IGME-330-Master/master/notes/web-audio-chapter-2.md)
+- [Web Audio Study Guide - Chapter 3 - *Volume and Loudness*](https://github.com/tonethar/IGME-330-Master/master/notes/web-audio-chapter-3.md)
+- [Web Audio Study Guide - Chapter 4 - *Pitch and the Frequency Domain*](https://github.com/tonethar/IGME-330-Master/master/notes/web-audio-chapter-4.md)
 
 <hr>
 
-## III. Canvas Examples
+## III. Canvas Concepts
+
+<hr>
+
+## IV. Canvas Examples
 - [Random Walker](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-random-walker.md)
 - [Conway's Life](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-canvas-life.md)
 - [Extra Credit - Lorenz Attractor](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-lorenz-attractor.md)
@@ -24,4 +33,4 @@
 
 <hr>
 
-## IV. Bitmaps
+## V. Bitmaps
