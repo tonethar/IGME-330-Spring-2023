@@ -45,3 +45,4 @@
 - #2 - DatGUI - Minimalist UI
     - working link is here --> http://igm.rit.edu/~acjvks/courses/shared/330/demos/datGUI-demo/
     - files are in myCourses
+- #3 - [Canvas - Drawing images & Blending Modes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/canvas-5.md)
