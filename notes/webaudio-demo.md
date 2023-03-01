@@ -4,7 +4,8 @@
 
 - [Web Audio I - Build a Simple Audio Visualizer](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-1.md)
 - Video Links:
- - XX
+  - [Part I-A (08:45)]()
+  - [Part I-B (16:40)]()
 
 <hr>
 
