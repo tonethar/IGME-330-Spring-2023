@@ -7,7 +7,9 @@
 <hr>
 
 
-## II. XX
+## II. Create `RotatingPhylloFlower`
+- Make a copy of your `PhylloFlower` and name it `RotatingPhylloFlower`
+  - if you really want to, you can use class inheritance instead of just copying the entire class (but you don't have to)
 
 <hr>
 
@@ -23,7 +25,7 @@
 
 ## IV. Submission
 
-- You are free to put the `PhylloFlower` class in the HTML file, or in a separate JS file
+- You are free to put the `RotatingPhylloFlower` class in the HTML file, or in a separate JS file
   - if you have multiple HTML & JS files, name your root folder ***lastName-firstInitial*-phyllo-revolution**
   - if you have everything in just 1 HTML file, name the file ***lastName-firstInitial*-phyllo-revolution.html**
 - ZIP and post the folder (or file) to myCourses
