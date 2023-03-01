@@ -1,4 +1,4 @@
-# Canvas & WebAudio Resources
+# Canvas & Web Audio Resources
 
 ## I. Web Audio Concepts & Notes
 
