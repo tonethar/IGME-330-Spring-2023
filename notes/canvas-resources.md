@@ -33,11 +33,7 @@
 
 <hr>
 
-## V. Bitmaps
-
-<hr>
-
-## VI. More Demos
+## V. Demos
 
 - #1 - To get the ***smoothest canvas animations***, and to account for the differing frame rates that [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) gives you depending on the machine (and monitor) your JS is running on, it's best to calculate a "delta time" to use when drawing animations, and to also consider pausing/unpausing your animations (esp. for a game) when the window goes out of focus:
   - see demos here: https://people.rit.edu/~acjvks/shared/330/canvas/smooth-animation/
