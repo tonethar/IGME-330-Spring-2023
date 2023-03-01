@@ -2,7 +2,7 @@
 
 ## I. Overview
 - Mission: Modify the "Phyllo-Classy" assignment to utilize rotation
-- Resource: [Canvas 2D Essential Skills #8 - Canvas Transformations](../notes/es6-class-notes.md](https://github.com/tonethar/IGME-330-Master/blob/master/notes/8-canvas-transformations.md)
+- Resource: [Canvas 2D Essential Skills #8 - Canvas Transformations](https://github.com/tonethar/IGME-330-Master/blob/master/notes/8-canvas-transformations.md)
 
 <hr>
 
