@@ -96,7 +96,10 @@
 
 - [Audio Visualizer Project Showcase Video (2181)](https://video.rit.edu/Watch/Si56JxGd) - projects are shown starting at 5:00
 
-### VII-B. Creating reusable functions will help a lot
+### VII-B. Resources
+- [Canvas & Web Audio Resources](../notes/canvas-resources.md)
+
+### VII-C. Creating reusable functions will help a lot
 
 - DRY - multiple parts of your code can call these functions
 - you can easily modify function parameters and test your ideas
@@ -114,7 +117,7 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
 ```
 
 
-### VII-C. Lastly, ***What else can help us create an effective audio visualization?***
+### VII-D. Lastly, ***What else can help us create an effective audio visualization?***
 
 1. There should be an analogous relationship between the sound data and what users are seeing on the screen - drawing should not be random like our "screen savers" HW assigments were. Can you instead help your viewer **learn** about sound & music by making new connections, and seeing new patterns, such as:
     - visualizing the "beat"
