@@ -12,7 +12,7 @@
 <hr>
 
 ## II. Treble, Bass & Distortion Nodes
-
-- [Web Audio II - Treble, Bass & Distortion Nodes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-2.md)
+- Notes and start code are here:
+  - [Web Audio II - Treble, Bass & Distortion Nodes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-2.md)
 - Video Links:
- - XX
+  - TBA
