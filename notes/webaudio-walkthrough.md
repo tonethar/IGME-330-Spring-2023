@@ -5,7 +5,7 @@
 - [Web Audio I - Build a Simple Audio Visualizer](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-1.md)
 - Looks pretty good - uses translate/rotate/scale
 - Video Links:
-  - [Part I-A (08:45)]()
+  - [Part I-A (08:45)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6051d883-972f-40d6-9d0a-afb800eb0cc7)
   - [Part I-B (16:40)]()
 
 <hr>
