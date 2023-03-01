@@ -13,10 +13,10 @@
 
 ## II. WebAudio Book Resources
 
-- [Web Audio Study Guide - Chapter 1 - *Fundamentals*](https://github.com/tonethar/IGME-330-Master/master/notes/web-audio-chapter-1.md)
-- [Web Audio Study Guide - Chapter 2 - *Perfect Timing and Latency*](https://github.com/tonethar/IGME-330-Master/master/notes/web-audio-chapter-2.md)
-- [Web Audio Study Guide - Chapter 3 - *Volume and Loudness*](https://github.com/tonethar/IGME-330-Master/master/notes/web-audio-chapter-3.md)
-- [Web Audio Study Guide - Chapter 4 - *Pitch and the Frequency Domain*](https://github.com/tonethar/IGME-330-Master/master/notes/web-audio-chapter-4.md)
+- [Web Audio Study Guide - Chapter 1 - *Fundamentals*](https://github.com/tonethar/IGME-330-Master/tree/master/notes/web-audio-chapter-1.md)
+- [Web Audio Study Guide - Chapter 2 - *Perfect Timing and Latency*](https://github.com/tonethar/IGME-330-Master/tree/master/notesweb-audio-chapter-2.md)
+- [Web Audio Study Guide - Chapter 3 - *Volume and Loudness*](https://github.com/tonethar/IGME-330-Master/tree/master/notesweb-audio-chapter-3.md)
+- [Web Audio Study Guide - Chapter 4 - *Pitch and the Frequency Domain*](https://github.com/tonethar/IGME-330-Master/tree/master/notesweb-audio-chapter-4.md)
 
 <hr>
 
