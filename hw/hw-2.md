@@ -97,6 +97,7 @@
 - [Audio Visualizer Project Showcase Video (2181)](https://video.rit.edu/Watch/Si56JxGd) - projects are shown starting at 5:00
 
 ### VII-B. Resources
+- [Web Audio WalkThrough](../notes/webaudio-walkthrough.md) - covers bass and treble node, as well as better looking drawing with translate/rotate/scale
 - [Canvas & Web Audio Resources](../notes/canvas-resources.md)
 
 ### VII-C. Creating reusable functions will help a lot
