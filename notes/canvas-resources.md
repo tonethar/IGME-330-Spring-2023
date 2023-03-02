@@ -2,8 +2,9 @@
 
 ## I. Web Audio Concepts & Notes
 
-- [Web Audio I - Build a Simple Audio Visualizer](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-1.md)
-- [Web Audio II - Treble, Bass & Distortion Nodes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-2.md)
+- [Web Audio Walkthrough (has videos)](webaudio-walkthrough.md)
+  - [Web Audio I - Build a Simple Audio Visualizer](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-1.md)
+  - [Web Audio II - Treble, Bass & Distortion Nodes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-2.md)
 - [Web Audio III - File Chooser](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-3.md)
 - [Web Audio IV - Audio Concepts Review](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-4.md)
 - [Web Audio V - The WebAudio Convolver Node](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-5.md)
