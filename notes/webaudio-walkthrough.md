@@ -17,4 +17,4 @@
 - Notes and start code are here:
   - [Web Audio II - Treble, Bass & Distortion Nodes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-2.md)
 - Video Links:
-  - [Part II-A (15:24)]() - no rehearsal and one take!
+  - [Part II-A (15:24)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=99ca8c2a-afb5-45a9-9c13-afb9000fd029) - no rehearsal and one take!
