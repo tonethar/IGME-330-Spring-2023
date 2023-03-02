@@ -2,7 +2,7 @@
 
 ## Overview
 - Build your ***ultimate version*** of the Audio Visualizer!
-- Your starting point is the "done" version of [PE-06 - Audio Visualizer](../pe/pe-06.md)
+- Your starting point MUST be the "done" version of [PE-06 - Audio Visualizer](../pe/pe-06.md)
 
 
 <hr>
@@ -154,6 +154,7 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
 - **V. Aesthetic Requirements - 0%-15%**
 - **VI. Documentation Requirements**
   - (-10%) if not done
+- ***Starting point is NOT PE-06 Audio Visulizer - (-100%)***
 
 <hr>
 
