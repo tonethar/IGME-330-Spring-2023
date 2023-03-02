@@ -22,7 +22,7 @@
 ## II. User Experience Requirements (35%)
 - Add 2 Audio Effect nodes to the audio routing graph: 
   - for example, a "Bass" and "Treble" node - which would be instances of [BiquadFilterNode](https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode)
-  - we will review these 2 in particular, in-class 
+  - these have been reviewed in **Web Audio WalkThrough** (linked in VII-B. below)
   - the user must be able to control these nodes - for example with either a checkbox or a slider
 - Give the user the ability to toggle between the visualization using the ["frequency data"](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getByteFrequencyData) (what we did already in the AV exercise) and the "time domain" (i.e. waveform) data.
   - The user control could be a checkbox, pull-down (i.e. a `<select>`) or 2 radio buttons
