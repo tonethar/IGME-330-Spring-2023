@@ -1,6 +1,15 @@
 # Canvas & Web Audio Resources
 
-## I. Web Audio Concepts & Notes
+## I. PE-06 - Audio Visualizer
+
+- [PE-06 - Audio Visualizer](../pe/pe-06.md)
+  - Audio Visualizer - Part I
+  - Audio Visualizer - Part II
+  - Audio Visualizer - Part III
+
+<hr>
+
+## II. Web Audio Concepts & Notes
 
 - [Web Audio Walkthrough (has videos)](webaudio-walkthrough.md)
   - [Web Audio I - Build a Simple Audio Visualizer](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-1.md)
@@ -12,7 +21,7 @@
 
 <hr>
 
-## II. WebAudio Book Resources
+## III. WebAudio Book Resources
 
 - [Web Audio Study Guide - Chapter 1 - *Fundamentals*](https://github.com/tonethar/IGME-330-Master/tree/master/notes/web-audio-chapter-1.md)
 - [Web Audio Study Guide - Chapter 2 - *Perfect Timing and Latency*](https://github.com/tonethar/IGME-330-Master/tree/master/notes/web-audio-chapter-2.md)
@@ -21,7 +30,7 @@
 
 <hr>
 
-## III. Canvas Concepts
+## IV. Canvas Concepts
 
 - [Canvas 2D Essential Skills #1 - Intro to the Drawing Context](https://github.com/tonethar/IGME-330-Master/blob/master/notes/1-canvas-intro-to-drawing-context.md)
 - [Canvas 2D Essential Skills #2 - Paths & Lines & Arcs](https://github.com/tonethar/IGME-330-Master/blob/master/notes/2-canvas-paths-lines-arcs.md)
@@ -34,7 +43,7 @@
 
 <hr>
 
-## IV. Canvas Examples
+## V. Canvas Examples
 - [Random Walker](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-random-walker.md)
 - [Conway's Life](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-canvas-life.md)
 - [Lorenz Attractor](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-lorenz-attractor.md)
@@ -43,7 +52,7 @@
 
 <hr>
 
-## V. Demos
+## VI. Demos
 
 - #1 - To get the ***smoothest canvas animations***, and to account for the differing frame rates that [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) gives you depending on the machine (and monitor) your JS is running on, it's best to calculate a "delta time" to use when drawing animations, and to also consider pausing/unpausing your animations (esp. for a game) when the window goes out of focus:
   - see demos here: https://people.rit.edu/~acjvks/shared/330/canvas/smooth-animation/
