@@ -3,8 +3,9 @@
 - The questions below will help you practice for exam #2
 - You should try to write these out on paper first, and then live code the solution to see how close you were
 - Concepts covered:
-  - array.map() and array.join() with an array of object literls (most a review of what we saw on exam #1
+  - `array.map()` and `array.join()` with an array of object literls (most a review of what we saw on exam #1
   - creating an ES6 class, and an instance of that class
+  - `Object.create()` and the prototype chain
 
 <hr>
 
@@ -43,13 +44,19 @@
 	2) Create an ES6 class named Dog. 
 
 	2A) In the constructor of Dog initialize the 2 passed in arguments -
-	name and age - as properties.
+	`name` and `age` - as properties.
 
-	2B) Give the Dog class a bark() method, when called this method will log out 
-	"Woof, Woof my name is XXX" where XXX is the value of the .name property of the dog
+	2B) Give the Dog class a `bark()` method, when called this method will log out 
+	"Woof, Woof my name is XXX" where XXX is the value of the `.name` property of the dog instance
 
-	3) Create a new instance of Dog named dog1. Pass in "Wags" and 5 for the name and age.
-	3A) Write code that calls the bark method of dog1 
+	3) Create a new instance of Dog named `dog1`. Pass in "Wags" and 5 for the name and age.
+	3A) Write code that calls the `bark` method of `dog1` 
+	
+	4) Create a new object literal named `fancyDog` and set its prototype object to dog1 above.
+	Hint: Use Object.create()
+	4A) Add a `breed` property to `fancyDog` and give it a value of "Bichon Frisé"
+	4B) Call the `bark` method of `fancyDog` - it should log out "Woof, Woof my name is Wags"
+
 
 */
 
