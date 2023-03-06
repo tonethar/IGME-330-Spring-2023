@@ -25,7 +25,7 @@
   "use strict";
   
 /*
-	1)Use array.map() and array.join() to step through the pets array below and put the name and
+	1) Use array.map() and array.join() to step through the pets array below and put the name and
 		the age of each dog in an <li> tag, and then add it to the existing <ol> tag on the page.
 	
 	The final HTML will look like this after it is added:
