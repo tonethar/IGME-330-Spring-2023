@@ -3,8 +3,8 @@
 - The questions below will help you practice for exam #2
 - You should try to write these out on paper first, and then live code the solution to see how close you were
 - Concepts covered:
-  - `array.map()` and `array.join()` with an array of object literls (most a review of what we saw on exam #1
-  - creating an ES6 class, and an instance of that class
+  - `array.map()` and `array.join()` with an array of object literals (mostly a review of what we saw on exam #1
+  - creating an ES6 class, and an instance of that class)
   - `Object.create()` and the prototype chain
 
 <hr>
