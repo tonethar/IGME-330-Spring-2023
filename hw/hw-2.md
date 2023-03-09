@@ -171,7 +171,7 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
   - *Yes, feel free to do so. But keep them SFW - "Safe For Work"*
 - Do I have to use a Bass and Treble node, or can I do something else?
   - *The requirements state "Add 2 Audio Effect nodes to the audio routing graph" - the example given was a Bass and Treble effect, but you can use ANY audio effect node that you wish to meet this requirement*
-- Does the requirement 'Your starting point MUST be the "done" version of PE-06', does that mean that I have to keep all of the checkboxes, bitmap effects etc the same.
+- Regarding the requirement **Your starting point MUST be the "done" version of PE-06**, does that mean that I have to keep all of the checkboxes, bitmap effects etc the same.
   - *You are free to delete or modify any of the canvas code, checkboxes, digital effects, etc*
   - *What you MUST keep from the PE-06 assignment is the custom buttons (an `<audio>` element on the page is not allowed)*
   - *and you MUST retain the JS architecture of the app (i.e. **main.js**, **audio.js**, **utils.js**)*
