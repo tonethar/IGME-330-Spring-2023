@@ -163,3 +163,13 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
 - Put the files from above into a parent folder named lastName-firstInitial-hw-2
   - (-5%) for a misnamed folder
 - ZIP the folder and post to myCourses
+
+<hr>
+
+## X. FAQ
+- Can I change the audio files?
+  - *Yes, feel free to do so. But keep them SFW - "Safe For Work"*
+- Do I have to use a Bass and Treble node, or can I do something else?
+  - *The requirements state "Add 2 Audio Effect nodes to the audio routing graph" - the example given was a Bass and Treble effect, but you can use any audio effect node that you wish to meet this requirement*
+
+
