@@ -22,7 +22,7 @@ IV. [Have a cow!](#section4)
 
 V. [Next Steps](#section5)
 
-<hr>
+<hr><hr>
 
 <a id="section1"></a>
 
@@ -72,6 +72,8 @@ To see if you already have node and npm installed on your computer, type the fol
  
  <a id="section2"></a>
  
+ <hr>
+ 
 ## II. "Hello Node"
  
  Let's write a "Hello world" command-line script to be sure everything works:
@@ -85,7 +87,9 @@ To see if you already have node and npm installed on your computer, type the fol
   
  - in the console (or Terminal on Mac), change directory to the **hello** folder
  - type `node index.js` - you should now see the `"Hello node!"` message printed to the console
- 
+
+<hr>
+
 <a id="section3"></a>
   
 ## III. Downloading and displaying a simple "text" web service
