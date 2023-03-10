@@ -383,7 +383,7 @@ module: {
 
 <hr>
 	
-## XI. <a id="section11"> Bundling and transpiling Project 1
+## XI. <a id="section11"> Bundling and transpiling HW-2
 - Bundling and transpiling Project 1 (*Web App of Awesomeness*) is a little bit trickier because it's a *multi-page app*
 - Which means 3 entry points - **app.js**, **community.js** and **favorites.js**
 - And 3 bundled output files - **app-bundle.js**, **community-bundle.js** and **favorites-bundle.js**
