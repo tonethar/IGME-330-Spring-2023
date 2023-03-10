@@ -38,7 +38,7 @@ https://www.boredapi.com/api/activity
 
 - which gives you 1 random activity that looks like this:
 
-![screenshot](_images/node-web-services-2.jpg)
+![screenshot](_images/node-web-services-2.jpeg)
 
 - as you can see above, we are probably most interested in the `.activity` and `.type` and `.participants` properties
 - If your JSON isn't as nicely formatted as mine, it's because I am using the Chrome JSON Viewer extension which you can get here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
@@ -190,7 +190,7 @@ Things we are going to do in this section:
 
 ***Here's what mine looks like - I added a little formatting***
 
-![screenshot](_images/node-web-services-3.jpg)
+![screenshot](_images/node-web-services-3.jpeg)
 
 <hr>
 
