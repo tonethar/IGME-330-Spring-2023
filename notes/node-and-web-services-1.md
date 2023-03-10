@@ -152,6 +152,8 @@ request(url, (err, response, body) => {
   node index.js
   ```
 
+<hr>
+
 **SUCCESS! - You should see a joke in the console - something like:**
 
   ```
@@ -162,6 +164,8 @@ request(url, (err, response, body) => {
 
 
 <a id="section4"></a>
+
+<hr>
 
 ## IV. Have a cow!
 
@@ -180,11 +184,16 @@ console.log(cowsay.say({
 }));
 ```
 
+<hr>
+
 **Which gives, when you run this in the console (by typing `node index.js`):**
 
 ![screenshot](./_images/_node/node-web-services-5.jpeg)
 
 <a id="section5"></a>
+
+<hr>
+
 ## V. Next Steps
 
 - There isn't too much more to do with this example right now, as this web service has but one entry point (i.e. it does 1 thing and accepts no additional parameters)
