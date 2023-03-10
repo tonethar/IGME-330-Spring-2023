@@ -175,5 +175,9 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
   - *You are free to delete or modify any of the canvas code, checkboxes, digital effects, etc*
   - *What you MUST keep from the PE-06 assignment is the custom buttons (an `<audio>` element on the page is not allowed)*
   - *and you MUST retain the JS architecture of the app (i.e. **main.js**, **audio.js**, **utils.js**)*
+  - *at a BARE MINIMUM - YOU MUST STILL HAVE THE FOLLOWING CONTROLS from PE-06 (-15% per each one missing or not functional)*:
+    - Pause/Play button
+    - Volume Slider
+    - At least 4 checkboxes that change the visualization in some way (or these could be radio buttons, pull-downs, sliders etc)
 
 
