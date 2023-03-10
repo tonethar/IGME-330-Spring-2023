@@ -48,12 +48,11 @@ To see if you already have node and npm installed on your computer, type the fol
   
 ### A) How to install Node.js 
  
- - You can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
+ - You can head to https://nodejs.org/en/download/ - and grab an installer - instructions are here:
+   - https://docs.npmjs.com/getting-started/installing-node
  
- https://docs.npmjs.com/getting-started/installing-node
  
- 
-### B) Test that node and npm are installed
+### B) Test that `node` and `npm` are installed
  
  - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt (On a Mac use the *Terminal* application, on PC use *GitBash* or *Powershell* etc) to verify that `npm` is installed by typing:
  
@@ -62,7 +61,7 @@ To see if you already have node and npm installed on your computer, type the fol
    npm -v
    ```
  
- - After that, you can run the updater on npm by typing (Mac users will need `sudo` at the beginning of this command):
+ - After that, you can run the updater on `npm` by typing the following (Mac users will need `sudo` at the beginning of this command):
  
    ```js
    npm install npm@latest -g
