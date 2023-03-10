@@ -158,7 +158,7 @@ request(url, (err, response, body) => {
   "The First rule of Chuck Norris is: you do not talk about Chuck Norris."
   ```
 
-![screenshot](_images/_node/node-web-services-1.jpg)
+![screenshot](./_images/_node/node-web-services-1.jpeg)
 
 
 <a id="section4"></a>
@@ -182,7 +182,7 @@ console.log(cowsay.say({
 
 **Which gives, when you run this in the console (by typing `node index.js`):**
 
-![screenshot](_images/_node/node-web-services-5.jpg)
+![screenshot](./_images/_node/node-web-services-5.jpeg)
 
 <a id="section5"></a>
 ## V. Next Steps
