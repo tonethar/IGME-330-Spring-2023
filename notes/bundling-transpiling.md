@@ -329,6 +329,7 @@ npm install
 - But it has not yet been *transpiled* from ES5 to ES6 
 - In **webpack.config.js**, change the `mode` from `development` to `production`
 - Quit node in the console (if it's running) with control-c
+- Verify that the *current working directory* is the **greeter-modules** folder
 - Type `npm start` to load these **webpack.config.js** changes 
 - Open up **bundle.js** - you should see that all of the code has been jammed onto one line
   - it's inside of an IIFE actually
@@ -346,6 +347,8 @@ npm install
 ## IX. <a id="section9"> Install `babel-loader`
 - Reference: https://www.npmjs.com/package/babel-loader
 - To install **`babel-loader`**:
+  - quit node in the console (if it's running) with control-c
+  - verify that the *current working directory* is the **greeter-modules** folder
   - type: `npm install --save-dev babel-loader @babel/core @babel/preset-env`
   - then check **package.json** to see the `dev-dependencies:` that were added
   - and see that **node_modules** just got bigger with more babel-related files
