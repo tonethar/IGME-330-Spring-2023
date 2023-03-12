@@ -3,7 +3,7 @@
 
 ## Video Link
 
-- Video -> [Intro to Node.js - 1 (11:39)](XX)
+- Video -> [Intro to Node.js - 1 (11:39)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8026066f-26bf-47a3-b1c7-afc3012b596f)
 
 <hr>
 
