@@ -202,7 +202,7 @@ npm install webpack-cli --save-dev
 
 <hr>
  
-**4) Create a new file named *webpack.config.js***
+**4) Create a new file named *webpack.config.js*** (in the **greeter-modules** folder)
 
 - It needs to look like this:
 
