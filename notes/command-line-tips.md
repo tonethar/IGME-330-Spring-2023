@@ -2,7 +2,7 @@
 
 ## Video Link
 
-- Video -> [Command Line Tips (11:30)]()
+- Video -> [Command Line Tips (11:30)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e22fb8d4-2b36-4f94-9376-afc301206da3)
 
 <hr>
 
