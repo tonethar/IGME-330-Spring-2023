@@ -145,7 +145,9 @@ light switch, you will be dead before the lightbulb turns on."
 
 - Delete your **node_modules** folder
 - If you run your script again - go ahead an type `node index.js` - it fails! - because the **request** module and **cowsay** modules are nowhere to be found
-- To re-install (*meaning, download*) the **request** and **cowsay** module files - just type `npm install` (or `npm i` for short) - which will re-download the **request** and **cowsay** modules because they are both listed in the `"dependencies":` key of **package.json**
+- To re-install (*meaning, download*) the **request** and **cowsay** module files:
+  - just type `npm install` (or `npm i` for short)
+  - which will re-download the **request** and **cowsay** modules because they are both listed in the `"dependencies":` key of **package.json**
 - run your script again - `node index.js` - it succeeds!
 
 <a id="section3"></a>
@@ -167,8 +169,10 @@ light switch, you will be dead before the lightbulb turns on."
 - You can now run this command by typing:
   - `npm run start` (or just `npm start` for short)
   - Which should go ahead and run the app and display a joke
-- Go ahead and type `npm run test` (or just `npm test` for short) - to see what the default `"test"` script does - which is just a console log at this point - you can delete the `"test"` key/value if you want (because we are not going to be implementing any test scripts)
-- NB: This is a simple app so creating a "start" script doesn;t do much for us here, but ...
+- Go ahead and type `npm run test` (or just `npm test` for short) - to see what the default `"test"` script does
+  - which is just a console log at this point 
+  - you can delete the `"test"` key/value if you want (because we are not going to be implementing any test scripts)
+- NB: This is a simple app so creating a "start" script doesn't do much for us here, but ...
   - when you are working with more complex apps, creating this script is really helpful to yourself and others who are developing the app
   - Thus, whenever you download someone else's node project from the interwebs, you usually:
     - #1 - type in `npm i` to download all of the project dependencies
@@ -188,7 +192,7 @@ light switch, you will be dead before the lightbulb turns on."
   - put the screenshot into this new folder
   - ZIP and Post this folder to the myCourses dropbox
 - Rubric:
-  - (-5%) for misnamed fodler
+  - (-5%) for misnamed folder
   - (-50%) for missing screenshot
 
 <hr><hr>
