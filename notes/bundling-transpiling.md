@@ -24,6 +24,8 @@ X. [Test `babel-loader`](#section10)
 
 XI. [Bundling and transpiling Project 1](#section11)
 
+XII. [Submission](#section12)
+
 <hr>
 
 ## I. <a id="section1">What is *transpiling*?
