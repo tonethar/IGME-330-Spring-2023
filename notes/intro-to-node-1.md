@@ -1,13 +1,21 @@
-# Node.js and Web Services - 1
+# Intro to Node.js - 1
 
 ## Overview
 
-- By this point you have seen how we can access JSON web services from the web browser using JavaScript:
-  - [Web Apps Part 10 - Web Services](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md)
-  - [Homework: GIF Finder](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md)
-  - [Web Service App - Examples & Starters](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-service-app-starters.md)
+- **Node.js** is a command-line JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, [**npm**](https://www.npmjs.com/), is the largest ecosystem of open source libraries in the world
+  - https://nodejs.org/en/
+- Node.js runs on your local machine via the command line, or on a server, it does not run in the user's browser
+- What can it do?
+  - Run scripts and utilities on your local machine
+  - Run web servers, socket servers, etc out there on the interwebs
+  - And much more!
+- Let's try out writing some simple local scripts first
+  - "Code along" - *Consuming Web Services from a command-line Node.js app*:
+
+- In both IGME-235 & IGME-330 you have seen how we can access JSON web services from the web browser using JavaScript
 - We can also download web pages and services from the **command line** using [Node.js](https://nodejs.org/en/) - below we will work through a few examples, giving us more of a chance to work with both web services and Node.js
-- We will also see how we can easily create symbolic links with node and run these scripts as command line tools
+
+<hr>
 
 ## Contents
 
