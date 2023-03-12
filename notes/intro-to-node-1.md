@@ -41,10 +41,14 @@ V. [Next Steps](#section5)
 - **npm** is the package (i.e. "library") manager for JavaScript
   - https://www.npmjs.com
   - There are user-contributed packages for nearly *everything* that a JavaScript dev might want to do - where are links to some packages that we are using in this class (let's take a peek at these now):
-    - https://www.npmjs.com/package/request
+    - https://www.npmjs.com/package/request (this one is *deprecated*, but don't worry about that)
     - https://www.npmjs.com/package/cowsay
     - https://www.npmjs.com/package/webpack
+    - https://www.npmjs.com/package/babel-loader
+    - https://www.npmjs.com/package/typescript
+    - https://www.npmjs.com/package/webpack
     - https://www.npmjs.com/package/webpack-cli
+    - https://www.npmjs.com/package/webpack-dev-server
     
   
 To see if you already have node and npm installed on your computer, type the following in the console:
