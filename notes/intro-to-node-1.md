@@ -223,7 +223,14 @@ console.log(cowsay.say({
 - There isn't too much more to do with this example right now, as this web service has but one entry point (i.e. it does 1 thing and accepts no additional parameters)
 - Take a look inside of the **package.json** file that was created to see what's stored in there
 
-
+```
+{
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "request": "^2.88.2"
+  }
+}
+```
 
 <hr><hr>
 
