@@ -46,7 +46,7 @@ This will create your **package.json** file with the default metadata about your
 
 ```js
 {
-  "name": "hello-2",
+  "name": "joke-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
