@@ -38,13 +38,13 @@ V. [Homework](#section5)
   - if you need to, change directory into the **joke-2** folder
   - type:
 
-```js
+```console
 npm init -y
 ```
 
 This will create your **package.json** file with the default metadata about your project, which is stored in an object literal, and will look something like this:
 
-```js
+```json
 {
   "name": "joke-2",
   "version": "1.0.0",
@@ -73,14 +73,14 @@ This time, we are going to download the **request** module, and then *save this 
 - make sure that your current working directory is still the **joke-2** folder
 - type the following in:
 
-```js
+```console
 npm install request --save
 ```
 
 - This will download and install the **request** module and other dependencies to the **node_modules** folder just like last time
 - The `--save` flag is what tells **npm** to add a `"dependencies":` key to **package.json**, which you can see if you open the file:
 
-```js
+```json
 "dependencies": {
     "request": "^2.88.2"
   }
@@ -98,8 +98,11 @@ npm install request --save
   - type: `npm i cowsay`
 - The `"dependencies"` key now includes `cowsay`:
 
-```
-
+```json
+"dependencies": {
+  "cowsay": "^1.5.0",
+  "request": "^2.88.2"
+}
 ```
 
 - And if you look inside the **node_modules** folder - you should now see a **cowsay** folder
