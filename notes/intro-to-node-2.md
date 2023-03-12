@@ -1,5 +1,11 @@
 # Intro to Node.js - Part II
 
+## Video Link
+
+- Video -> [Intro to Node.js - 2 (09:35)]()
+
+<hr>
+
 ## Overview
 
 
