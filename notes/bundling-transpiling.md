@@ -420,3 +420,5 @@ module: {
 ![screenshot](./_images/_node/transpiling-1.png)
 
 <hr>
+	
+- PS - If you end up putting this up on banjo, you can (and should) also delete the following files, because they are not needed: **package.json**, **package-lock.json** and **webpack.config.js** (and also delete **documentation.txt**)
