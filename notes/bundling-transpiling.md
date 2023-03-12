@@ -398,6 +398,9 @@ module: {
 - Repeating the steps that you did above, except this time for you HW-2 files is all you need to do:
   - `cd` into the ***lastName*-*firstInitial*-hw-2** folder
   - create a node project with **npm** - `npm init -y`
+  - `npm install webpack --save-dev`
+  - `npm install webpack-cli --save-dev`
+  - and so on ...
 - When you are done, the AV should look as before, but it will no longer need to reference the **js** folder or any of the files in it
 	
 	
