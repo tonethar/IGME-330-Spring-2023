@@ -61,7 +61,7 @@ This will create your **package.json** file with the default metadata about your
 
 <hr>
 
-![screenshot](./_images/_node/node-web-services-3.jpeg)
+![screenshot](./_images/_node/node-web-services-3.png)
 
 <hr>
 
