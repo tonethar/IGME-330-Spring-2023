@@ -102,9 +102,10 @@ npm install request --save
 
 ### D. Download the **cowsay** module 
 - If you try to run this app with `node index.js` - you'll again get an error that a package is missing - this time it would be `cowsay`
-- Let's install `cowsay` as a dependency and download the files - as mentioned above you can actually omit `--save` - so go ahead and do it like the cool kids do
-  - type: `npm i cowsay`
-- The `"dependencies"` key now includes `cowsay`:
+- Let's install `cowsay` as a dependency and download the files
+  - as mentioned above you can actually omit `--save` - so go ahead and do it like the cool kids do by typing:
+    - `npm i cowsay`
+- The **package.json** `"dependencies"` key now includes `cowsay`:
 
 ```json
 "dependencies": {
