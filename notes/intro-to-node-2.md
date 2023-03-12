@@ -18,7 +18,7 @@ I. [Creating the package.json file](#section1)
 
 II. [Testing the package.json file](#section2)
 
-III. [Editing the `"scripts:"` key of package.json](#section3)
+III. [Editing the `"scripts":` key of package.json](#section3)
 
 IV. [Check It Off](#section4)
 
@@ -151,10 +151,10 @@ light switch, you will be dead before the lightbulb turns on."
 
 <hr>
 
-## III. Editing the `"scripts:"` key of package.json
+## III. Editing the `"scripts":` key of package.json
 
-- Rather than having to remember exactly what to type in to run a node app, the usual practice is to create a `"start"` script in the **package.json** file
-- Go ahead and make your `"scripts"` key look like this:
+- Rather than having to remember exactly what to type in to run a node app, the usual practice is to create a `"start":` script in the **package.json** file
+- Go ahead and make your `"scripts":` key look like this:
 
 ```json
 
