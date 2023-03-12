@@ -82,7 +82,7 @@ npm install request --save
 
 ```js
 "dependencies": {
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   }
 ```
 
