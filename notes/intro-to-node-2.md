@@ -157,13 +157,10 @@ light switch, you will be dead before the lightbulb turns on."
 - Go ahead and add a `"start"`key to the `"scripts":` key in **package.json**
 
 ```json
-...
-,
-  "scripts": {
+"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-},
-...
+}
 ```
 - Save the **package.json** file
 - You can now run this command by typing:
