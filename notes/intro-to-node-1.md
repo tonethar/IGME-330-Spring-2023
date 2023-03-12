@@ -3,7 +3,7 @@
 
 ## Video Link
 
-- Video -> [Intro to Node.js - 1](XX)
+- Video -> [Intro to Node.js - 1 (11:39)](XX)
 
 <hr>
 
