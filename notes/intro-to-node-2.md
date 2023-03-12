@@ -23,10 +23,10 @@ V. [Homework](#section5)
 
 ### A. Get started:
 
-- Create a new folder named **hello-2**
-- Copy over your completed **index.js** file from the **hello** folder you created in **Intro to Node.js - Part I**
-  - DO NOT copy the **node_modules** folder over to this folder
-- Change directory into the **hello-2** folder
+- Create a new folder named **joke-2**
+- Copy over your completed **index.js** file (only) from the **joke** folder you created in **Intro to Node.js - Part I**
+  - DO NOT copy the **node_modules** folder or any of the other files over to this new folder
+- Change directory into the **joke-2** folder
 - Type `node index.js`
   - this will once again FAIL because you haven't installed the packages you need yet
   - this time we will address this issue in a different way - move on!
