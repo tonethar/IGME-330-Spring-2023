@@ -1,4 +1,4 @@
-# Intro to Node.js - 2
+# Intro to Node.js - Part II
 
 ## Overview
 
@@ -24,11 +24,13 @@ V. [Homework](#section5)
 ### A. Get started:
 
 - create a new folder named **hello-2**
-- copy over your completed **index.js** file from Part I
+- copy over your completed **index.js** file from **Intro to Node.js - Part I**
 
 
 ### B. Create a node project the usual way
-- this time we are going to follow the standard Node.js development practice and create a node project with **npm** - go ahead and change directory into the **hello-2** folder and type:
+- This time we are going to follow the standard Node.js development practice and first create a node project with **npm**:
+  - change directory into the **hello-2** folder
+  - type:
 
 ```js
 npm init -y
