@@ -78,7 +78,7 @@ npm install request --save
 ```
 
 - This will download and install the **request** module and other dependencies to the **node_modules** folder just like last time
-- The `--save` flag is what tells npm to add a `"dependencies":` key to **package.json**, which you can see if you open the file:
+- The `--save` flag is what tells **npm** to add a `"dependencies":` key to **package.json**, which you can see if you open the file:
 
 ```js
 "dependencies": {
@@ -87,7 +87,7 @@ npm install request --save
 ```
 
 - note that we didn't get the warnings about the missing **package.json** file like we did last time
-- PS: the `--save` flag has been *optional* for a few years now and can be omitted. npm now adds the `"dependencies":` key to **package.json** automatically whenever you install new packages 
+- PS: the `--save` flag has been *optional* for a few years now and can be omitted. This is because **npm** now adds the `"dependencies":` key to **package.json** automatically whenever you install new packages 
 
 
 <hr>
