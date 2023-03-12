@@ -10,10 +10,9 @@
   - Run web servers, socket servers, etc out there on the interwebs
   - And much more!
 - Let's try out writing some simple local scripts first
-  - "Code along" - *Consuming Web Services from a command-line Node.js app*:
-
-- In both IGME-235 & IGME-330 you have seen how we can access JSON web services from the web browser using JavaScript ...
-- ... We can also download web pages and services from the **command line** using [Node.js](https://nodejs.org/en/) - below we will work through a few examples, giving us more of a chance to work with both web services and Node.js
+  - in both IGME-235 & IGME-330 you have seen how we can access JSON web services from the web browser using JavaScript ...
+  - we can also download web pages and services from the **command line** using [Node.js](https://nodejs.org/en/)
+  - below we will work through a few examples, giving us more of a chance to work with both web services and Node.js
 
 <hr>
 
