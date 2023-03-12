@@ -403,4 +403,14 @@ module: {
   - and so on ...
 - When you are done, the AV should work as before, but it will no longer need to reference the **js** folder or any of the files in it
 	
+<hr>
 	
+## XI. <a id="section12"> Submission
+
+- Don't forget to actually use the transpile JS by adding the `<script src="dist/bundle.js"></script>` tag to the bottom of your HTML page
+- Verify that everything still works by temporarily deleting your **src** folder (bring it back after you've done the test)
+- Delete your **node_modules** folder
+- ZIP the ***lastName*-*firstInitial*-hw-2** folder and post it to myCourses
+- The contents of the submitted folder will look something like this:
+	
+
