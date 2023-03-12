@@ -188,17 +188,17 @@ npm install webpack-cli --save-dev
 
 - Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
 - the added `--save-dev` flags will also add `"devDependencies"` keys to *package.json* - which makes it easy for you to re-download these libraries later:
-  - note: your version #'s will be different, so DO NOT modify what `npm` generated for you
+  - note: your version #'s will likely be different, so DO NOT modify what `npm` generated for you
 
 ```js
 "devDependencies": {
-  "webpack": "^5.74.0",
-  "webpack-cli": "^4.10.0"
+  "webpack": "^5.76.1",
+  "webpack-cli": "^5.0.1"
 }
 ```
   
 
-**PS - You will now see a file named *package-lock.json* - you won't be editing it - read about it here: https://docs.npmjs.com/files/package-lock.json**
+**PS - You will now also see a file named *package-lock.json* - you won't be editing it - read about it here: https://docs.npmjs.com/files/package-lock.json**
 
 <hr>
  
