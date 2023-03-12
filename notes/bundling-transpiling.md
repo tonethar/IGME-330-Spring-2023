@@ -333,7 +333,7 @@ npm install
 - Type `npm start` to load these **webpack.config.js** changes 
 - Open up **bundle.js** - you should see that all of the code has been jammed onto one line
   - it's inside of an IIFE actually
-  - but will still have `const`, arrow functions, template strings and other ES6 features in the code
+  - but there will still be `const`, arrow functions, template strings and other ES6 features in the code
 
 **bundle.js**
 ```js
