@@ -194,12 +194,9 @@ request(url, (err, response, body) => {
 ## IV. Have a cow!
 
 - Have some fun with the **cowsay** package: https://www.npmjs.com/package/cowsay
-
-### IV-B. Instructions
-
-- import the package (add this to the top of **index.js**): `const cowsay = require("cowsay");`
-- install the package (type this on the command line): `npm install cowsay`
-- use the package by replacing - `console.log(body);` - with:
+- Import the package (add this to the top of **index.js**): `const cowsay = require("cowsay");`
+- Install the package (type this on the command line): `npm install cowsay`
+- Use the package by replacing - `console.log(body);` - with:
 
 ```js
 console.log(cowsay.say({
