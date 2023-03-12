@@ -28,8 +28,8 @@
 
 ## III. Demo
 
-- We'll be demoing these activities in the video
-- Below are some of the commands we'll be using in the demo
+- We'll be demoing the use of the most common Unix file system commands
+- Below are some of the commands we'll be trying out
 
 ### III-A. Unix File Management Commands
 
