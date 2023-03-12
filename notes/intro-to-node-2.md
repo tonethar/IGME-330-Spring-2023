@@ -3,8 +3,12 @@
 ## Overview
 
 
-- we are going to create a **package.json** file this time
+- We are going to follow the usual development practice with node apps and create a **package.json** file
+  - *The package.json file is the heart of Node.js system. It is the manifest file of any Node.js project and contains the metadata of the project. The package.json file is the essential part to understand, learn and work with the Node.js. It is the first step to learn about development in Node.js.*
+    - https://www.geeksforgeeks.org/node-js-package-json/
+  - https://docs.npmjs.com/cli/v9/configuring-npm/package-json
 
+<hr>
 
 ## Contents
 
