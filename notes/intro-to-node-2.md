@@ -44,6 +44,7 @@ npm init -y
 
 This will create your **package.json** file with the default metadata about your project, which is stored in an object literal, and will look something like this:
 
+**package.json**
 ```json
 {
   "name": "joke-2",
