@@ -15,7 +15,7 @@ I. [Working with the package.json file](#section1)
 
 V. [Homework](#section5)
 
-<hr>
+<hr><hr>
 
 <a id="section1"></a>
 
@@ -26,6 +26,7 @@ V. [Homework](#section5)
 - create a new folder named **hello-2**
 - copy over your completed **index.js** file from **Intro to Node.js - Part I**
 
+<hr>
 
 ### B. Create a node project the usual way
 - This time we are going to follow the standard Node.js development practice and first create a node project with **npm**:
@@ -53,6 +54,8 @@ This will create your **package.json** file with the default metadata about your
 }
 ```
 
+<hr>
+
 ### C. Download the **request** module 
 
 This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file. Type the following in:
@@ -74,8 +77,12 @@ npm install request --save
 - PS: the `--save` flag has been *optional* for a few years now and can be omitted. npm now adds the `"dependencies":` key to **package.json** automatically whenever you install new packages 
 
 
+<hr>
+
 ### D. Download the **cowsay** module 
 
+
+<hr>
 
 ### E. Test the script
 
