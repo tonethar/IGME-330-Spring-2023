@@ -413,4 +413,8 @@ module: {
 - ZIP the ***lastName*-*firstInitial*-hw-2** folder and post it to myCourses
 - The contents of the submitted folder will look something like this:
 	
+<hr>
+	
+![screenshot](./_images/_node/transpiling-1.png)
 
+<hr>
