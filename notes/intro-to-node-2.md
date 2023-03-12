@@ -167,7 +167,7 @@ light switch, you will be dead before the lightbulb turns on."
 - You can now run this command by typing:
   - `npm run start` (or just `npm start` for short)
   - Which should go ahead and run the app and display a joke
-- Go ahead and type `npm run test` (or just `npm test` for short) - to see what the default `"test"` script does - which is just a console log at this point - you can delete the `"test"` key/value if you want because it isn't doing anything
+- Go ahead and type `npm run test` (or just `npm test` for short) - to see what the default `"test"` script does - which is just a console log at this point - you can delete the `"test"` key/value if you want (because we are not going to be implementing any test scripts)
 - NB: This is a simple app so creating a "start" script doesn;t do much for us here, but ...
   - when you are working with more complex apps, creating this script is really helpful to yourself and others who are developing the app
   - Thus, whenever you download someone else's node project from the interwebs, you usually:
