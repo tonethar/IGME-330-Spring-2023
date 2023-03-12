@@ -144,7 +144,7 @@ light switch, you will be dead before the lightbulb turns on."
 
 - Delete your **node_modules** folder
 - If you run your script again - go ahead an type `node index.js` - it fails! - because the **request** module and **cowsay** modules are nowhere to be found
-- To re-install the **request** and **cowsay** module files - just type `npm install` (or `npm i` for short) - which will re-download the **request** and **cowsay** modules because they are both listed in the `"dependencies":` key of **package.json**
+- To re-install (*meaning, download*) the **request** and **cowsay** module files - just type `npm install` (or `npm i` for short) - which will re-download the **request** and **cowsay** modules because they are both listed in the `"dependencies":` key of **package.json**
 - run your script again - `node index.js` - it succeeds!
 
 <a id="section3"></a>
