@@ -2,7 +2,7 @@
 
 ## Video Link
 
-- [Command Line Tips](./ddsd)
+- Video -> [Command Line Tips](./ddsd)
 
 <hr>
 
