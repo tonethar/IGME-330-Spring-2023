@@ -223,6 +223,7 @@ console.log(cowsay.say({
 - There isn't too much more to do with this example right now, as this web service has but one entry point (i.e. it does 1 thing and accepts no additional parameters)
 - Take a look inside of the **package.json** file that was created to see what's stored in there
 
+**package.json**
 ```
 {
   "dependencies": {
