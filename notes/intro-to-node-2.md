@@ -154,12 +154,22 @@ light switch, you will be dead before the lightbulb turns on."
 ## III. Editing the `"scripts":` key of package.json
 
 - Rather than having to remember exactly what to type in to run a node app, the usual practice is to create a `"start":` script in the **package.json** file
-- Go ahead and make your `"scripts":` key look like this:
+- Go ahead and add a `"start"`key to the `"scripts":` key in **package.json**
 
 ```json
-
+...
+,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+},
+...
 ```
-
+- Save the **package.json** file
+- You can now run this command by typing:
+  - `npm run start` (or just `npm start` for short)
+  - Which should go ahead and run the app and display a joke
+- Go ahead and type `npm run test` (or just `npm test` for short) - to see what the default `"test"` script does - which is just a console log at this point - you can delete the `"test"` key/value if you want because it isn't doing anything
 
 <a id="section4"></a>
 
