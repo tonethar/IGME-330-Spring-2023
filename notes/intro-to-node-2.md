@@ -46,7 +46,7 @@ II. [Check It Off](#section2)
 npm init -y
 ```
 
-This will create your **package.json** file with the default metadata about your project, which is stored in an object literal, and will look something like this:
+- This will create your **package.json** file with the default metadata about your project, which is stored in an object literal, and will look something like this:
 
 **package.json**
 ```json
@@ -74,9 +74,9 @@ This will create your **package.json** file with the default metadata about your
 
 ### C. Download the **request** module 
 
-This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file:
-- make sure that your current working directory is still the **joke-2** folder
-- type the following in:
+- This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file:
+  - make sure that your current working directory is still the **joke-2** folder
+  - type the following in:
 
 ```console
 npm install request --save
@@ -91,14 +91,14 @@ npm install request --save
   }
 ```
 
-- note that we didn't get the warnings about the missing **package.json** file like we did last time
+- Note that we didn't get the warnings about the missing **package.json** file like we did last time
 - PS: the `--save` flag has been *optional* for a few years now and can be omitted. This is because **npm** now adds the `"dependencies":` key to **package.json** automatically whenever you install new packages 
 
 
 <hr>
 
 ### D. Download the **cowsay** module 
-- If you try to run this app with `` - you'll again get an error that a package is missing - this time it would be `cowsay`
+- If you try to run this app with `node index.js` - you'll again get an error that a package is missing - this time it would be `cowsay`
 - Let's install `cowsay` as a dependency and download the files - as mentioned above you can actually omit `--save` - so go ahead and do it like the cool kids do
   - type: `npm i cowsay`
 - The `"dependencies"` key now includes `cowsay`:
