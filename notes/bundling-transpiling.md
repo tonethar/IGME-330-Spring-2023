@@ -239,7 +239,8 @@ module.exports = {
 },
 ```
 
-- This custom `start` command will run webpack, and also tells webpack to watch for any changes in the JS files; and when we save a change, webpack will re-build the **bundle.js** file automatically for us.
+- This custom `start` command will run webpack
+- the `-watch` flag tells webpack to "watch" for any changes in the JS files and when we save a change to disk, webpack will automatically re-build the **bundle.js** file for us
 
 <hr>
  
