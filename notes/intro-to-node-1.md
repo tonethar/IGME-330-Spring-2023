@@ -214,5 +214,5 @@ console.log(cowsay.say({
 
 <hr><hr>
 
-**[Next Chapter -> Node.js and Web Services (chapter 2)](node-and-web-services-2.md)**
+**[Next Chapter -> Intro to Node.js (chapter 2)](intro-to-node-2.md)**
 
