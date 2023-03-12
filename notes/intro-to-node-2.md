@@ -181,13 +181,16 @@ light switch, you will be dead before the lightbulb turns on."
 
 ## IV. Check It Off
 - Make sure that everything still works in all 3 of these folders - **hello**, **joke** and **joke-2**
+  - take a screenshot of the console output for **joke-2** (showing the cow ASCI art and so on) - save it as a JPEG or PNG file
   - delete the **node_modules** folders in all 3 of the folders
 - Create a new folder named ***lastName*-*firstName*-node-intro**
   - put the above 3 folders into this new folder
+  - put the screenshot into this new folder
   - ZIP and Post this folder to the myCourses dropbox
+- Rubric:
+  - (-5%) for misnamed fodler
+  - (-50%) for missing screenshot
 
-
-**ZIP and POST to Dropbox**
 <hr><hr>
 
 **[Previous Chapter <- Intro to Node.js (chapter 1)](intro-to-node-1.md)**
