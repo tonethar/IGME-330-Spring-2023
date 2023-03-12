@@ -221,7 +221,8 @@ console.log(cowsay.say({
 ## V. Next Steps
 
 - There isn't too much more to do with this example right now, as this web service has but one entry point (i.e. it does 1 thing and accepts no additional parameters)
-- Take a look inside of the **package.json** file that was created to see what's stored in there
+- Take a look inside the **node_modules** fodler - you should now see a **cowsay** folder
+- Also open up the **package.json** file that was created to see what's in there, which is a list of this app's code dependencies:
 
 **package.json**
 ```
