@@ -265,5 +265,5 @@ Out of 10 points.
 **ZIP and POST to Dropbox**
 <hr><hr>
 
-**[Previous Chapter <- Node.js and Web Services (chapter 1)](node-and-web-services-1.md)**
+**[Previous Chapter <- Intro to Node.js (chapter 1)](intro-to-node-1.md)**
 
