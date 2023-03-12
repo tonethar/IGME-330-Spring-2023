@@ -251,15 +251,16 @@ module.exports = {
 ```js
 npm start
 ```
-- this executes `webpack --watch` for you
-
-You should now see that **dist/bundle.js** has been created. If you open **bundle.js**, you will see that your 2 JavaScript files have been "bundled" into it.
+- The above executes `webpack --watch` for you
+- You should now see that **dist/bundle.js** has been created!
+- If you open **bundle.js**, you will see that your 2 JavaScript files have been "bundled" into it
+  - an it's not very pretty in "development mode", either!
 
 <hr>
  
 **7) Edit your HTML file**
 
-In **greeter.html** - make the &lt;script> tag look like this:
+In **greeter.html** - make the `<script>` tag look like this:
 
 ```html
 <!-- <script type="module" src="src/main.js"></script> -->
