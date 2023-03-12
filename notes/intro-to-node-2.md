@@ -28,7 +28,7 @@ V. [Homework](#section5)
   - DO NOT copy the **node_modules** folder or any of the other files over to this new folder
 - Change directory into the **joke-2** folder
 - Type `node index.js`
-  - this will once again FAIL because you haven't installed the packages you need yet
+  - this will once again FAIL - `Error: Cannot find module 'request' ...` - because you haven't installed the packages you need yet
   - this time we will address this issue in a different way - move on!
 
 <hr>
