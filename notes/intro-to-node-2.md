@@ -61,6 +61,10 @@ This will create your **package.json** file with the default metadata about your
 
 <hr>
 
+![screenshot](./_images/_node/node-web-services-3.jpeg)
+
+<hr>
+
 ### C. Download the **request** module 
 
 This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file:
