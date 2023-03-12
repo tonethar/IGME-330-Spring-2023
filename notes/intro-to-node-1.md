@@ -212,7 +212,7 @@ console.log(cowsay.say({
 
 **Which gives, when you run this in the console (by typing `node index.js`):**
 
-![screenshot](./_images/_node/node-web-services-5.jpeg)
+![screenshot](./_images/_node/node-web-services-2.jpeg)
 
 <a id="section5"></a>
 
