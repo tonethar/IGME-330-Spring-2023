@@ -112,7 +112,9 @@ If you test the above link in a browser, you will see a random plain-text joke s
 ### A. Get started:
   - create a folder named **joke**
   - inside of the **joke** folder, create a file named **index.js**
-  
+
+<hr>
+
 ### B. Add the following to **index.js**:
 
 ```js
@@ -133,17 +135,23 @@ request(url, (err, response, body) => {
     }
 });
 ```
-  
+ 
+<hr>
+ 
 ### C. Open your console, and change directory to the **joke** folder. Run the script by typing:
 
   ```js
   node index.js
   ```
 
+<hr>
+
 ### D. FAILURE!
 
 - You should see a series of error messages that begin with **`Error: Cannot find module 'request'`** 
 - This is happening because you never downloaded the files that node needs to actually import the **request** module code.
+
+<hr>
 
 ### E. Download the **request** module files by typing this: 
 
@@ -156,6 +164,10 @@ request(url, (err, response, body) => {
 - Downloading of files now should begin. Once downloading has completed, you will see a few warnings about a file named **package.json** missing - we will address this in the next chapter.
 - You should now see a folder named **node_modules** - open it up and you will that that there are approximately 50 sub-folders, including one named **request**. These additional folders are all of the modules that the **request module** is dependent on.
 - You will see one more file - **package-lock.json**  - this file keeps track of all of the project modules and dependencies - you won't need to worry about for our examples - but if you wish you can read about it here: https://docs.npmjs.com/files/package-lock.json
+- BTW - you can ignore the deprecation warnings in the console - and if you are interested you can read about the issue here:
+  - https://nodesource.com/blog/express-going-into-maintenance-mode
+
+<hr>
 
 ### F. Try to run the app again by typing:
 
