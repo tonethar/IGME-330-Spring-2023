@@ -50,7 +50,7 @@ V. [Next Steps](#section5)
     - https://www.npmjs.com/package/webpack-dev-server
     
   
-To see if you already have node and npm installed on your computer, type the following in the console:
+To see if you already have **node** and **npm** installed on your computer, type the following in the console:
 
   ```js
   node -v
@@ -152,7 +152,7 @@ request(url, (err, response, body) => {
 ### D. FAILURE!
 
 - You should see a series of error messages that begin with **`Error: Cannot find module 'request'`** 
-- This is happening because you never downloaded the files that node needs to actually import the **request** module code.
+- This is happening because you never downloaded the files that **node** needs to actually import the **request** module code.
 
 <hr>
 
