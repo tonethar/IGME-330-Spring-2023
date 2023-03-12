@@ -35,7 +35,7 @@ V. [Homework](#section5)
 
 ### B. Create a Node project the usual way
 - This time we are going to follow the standard Node.js development practice and first create a node project with **npm**:
-  - if you need to, change directory into the **hello-2** folder
+  - if you need to, change directory into the **joke-2** folder
   - type:
 
 ```js
@@ -63,7 +63,9 @@ This will create your **package.json** file with the default metadata about your
 
 ### C. Download the **request** module 
 
-This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file. Type the following in:
+This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file:
+- make sure that your current working directory is still the **joke-2** folder
+- type the following in:
 
 ```js
 npm install request --save
