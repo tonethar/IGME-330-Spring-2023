@@ -154,7 +154,7 @@ light switch, you will be dead before the lightbulb turns on."
 
 ## III. Editing the `"scripts":` key of package.json
 
-- Rather than having to remember exactly what to type in to run a node app, the usual practice is to create a `"start":` script in the **package.json** file
+- Rather than having to remember exactly what to type in to run a particular node projct, the usual practice is to create a `"start":` script in the **package.json** file
 - Go ahead and add a `"start"`key to the `"scripts":` key in **package.json**
 
 ```json
