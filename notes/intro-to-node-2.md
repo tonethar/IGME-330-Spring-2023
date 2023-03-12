@@ -23,14 +23,18 @@ V. [Homework](#section5)
 
 ### A. Get started:
 
-- create a new folder named **hello-2**
-- copy over your completed **index.js** file from **Intro to Node.js - Part I**
+- Create a new folder named **hello-2**
+- Copy over your completed **index.js** file from **Intro to Node.js - Part I**
+- Change directory into the **hello-2** folder
+- Type `node index.js`
+  - this will once again FAIL because you haven't installed the packages you need yet
+  - this time we will address this issue in a different way - move on!
 
 <hr>
 
-### B. Create a node project the usual way
+### B. Create a Node project the usual way
 - This time we are going to follow the standard Node.js development practice and first create a node project with **npm**:
-  - change directory into the **hello-2** folder
+  - if you need to, change directory into the **hello-2** folder
   - type:
 
 ```js
@@ -98,14 +102,17 @@ node index.js
 "Chuck Norris can do a roundhouse kick faster than the speed of light. This means that if you turn on a 
 light switch, you will be dead before the lightbulb turns on."
  ```
- 
-### E. Test package.json
 
-- delete your **node_modules** folder
-- if you run your script again - go ahead an type `node index.js` - it fails! - because the **request** module is nowhere to be found
-- to re-install the **request** module files - just type `npm install` - which will re-download the **request** module and its dependencies because it is listed in the `"dependencies":` key of **package.json**
+<hr>
+ 
+ ## II. Testing the package.json file
+
+- Delete your **node_modules** folder
+- If you run your script again - go ahead an type `node index.js` - it fails! - because the **request** module is nowhere to be found
+- To re-install the **request** module files - just type `npm install` - which will re-download the **request** module and its dependencies because it is listed in the `"dependencies":` key of **package.json**
 - run your script again - `node index.js` - it succeeds!
 
+<hr>
 
 <a id="section5"></a>
 
