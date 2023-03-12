@@ -160,7 +160,7 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
 
 ## IX. Submission
 
-- Put the files from above into a parent folder named lastName-firstInitial-hw-2
+- Put the files from above into a parent folder named ***lastName*-*firstInitial*-hw2**
   - (-5%) for a misnamed folder
 - ZIP the folder and post to myCourses
 
