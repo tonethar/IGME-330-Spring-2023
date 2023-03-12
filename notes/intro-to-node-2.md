@@ -16,8 +16,11 @@
 
 I. [Creating the package.json file](#section1)
 
+II. [Testing the package.json file](#section2)
 
-II. [Check It Off](#section2)
+III. [Editing the `"scripts:"` key of package.json](#section3)
+
+IV. [Check It Off](#section4)
 
 <hr><hr>
 
@@ -133,6 +136,8 @@ node index.js
 light switch, you will be dead before the lightbulb turns on."
  ```
 
+<a id="section2"></a>
+
 <hr>
  
  ## II. Testing the package.json file
@@ -142,11 +147,26 @@ light switch, you will be dead before the lightbulb turns on."
 - To re-install the **request** and **cowsay** module files - just type `npm install` (or `npm i` for short) - which will re-download the **request** and **cowsay** modules because they are both listed in the `"dependencies":` key of **package.json**
 - run your script again - `node index.js` - it succeeds!
 
+<a id="section3"></a>
+
 <hr>
 
-<a id="section2"></a>
+## III. Editing the `"scripts:"` key of package.json
 
-## II. Check It Off
+- Rather than having to remember exactly what to type in to run a node app, the usual practice is to create a `"start"` script in the **package.json** file
+- Go ahead and make your `"dependencies"` key look like this:
+
+```json
+
+```
+
+
+<a id="section4"></a>
+
+<hr> 
+
+
+## IV. Check It Off
 - Make sure that everything still works in all 3 of these folders - **hello**, **joke** and **joke-2**
   - delete the **node_modules** folders in all 3 of the folders
 - Create a new folder named ***lastName*-*firstName*-node-intro**
