@@ -21,8 +21,8 @@
     - [GitBash](https://gitforwindows.org/) (part of "git for Windows") is already installed on the lab machines
       - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
     - [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal) - might be something else you could use
-    - PowerShell will usually work in a pinch
-    - Using the Windows command prompt - **cmd.exe** - is not recommended
+    - *Windows PowerShell* will usually work in a pinch
+    - Using the *Windows command prompt* - **cmd.exe** - is not recommended
 
 <hr>
 
