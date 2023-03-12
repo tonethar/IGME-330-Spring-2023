@@ -10,7 +10,7 @@
 
 <!--- Local Navigation --->
 
-I. [Working with the package.json file](#section1)
+I. [Creating the package.json file](#section1)
 
 
 V. [Homework](#section5)
@@ -19,7 +19,7 @@ V. [Homework](#section5)
 
 <a id="section1"></a>
 
-## I. Working with the package.json file
+## I. Creating the package.json file
 
 ### A. Get started:
 
