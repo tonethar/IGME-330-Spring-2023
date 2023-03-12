@@ -13,7 +13,7 @@
 I. [Creating the package.json file](#section1)
 
 
-V. [Homework](#section5)
+II. [Check it off](#section2)
 
 <hr><hr>
 
@@ -140,17 +140,14 @@ light switch, you will be dead before the lightbulb turns on."
 
 <hr>
 
-<a id="section5"></a>
+<a id="section2"></a>
 
-## V. Homework
-Out of 10 points.
-- Make sure that everything we asked for in Section IV. is working:
-  - Display the activity (1 point)
-  - Display the type (1 point)
-  - Display the number of participants (1 point)
-  - Parse the first command line argument, and show actitivites for that number of participants (2 points)
-  - Make **index.js** a command line script (tool) named **i-am-bored** that we can run from anywhere just by typing `i-am-bored` (2 points)
-- Also be sure that everything is formatted nicely - add spacing where appropriate - and recall that `\n` in a string is the new line character (3 points)
+## II. Check it off
+- Make sure that everything still works in all 3 of these folders - **hello**, **joke** and **joke-2**
+  - delete the **node_modules** folders in all 3 of the folders
+- Create a new folder named ***lastName*-*firstName*-node-intro**
+  - put the above 3 folders into this new folder
+  - ZIP and Post this folder to the myCourses dropbox
 
 
 **ZIP and POST to Dropbox**
