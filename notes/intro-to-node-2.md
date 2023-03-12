@@ -13,7 +13,7 @@
 I. [Creating the package.json file](#section1)
 
 
-II. [Check it off](#section2)
+II. [Check It Off](#section2)
 
 <hr><hr>
 
@@ -142,7 +142,7 @@ light switch, you will be dead before the lightbulb turns on."
 
 <a id="section2"></a>
 
-## II. Check it off
+## II. Check It Off
 - Make sure that everything still works in all 3 of these folders - **hello**, **joke** and **joke-2**
   - delete the **node_modules** folders in all 3 of the folders
 - Create a new folder named ***lastName*-*firstName*-node-intro**
