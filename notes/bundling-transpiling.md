@@ -394,43 +394,8 @@ module: {
 <hr>
 	
 ## XI. <a id="section11"> Bundling and transpiling HW-2
-- Bundling and transpiling Project 1 (*Web App of Awesomeness*) is a little bit trickier because it's a *multi-page app*
-- Which means 3 entry points - **app.js**, **community.js** and **favorites.js**
-- And 3 bundled output files - **app-bundle.js**, **community-bundle.js** and **favorites-bundle.js**
-- There's also the matter of the firebase library imports - there's no way to bring those in without using an `import` statement, which means we're not in 100% ES5 land anymore, Toto
-- The following config file worked for me - you might need to change some of the file names depending on how you named things:
+- Bundling and transpiling [HW-2 - Audio Visualizer - Ultimate Version](../hw/hw-2.md) should be very straight-forward
+- Repeating the steps that you did above, except this time for you HW-2 files is all you need to do
+- When you are done, the AV should look as before, but it will no longer need to reference the **js** folder or any of the files in it
 	
 	
-**webpack.config.js**
-```js
-module.exports = {
-  mode: 'production',
-  entry: {
-    app: './src/app.js',
-    community: './src/community.js',
-    favorites: './src/favorites.js'
-  },
-  output: {
-    filename: '[name]-bundle.js',
-    path: __dirname + '/dist',
-  },
-  // https://webpack.js.org/configuration/externals/#externalstypemodule
-  experiments: {
-    outputModule: true, /* Fixes the firebase import issue */
-  },
-  module: {
-    rules: [
-      {
-        test: /\.m?js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-          },
-        },
-      },
-    ],
-  }
-};	
-```
