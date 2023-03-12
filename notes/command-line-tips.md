@@ -7,7 +7,10 @@
 <hr>
 
 ## I. Overview
-- If you are going to being doing much work with remote *web servers*, or running scripts (such as **Node.js** projects) on your *local* machine, it's essential to know how to interact with the OS via a console app
+- If you are going to being doing much work with ...
+  - remote computers configured as *web servers*  OR 
+  - running scripts (such as **Node.js** projects) on your *local* machine ...
+  - then it's essential to know how to interact with the OS *shell* via a console application
 
 <hr>
 
