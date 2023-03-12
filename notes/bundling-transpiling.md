@@ -352,7 +352,7 @@ npm install
   - type: `npm install --save-dev babel-loader @babel/core @babel/preset-env`
   - then check **package.json** to see the `dev-dependencies:` that were added
   - and see that **node_modules** just got bigger with more babel-related files
-- Add the following to the bottom of **webpack.config.js**
+- Add the following `module` key to the bottom of **webpack.config.js**
   - except for the `...`
 
 ```js
