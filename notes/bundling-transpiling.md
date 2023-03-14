@@ -395,7 +395,7 @@ module: {
 
 <hr>
 	
-## XI. <a id="section11"> Bundling and transpiling HW-2
+## XI. <a id="section11"> Bundling and transpiling assignment
 - Bundling and transpiling [HW-2 - Audio Visualizer - Ultimate Version](../hw/hw-2.md) with **webpack** and **babel** should be very straight-forward
 - Repeating the steps that you did above, except this time for your HW-2 files, is all you need to do:
   - `cd` into the ***lastName*-*firstInitial*-hw-2** folder
