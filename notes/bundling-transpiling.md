@@ -8,7 +8,7 @@ II. [Babel](#section2)
 
 III. [Node.js, `npm` & webpack](#section3)
 
-IV. [Transpiling an ES6 project down to ES5](#section4)
+IV. [Bundling an ES6 project with webpack](#section4)
 
 V. [Discussion](#section5)
 
@@ -105,12 +105,12 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 
 <hr>
  
-## IV. <a id="section4">Transpiling an ES6 project down to ES5 with Webpack
+## IV. <a id="section4">Bundling an ES6 project with webpack
 	
 - Go ahead and grab the [greeter-modules.zip](_files/greeter-modules.zip) code - this is the ES6 module version of the Greeter demo
   - You can clean up the code if you want to - get rid of the console logs, unnecessary variables/imports/exports, etc
 - Test it in a browser to be sure that it works (it has to run off of a Web Server or VSCode's *Live Server* because of the ES6 Modules)
-- We are going to transpile all of that ES6 code to ES5 so that it will run on all recent browsers, even ones that don't know about ES6
+- We are going to "bundle" all of that ES6 module code into ONE JS file - so that that an older browser that doesn't know what ES6 modules are can still run the JS
 - **Important:** make sure there are not any spaces anywhere in the path (folder names) to your files - that ticks off webpack sometimes
 
 <hr>
@@ -333,7 +333,7 @@ npm install
 - Quit node in the console (if it's running) with control-c
 - Verify that the *current working directory* is the **greeter-modules** folder
 - Type `npm start` to load these **webpack.config.js** changes 
-- Open up **bundle.js** - you should see that all of the code has been jammed onto one line
+- Open up **bundle.js** - you should see that all of the code has been minified and jammed onto one line
   - it's inside of an IIFE actually
   - but there will still be `const`, arrow functions, template strings and other ES6 features in the code
 
