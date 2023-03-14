@@ -321,6 +321,8 @@ npm install
 ## VI. <a id="section6">Try This
 	
 - You should practice this technique on another ES6 project or HW assignment
+- ***BTW - When you are done with this exercise be sure to quit webpack***
+  - if webpack is running in your console you can (and should) quit it with the keyboard command **ctrl-c**
 
 <hr>
  
@@ -411,6 +413,8 @@ module: {
   - `npm install webpack-cli --save-dev`
   - and so on ...
 - When you are done, the AV should work as before, but it will no longer need to reference the **js** folder or any of the files in it
+- ***BTW - When you are done with this exercise be sure to quit webpack***
+  - if webpack is running in your console you can (and should) quit it with the keyboard command **ctrl-c**
 	
 <hr>
 	
