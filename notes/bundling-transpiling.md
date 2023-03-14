@@ -22,7 +22,7 @@ IX. [Install `babel-loader`](#section9)
 
 X. [Test `babel-loader`](#section10)
 
-XI. [Bundling and transpiling example](#section11)
+XI. [Bundling and transpiling assignment](#section11)
 
 XII. [Submission](#section12)
 
@@ -407,7 +407,7 @@ module: {
 	
 <hr>
 	
-## XI. <a id="section12"> Submission
+## XII. <a id="section12"> Submission
 
 - Don't forget to actually use the transpile JS by adding the `<script src="dist/bundle.js"></script>` tag to the bottom of your HTML page
 - Verify that everything still works by temporarily deleting your **src** folder (bring it back after you've done the test)
