@@ -2,7 +2,7 @@
 
 ## Video Links
 
-- Video -> [JS Bundling - Part A (XX:XX)](XX)
+- Video -> [JS Bundling - Part A (13:24)](XX)
 - Video -> [JS Bundling - Part B (XX:XX)](XX)
 
 <hr>
