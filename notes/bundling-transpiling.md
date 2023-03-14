@@ -3,7 +3,7 @@
 ## Video Links
 
 - Video -> [JS Bundling - Part A (13:24)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a994acbb-6ebe-43f0-867b-afc500c6c85f)
-- Video -> [JS Bundling - Part B (XX:XX)](XX)
+- Video -> [JS Bundling - Part B (07:31)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e150187-aa4f-4521-8352-afc500cdb324)
 
 <hr>
 
