@@ -22,7 +22,7 @@ IX. [Install `babel-loader`](#section9)
 
 X. [Test `babel-loader`](#section10)
 
-XI. [Bundling and transpiling Project 1](#section11)
+XI. [Bundling and transpiling example](#section11)
 
 XII. [Submission](#section12)
 
