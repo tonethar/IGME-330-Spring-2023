@@ -335,7 +335,7 @@ npm install
 ## VIII. <a id="section8"> We lied to you!
 
 - Yes, your Greeter code has been *bundled* (from 2 files to 1)
-- But it has not yet been *transpiled* from ES5 to ES6 
+- But it has not yet been *transpiled* from ES6 to ES5
 - In **webpack.config.js**, change the `"mode"` from `"development"` to `"production"`
 - Quit node in the console (if it's running) with control-c
 - Verify that the *current working directory* is the **greeter-modules** folder
