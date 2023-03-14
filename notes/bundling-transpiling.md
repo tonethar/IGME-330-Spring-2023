@@ -1,5 +1,12 @@
 # Bundling & Transpiling JS
 
+## Video Links
+
+- Video -> [JS Bundling - Part A (XX:XX)](XX)
+- Video -> [JS Bundling - Part B (XX:XX)](XX)
+
+<hr>
+
 ## Contents
 <!--- Local Navigation --->
 I. [What is *transpiling*?](#section1)
