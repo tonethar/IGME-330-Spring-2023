@@ -263,7 +263,7 @@ npm start
 - The above executes `webpack --watch` for you
 - You should now see that **dist/bundle.js** has been created!
 - If you open **bundle.js**, you will see that your 2 JavaScript files have been "bundled" into it
-  - an it's not very pretty in "development mode", either!
+  - and it's not very pretty in "development mode", either!
 
 <hr>
  
