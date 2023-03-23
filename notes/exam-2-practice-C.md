@@ -1,6 +1,11 @@
 # Exam #2 - Practice C
 
 - The questions below will help you practice for exam #2!
+- Here is a list of the correct commands (plus a few fake ones thrown in)
+
+```
+cat, dog, cd, copy, cp, delete, install, ls, make, mkdir, mv, node, npm, preview, pwd, rename, rm, rmdir, run, sql, touch
+```
 
 
 ---
