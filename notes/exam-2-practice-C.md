@@ -42,7 +42,7 @@
 
 ```
 
-6) What command can you run that will authomatically redownload these 3rd party .js files that you previously installed?
+6) What command can you run that will automatically redownload these 3rd party .js files that you previously installed?
 
 ```
 
