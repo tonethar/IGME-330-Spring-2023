@@ -42,4 +42,4 @@
 - Online:
   - [Exam #2 - Practice A](./exam-2-practice-A.md)
   - [Exam #2 - Practice B](./exam-2-practice-B.md)
-  - [Exam #2 - Practice C](./exam-2-practice-B.md)
+  - [Exam #2 - Practice C](./exam-2-practice-C.md)
