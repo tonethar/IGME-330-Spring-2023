@@ -19,7 +19,7 @@
 ## III. Review & Study Resources
 
 ### III-A. Class Lecture Notes
-- [Week 1A](../weekly/01A.md) through Week 10A
+- [Week 1A](../weekly/01A.md) through [Week 9B](../weekly/09B.md)
 - [Class "notes" and content  folder](../notes)
 
 ### III-B. Quizzes 
