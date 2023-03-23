@@ -22,7 +22,9 @@
 - [Week 1A](../weekly/01A.md) through [Week 9B](../weekly/09B.md)
 - [Class "notes" and content folder](../notes)
 - Don't forget about:
-  - Canvas
+  - Canvas:
+    - [Canvas 2D Essential Skills 1 - Intro to the Drawing Context](https://github.com/tonethar/IGME-330-Master/blob/master/notes/1-canvas-intro-to-drawing-context.md) through [Canvas 2D Essential Skills #8 - Canvas Transformations](https://github.com/tonethar/IGME-330-Master/blob/master/notes/8-canvas-transformations.md)
+    - [Canvas - Drawing images & Blending Modes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/canvas-5.md)
   - Web Audio:
     - [PE-06 - Audio Visualizer](../pe/pe-06.md)
     - [Web Audio Walkthrough (has videos)](webaudio-walkthrough.md)
