@@ -3,7 +3,7 @@
 <hr>
 
 ## I. When is it? / What's on it?
-- Week 10B- Thursday 3/30/23
+- Week 10B - Thursday 3/30/23
 - *Anything* and *everything* we have covered weeks 1-10 of this semester is fair game
   - but ... the focus will be on the new content covered from weeks 7-10
 
