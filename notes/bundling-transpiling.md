@@ -412,7 +412,7 @@ module: {
   - `npm install webpack --save-dev`
   - `npm install webpack-cli --save-dev`
   - and so on ...
-  - PS - be sure to use the right `entry` in **webpack.config.js** - probably **loader.js** (or **main.js** if you don't have a **loader.js**)
+  - PS - **IMPORTANT** - be sure to use the right `entry` in **webpack.config.js** - probably **loader.js** (or **main.js** if your HW-2 does not have a **loader.js**)
 - When you are done, the AV should work as before, but it will no longer need to reference the **js** folder or any of the files in it
 - ***BTW - When you are done with this exercise be sure to quit webpack***
   - if webpack is running in your console you can (and should) quit it with the keyboard command **ctrl-c**
