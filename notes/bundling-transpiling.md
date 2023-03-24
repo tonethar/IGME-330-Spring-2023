@@ -433,4 +433,4 @@ module: {
 
 <hr>
 	
-- PS - If you end up putting this up on banjo, you can (and should) also delete the following files, because they are not needed: **package.json**, **package-lock.json** and **webpack.config.js** (and also delete **documentation.txt**)
+- PS - If you end up putting this up on banjo, you can (and should) also delete the following files, because they are not needed: **package.json**, **package-lock.json** and **webpack.config.js** (and also delete **documentation.txt**, and you won't need the **src** folder on banjo either)
