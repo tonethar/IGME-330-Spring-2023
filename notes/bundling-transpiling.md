@@ -48,7 +48,7 @@ XII. [Submission](#section12)
  
 ## II. <a id="section2">Babel
  
-Babel is a an ES6 (and future versions of ES) to ES5 transpiler.
+Babel is an ES6 (and future versions of ES) to ES5 transpiler.
 
 - https://babeljs.io
 
