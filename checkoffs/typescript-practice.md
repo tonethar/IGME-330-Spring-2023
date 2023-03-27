@@ -71,7 +71,7 @@ console.log(JSON.stringify(newTodo))
 <hr>
 
 ## IV. Submission
-- Put the code into a file named ***lastName*-*firstInitial*-ts-practice.ts**
+- Put the completed code into a file named ***lastName*-*firstInitial*-ts-practice.ts**
 - Take a screenshot (PNG or JPEG) that includes your Playground and the (open) "Errors" tab so that we can see that there are no errors (-50% if not done)
 - Put the code file and screenshot in a folder named ***lastName*-*firstInitial*-ts-practice**
 - ZIP and post the folder to myCourses
