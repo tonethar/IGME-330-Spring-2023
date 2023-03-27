@@ -59,6 +59,10 @@ console.log(JSON.stringify(newTodo))
 <hr>
 
 ## III. Hints & Tips
+- The above code is from the [LinkedIn Learning - TypeScript Essential Training](https://www.linkedin.com/learning/typescript-essential-training-14687057) course - the Chapter 2 Challenge
+  - RIT gives you free access to all of the LinkedIn courses - you will need to sign in with your RIT email
+  - If you get stuck on this, go ahead and look at Challenge and Challenge solutions videos for ideas
+  - But do not use "generics" in the `getNextId(items)` function like they did in the video
 
 <hr>
 
