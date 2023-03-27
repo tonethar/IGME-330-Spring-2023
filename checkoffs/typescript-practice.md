@@ -19,12 +19,12 @@
 */
 
 /*
-  #2 - strongly type the `status` property with an enum
+  #2 - Strongly type the `status` property with an enum
   Note the `status` values below: "done", "in-progess" etc
 */
 
 /*
-  #3 - strongly type the parameters and return values of `addTodoItem()` and `getNextId()`
+  #3 - Strongly type the parameters and return values of `addTodoItem()` and `getNextId()`
 */
 
 const todoItems = [
