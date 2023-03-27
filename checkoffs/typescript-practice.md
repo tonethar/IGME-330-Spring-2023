@@ -65,12 +65,13 @@ console.log(JSON.stringify(newTodo))
 - The above code is from the [LinkedIn Learning - TypeScript Essential Training](https://www.linkedin.com/learning/typescript-essential-training-14687057) course - the Chapter 2 Challenge
   - RIT gives you free access to all of the LinkedIn Learning courses - and you will need to sign in with your RIT email to access them
   - If you get stuck on this checkoff, go ahead and look at the "Chapter 2 Challenge" and "Chapter 2 Challenge Solutions" videos for ideas
-  - But do not use "generics" in the `getNextId(items)` function like they did in the video
+  - But do not use "generics" in the `getNextId(items)` function like they did in the Solutions video
 
 <hr>
 
 ## IV. Submission
-
-- Screenshot
+- Put the code into a file named ***lastName*-*firstInitial*-ts-practice.ts**
+- Take a screenshot (PNG or JPEG) that includes your Playground and the (open) "Errors" tab so that we can see that there are no errors (-50% if not done)
+- Put the code file and screenshot in a folder named ***lastName*-*firstInitial*-ts-practice**
 - ZIP and post the folder to myCourses
 
