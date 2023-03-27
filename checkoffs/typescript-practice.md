@@ -5,6 +5,7 @@
 - The TypeScript playground is here: https://www.typescriptlang.org/play
 - Note that the playground will initially complain about the start code - `"Parameter 'todo' implicitly has an 'any' type."` - and so on. Your job is to fix these errors by utilizing strong typing
 - The [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md) notes will help you out here
+- PS - do NOT use the `any` type in your solution
 
 <hr>
 
