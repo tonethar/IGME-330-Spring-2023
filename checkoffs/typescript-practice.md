@@ -8,7 +8,7 @@
 
 ## II. Start code & Instructions
 
-**lastName-firstInitial-ts-practice**
+***lastName*-*firstInitial*-ts-practice**
 
 ```js
 // START CODE & Instructions
