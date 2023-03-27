@@ -2,7 +2,8 @@
 
 ## I. Overview
 - You will utilize the TypeScript "playground" to add an interface, enum, and strong typeing to the code fragment below
-- The TypeScript "playground" is here: https://www.typescriptlang.org/play
+- The TypeScript playground is here: https://www.typescriptlang.org/play
+- Note that the playground will initially complain about the start code - `"Parameter 'todo' implicitly has an 'any' type."` - and so on. Your job is to fix these errors by utilizing strong typing
 
 <hr>
 
