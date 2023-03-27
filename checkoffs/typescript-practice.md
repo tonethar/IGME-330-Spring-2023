@@ -27,6 +27,8 @@
   #3 - Strongly type the parameters and return values of `addTodoItem()` and `getNextId()`
 */
 
+// **When you are done, there must not be any errors under the Playground's "Errors" tab**
+
 const todoItems = [
     { id: 1, title: "Learn HTML", status: "done", completedOn: new Date("2021-09-11") },
     { id: 2, title: "Learn TypeScript", status: "in-progress" },
