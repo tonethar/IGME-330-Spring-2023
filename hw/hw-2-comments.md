@@ -85,11 +85,21 @@ window.onload = () => {
 
 <hr>
 
-## III. Encapsulation
+## III. File paths
+ - A lot of the submissions had incorrect file paths for JSON data, music and image files
+   - these might have worked locally when you were running your app as "root" in VSCode ...
+   - ... but they fail in any other situation, including being posted to banjo or another web server
+   - typically this comes from not knowing that most file paths are *relative to the HTML document*, **NOT** *relative to the JS file*
+   - for example, this file path in **src/loader.js** is NOT correct - `"../data/av-data.json"`
+   - it should probably be this instead - `"data/av-data.json"`
+ 
+<hr>
+
+## IV. Encapsulation
 
 <hr>
 
-## IV. Separation of Concern
+## V. Separation of Concern
 
 <hr><hr>
 
