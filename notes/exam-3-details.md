@@ -1,3 +1,5 @@
+# Exam #3 Details
+
 ## I. When is it? / What's on it?
 - Week 14B - Thursday 4/27/23 (which is the last meeting for IGME-330)
 - *Anything* and *everything* we have covered weeks 1-14 of this semester is fair game
