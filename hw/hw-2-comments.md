@@ -19,7 +19,7 @@
 }
 ```
 
-- A better solution groups related data under object literals, and uses a string instead of an array (so don't get "array-itus"?)
+- A better solution groups related data under object literals, and uses strings instead of arrays where appropriate (avoid "array-itus"?)
 
 **app-data-better.json**
 ```json
