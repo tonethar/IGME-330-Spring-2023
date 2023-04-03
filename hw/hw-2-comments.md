@@ -57,7 +57,7 @@ window.onload = () => {
 	loadDataXHR();
 	
 	// 2 - start up app
-	// but we are calling init() BEFORE the data has loaded!
+	// ISSUE: we are calling init() BEFORE the data has loaded!
 	main.init();
 }
 ```
