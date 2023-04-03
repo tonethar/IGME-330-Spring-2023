@@ -67,6 +67,10 @@
 - If you had more than 2 instances, an array was an appropriate choice:
   - for example, in **canvas.js** rather than having `sprite1`, `sprite2`, ... `sprite5`
   - you should instead have a `sprites` array with 5 sprites in it, and loop through the array to move and draw them
+- Sprites should almost always be created ***ONCE*** at app start-up, and then updated (moved/drawn) once a frame
+  - some of the submissions were creating new sprite instances ***every frame*** ...
+  - ... and adding them to a sprites array ...
+  - so after 30 seconds of the AV playing, the sprites array had 5 sprites x 60 PFS x 30 seconds (total: 9000!) sprites in it, which were drawing on top of each otehr
 
 <hr>
 
