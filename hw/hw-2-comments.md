@@ -9,7 +9,7 @@
   - data like this cam make you look like a newbie ...
 - #2 - Incorrect data types - the `title` and `instructions` are an array - ***why?***
 
-
+**app-data-that-works-but-structure-needs-work.json**
 ```json
 {
 	"title": ["Amazing AudioVisual"],
@@ -21,6 +21,7 @@
 
 - A better solution groups related data under object literals, and uses a string instead of an array (so don't get "array-itus"?)
 
+**app-data-better.json**
 ```json
 {
 	"title": "Amazing AudioVisual",
