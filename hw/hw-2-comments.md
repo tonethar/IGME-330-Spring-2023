@@ -42,14 +42,45 @@
 }
 ```
 
-### I-B. Loading
+### I-B. Loading the data
 
+- Some of the submissions had page and data loading happening in parallel
+
+**loader.js**
+```js
+
+```
+
+
+- But doing things sequentially makes more sense for this HW
+
+**loader-better.js**
+```js
+
+```
 
 <hr>
 
 ## II. Sprites
 
+- The requirement was to use ES6 classes, and have at least 2 instances
+- If you had more than 2 instances, an array was an appropriate choice:
+  - for example, in **canvas.js** rather than having `sprite1`, `sprite2`, ... `sprite5`
+  - you should instead have a `sprites` array with 5 sprites in it, and loop through the array to move and draw them
 
 <hr>
 
+## III. Encapsulation
+
+<hr>
+
+## IV. Separation of Concern
+
+<hr><hr>
+
 ## XX. Instructor Notes
+
+- Requirements updates:
+  - Sprite ES6 classes are contained in a separate file, one class per file
+    - example: **phyloFlower.js** contains `class PhylloFlower{ ... }`
+    - PS - breaking the file-naming convention for classes is OK - eg. **PhyloFlower.js** is allowed
