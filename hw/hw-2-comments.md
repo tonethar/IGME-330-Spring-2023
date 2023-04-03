@@ -50,7 +50,16 @@
 
 **loader.js**
 ```js
-
+import * as main from "./main.js";
+window.onload = () => {
+	console.log("window.onload called");
+	// 1 - do preload here - load fonts, images, additional sounds, etc...
+	loadDataXHR();
+	
+	// 2 - start up app
+	// but we are calling init() BEFORE the data has loaded!
+	main.init();
+}
 ```
 
 
