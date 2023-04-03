@@ -6,7 +6,7 @@
 ### I-A. Structure
 - #1 - Parallel arrays ... **`:-(`**
   - think about what happens if someone adds a track to the data file - an error is a real possibility
-  - data like this cam make you look like a newbie ...
+  - data structured like this (in JSON files or in a program) can make you look like a newbie ...
 - #2 - Incorrect data types - the strings for `title` and `instructions` are inside of an array - ***why?***
 
 **app-data-that-works-but-structure-needs-work.json**
