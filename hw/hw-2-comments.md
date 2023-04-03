@@ -72,6 +72,7 @@ window.onload = () => {
 
 <hr>
 
+
 ## II. Sprites
 
 - The requirement was to use ES6 classes, and have at least 2 instances
