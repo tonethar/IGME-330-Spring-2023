@@ -156,11 +156,35 @@ customElements.define('my-element', MyElement);
   - register `Hello2` with the browser - and name the custom element `hello-2`
   - modify the CSS so that it is styled the same as `<hello-1>` is
   - add a `<br>` tag and this new element to the `<body>` tag
-- You should now see "Hey Ace Coder" in the browser window (with the CSS styles applied)
+- You should now see "Hey Ace Coder!" in the browser window (with the CSS styles applied)
 
 <hr>
 
 ## V. Create an instance of `<hello-2>` dynamically using code
+
+- Here's how to use JS to create new custom elements and add them to the DOM - go ahead and add the following code to the bottom of the `<script>` tag
+
+![screenshot](_images/_wc/wc-1B.png)
+
+```js
+window.onload = () => {
+    // create a new <hello-2> element
+    const hello2 = new Hello2();
+    hello2.name = "Jimmy";
+    document.body.appendChild(hello2);
+
+    // another way
+    const hello2B = document.createElement("hello-2");
+    hello2B.name = "Johnny";
+    document.body.appendChild(hello2B);
+};
+```
+
+- You should now see "Hey Jimmy!" and "Hey Johnny!" in the browser window (with the CSS styles applied)
+
+<hr>
+
+## VI. XXX
 
 <hr><hr><hr><hr><hr>
 
