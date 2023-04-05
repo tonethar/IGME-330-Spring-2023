@@ -171,8 +171,8 @@ customElements.define('my-element', MyElement);
 
 <hr>
 
-## VI. Using attributes
-- XXX
+## VI. Using attributes to pass values into a component
+- See below
 - XXX
 
 
