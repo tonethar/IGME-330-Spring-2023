@@ -241,7 +241,7 @@ document.querySelector("hello-3").setAttribute("data-shout","data-shout");
 - Create a `my-footer` custom element that has `data-name` and `data-name` custom attributes
 - Add a `<my-footer>` element to the page, with the appropriate attribute values (use your name and the current year)
 - Once it's working:
-  - move the component code (including the code that registers the component) to a file named **src/myFooter.js**
+  - move the component code (including the code that registers the component) to a JS file named **src/myFooter.js**
   - in **greeter.html** add a script tag so that the browser knows about this custom component - `<script src="src/myFooter.js"></script>`
 - When you are done it should appear similar to the screenshot below
 - Put the completed **hello-wc.html** file (completed through part VIII) into the ***lastName*-*firstInitial*-wc-1** folder
