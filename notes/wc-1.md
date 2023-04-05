@@ -104,7 +104,8 @@ customElements.define('my-element', MyElement);
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Components - Hello</title>
   <style>
-    hello-1 {
+    /* Note that we can style custom elements just like any other built-in element such as a <p>, <h1> etc*/
+    hello-1{
       font-weight: bold;
       color: red;
       border: 1px dashed black;
@@ -127,6 +128,19 @@ customElements.define('my-element', MyElement);
 ```
 
 <hr>
+
+- Create this file and load it in the browser to be sure that there are no errors
+- So how do we use this web component?
+- First, add the following to the bottom of the `<script>` tag:
+  - `customElements.define('hello-1', Hello1);`
+  - https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define
+    - this method tells the browser there's a new custom element (meaning a "tag") named `<hello-1>` it might have to render
+    - and that this element is defined by the `Hello1` class
+- Second - add `<hello-1></hello-1>` to the `<body>`
+- Reload the page and you should see
+
+
+<hr><hr><hr><hr><hr>
 
 - Go ahead and preview this in a browser. There are 4 `<igm-footer>`s  in the browser web inspector, but they are not drawn to the browser window yet, so we need to do that next
 
