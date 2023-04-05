@@ -94,45 +94,34 @@ customElements.define('my-element', MyElement);
 
 ## III. Start file
 
-**footer-component-1-start.html**
+**hello-wc.html**
 
 ```html
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>igm-footer Component 1</title>
-  <!-- Web Components Polyfill for older browsers -->
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
- 
-  <script>
-  // YOUR CODE GOES HERE
-  class IGMFooter extends HTMLElement{
-    constructor(){
-      super();
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Components - Hello</title>
+  <style>
+    hello-1 {
+      font-weight: bold;
+      color: red;
+      border: 1px dashed black;
+      padding: 2px;
     }
-  } 
-	
-  customElements.define('igm-footer', IGMFooter);
-</script>
+  </style>
+  <script>
+  class Hello1 extends HTMLElement{
+    // connect component - a component lifecycle event
+    connectedCallback(){
+      this.textContent = "Hello!";
+    }
+  }
+  </script>
 </head>
 <body>
-<h1>Web Component - with attributes and <code>connectedCallback()</code></h1>
-<p>Here we have a new component, <code>&lt;igm-footer></code> that has <ode>data-year</code> and <ode>data-text</code> attributes</p>
-<p>We are also utilizing the <code>connectedCallback()</code> lifecycle method, which is invoked each time the custom element is appended into a document-connected element</p>
 
-<h2>1st footer</h2>
-<igm-footer></igm-footer>
-
-<h2>2nd footer</h2>
-<igm-footer></igm-footer>
-
-<h2>3rd footer</h2>
-<igm-footer></igm-footer>
-
-<h2>4th footer</h2>
-<igm-footer></igm-footer>
-	
 </body>
 </html>
 ```
