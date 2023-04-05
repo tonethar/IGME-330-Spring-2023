@@ -236,6 +236,12 @@ document.querySelector("hello-3").setAttribute("data-shout","data-shout");
 <hr>
 
 ## IX. Check it off!
+- Grab [greeter-modules.zip](./_files/greeter-modules.zip) and unzip it
+- Rename the folder to ***lastName*-*firstInitial*-wc-1**
+- Create a `my-footer` custom element that has `data-name` and `data-name` custom attributes
+- Add a `<my-footer>` element to the page, with the appropriate attribute values (use your name and the current year)
+- When you are done it should appear similar to the screenshot below
+- ZIP up ***lastName*-*firstInitial*-wc-1** and post it to myCourses
 
-
+![screenshot](_images/_wc/wc-1E.png)
 
