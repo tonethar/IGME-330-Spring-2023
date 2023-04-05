@@ -239,10 +239,3 @@ document.querySelector("hello-3").setAttribute("data-shout","data-shout");
 
 
 
-<!---
-<hr><hr>
-
-| <-- Previous Unit | Home | Next Unit -->
-| --- | --- | --- 
-|   :-\  |  [**IGME-330**](../README.md) | [**HW - Web Components II**](HW-wc-2.md)
---->
