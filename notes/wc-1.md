@@ -152,21 +152,6 @@ customElements.define('my-element', MyElement);
 
 ![screenshot](_images/_wc/wc-1A.png)
 
-```js
-class Hello2 extends HTMLElement {
-    // called when the component is first created, but before it is added to the DOM
-    constructor(){
-      super();
-      this.name = "Ace Coder";
-    }
-
-    // a component lifecycle event - called when the component is inserted into the DOM
-    connectedCallback(){
-      this.textContent = `Hey ${this.name}!`;
-    }
-  }
-```
-
 - Go ahead and ..
   - register `Hello2` with the browser - and name the custom element `hello-2`
   - modify the CSS so that it is styled the same as `<hello-1>` is
