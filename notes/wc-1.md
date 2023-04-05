@@ -162,7 +162,7 @@ customElements.define('my-element', MyElement);
 
 ## V. Create an instance of `<hello-2>` dynamically using code
 
-- Here's how to use JS to create new custom elements and add them to the DOM - go ahead and add the following code to the bottom of the `<script>` tag
+- Here's how to use JS to create new custom elements, modify their properties, and add them to the DOM - go ahead and add the following code to the bottom of the `<script>` tag
 
 ![screenshot](_images/_wc/wc-1B.png)
 
@@ -171,7 +171,13 @@ customElements.define('my-element', MyElement);
 
 <hr>
 
-## VI. XXX
+## VI. Using attributes
+- XXX
+- XXX
+
+
+
+![screenshot](_images/_wc/wc-1C.png)
 
 <hr><hr><hr><hr><hr>
 
