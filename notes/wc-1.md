@@ -146,7 +146,7 @@ customElements.define('my-element', MyElement);
 
 <hr>
 
-## IV. Add a constructor and a property
+## IV. Add a `constructor` and a `name` property
 
 - Create a new class named `Hello2` - it looks like this:
 
