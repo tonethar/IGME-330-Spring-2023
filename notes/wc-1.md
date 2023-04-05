@@ -98,6 +98,7 @@ customElements.define('my-element', MyElement);
 **hello-wc.html**
 
 ```html
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
