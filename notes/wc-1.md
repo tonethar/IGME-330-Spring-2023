@@ -81,6 +81,7 @@ class MyElement extends HTMLElement{
 
 // #7 - define our new custom element with `customElements.define()` so that we can use it on the page
 customElements.define('my-element', MyElement);
+	
 </script>
 ...
 <body>
