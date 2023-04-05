@@ -172,6 +172,7 @@ customElements.define('my-element', MyElement);
 <hr>
 
 ## VI. Using attributes to pass values into a component
+- Create a new class named `Hello3`
 - See below that we are now watching for changes to a `data-name` attribute and then:
   - updating the `this.name` property
   - calling the `render()` helper function and updating the DOM 
@@ -180,6 +181,12 @@ customElements.define('my-element', MyElement);
 
 
 ![screenshot](_images/_wc/wc-1C.png)
+
+- Go ahead and ..
+  - register `Hello3` with the browser - and name the custom element `hello-2`
+  - modify the CSS so that it is styled the same as the other tags
+  - add a `<br>` tag and this new element to the `<body>` tag
+- You should now see "Greetings Ace Coder!" in the browser window (with the CSS styles applied)
 
 <hr><hr><hr><hr><hr>
 
