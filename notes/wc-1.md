@@ -116,7 +116,7 @@ customElements.define('my-element', MyElement);
   </style>
   <script>
   class Hello1 extends HTMLElement{
-    // connect component - a component lifecycle event
+    // a component lifecycle event - called when the component is inserted into the DOM
     connectedCallback(){
       this.textContent = "Hello!";
     }
@@ -151,12 +151,13 @@ customElements.define('my-element', MyElement);
 
 ```js
 class Hello2 extends HTMLElement {
-    // connect component - a component lifecycle event
+    // called when the component is first created, but before it is added to the DOM
     constructor(){
       super();
       this.name = "Ace Coder";
     }
 
+    // a component lifecycle event - called when the component is inserted into the DOM
     connectedCallback(){
       this.textContent = `Hey ${this.name}!`;
     }
