@@ -91,7 +91,8 @@ customElements.define('my-element', MyElement);
 </body>
 ```
 
-- Note that custom element names MUST be all lower case letters, and MUST have a dash in the name (in order to distinguish them from built-in element names)
+- ***Note that custom element names MUST be all lower case letters, and MUST have a dash in the name (in order to distinguish them from built-in element names)***
+- FYI - here is Google's Web Component style guide - https://github.com/GoogleWebComponents/style-guide
 
 <hr>
 
