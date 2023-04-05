@@ -93,7 +93,7 @@ customElements.define('my-element', MyElement);
 
 <hr>
 
-## III. Start file
+## III. Get Started
 
 **hello-wc.html**
 
@@ -139,8 +139,39 @@ customElements.define('my-element', MyElement);
     - this method tells the browser there's a new custom element (meaning a "tag") named `<hello-1>` it might have to render
     - and that this element is defined by the `Hello1` class
 - Second - add `<hello-1></hello-1>` to the `<body>`
-- Reload the page and you should see
+- Reload the page and you should see "Hello" rendered out (with the CSS styles applied)
 
+<hr>
+
+## IV. Add a constructor and a property
+
+- Create a new class named `Hello2` - it looks like this:
+
+![screenshot](_images/_wc/wc-1A.png)
+
+```js
+class Hello2 extends HTMLElement {
+    // connect component - a component lifecycle event
+    constructor(){
+      super();
+      this.name = "Ace Coder";
+    }
+
+    connectedCallback(){
+      this.textContent = `Hey ${this.name}!`;
+    }
+  }
+```
+
+- Go ahead and ..
+  - register `Hello2` with the browser - and name the custom element `hello-2`
+  - modify the CSS so that it is styled the same as `<hello-1>` is
+  - add a `<br>` tag and this new element to the `<body>` tag
+- You should now see "Hello Ace Coder" in the browser window (with the CSS styles applied)
+
+<hr>
+
+## V. Create an instance of `<hello-2>` dynamically using code
 
 <hr><hr><hr><hr><hr>
 
