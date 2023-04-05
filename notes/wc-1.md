@@ -237,14 +237,16 @@ document.querySelector("hello-3").setAttribute("data-shout","data-shout");
 
 ## IX. Check it off!
 - Grab [greeter-modules.zip](./_files/greeter-modules.zip) and unzip it
-- Rename the folder to ***lastName*-*firstInitial*-wc-1**
+- Rename the folder to ***lastName*-*firstInitial*-wc-1** (-5% if named incorrectly)
 - Create a `my-footer` custom element that has `data-name` and `data-name` custom attributes
 - Add a `<my-footer>` element to the page, with the appropriate attribute values (use your name and the current year)
 - Once it's working:
   - move the component code (including the code that registers the component) to a JS file named **src/myFooter.js**
-  - in **greeter.html** add a script tag so that the browser knows about this custom component - `<script src="src/myFooter.js"></script>`
-- When you are done it should appear similar to the screenshot below
-- Put the completed **hello-wc.html** file (completed through part VIII) into the ***lastName*-*firstInitial*-wc-1** folder
+  - in **greeter.html** add a `<script>` tag so that the browser knows about this custom component
+    - `<script src="src/myFooter.js"></script>`
+  - (-20%) if component code is not in an external file
+- When you are done, the Greeter app should appear similar to the screenshot below
+- Also put the completed **hello-wc.html** file (completed through part VIII) into the ***lastName*-*firstInitial*-wc-1** folder (-25% if not done)
 - ZIP up the ***lastName*-*firstInitial*-wc-1** folder and post it to myCourses
 
 <hr>
