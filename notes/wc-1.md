@@ -172,8 +172,10 @@ customElements.define('my-element', MyElement);
 <hr>
 
 ## VI. Using attributes to pass values into a component
-- See below that we are now watching for changs to a `` attribute, and then 
-- XXX
+- See below that we are now watching for changes to a `data-name` attribute and then:
+  - updating the `this.name` property
+  - calling the `render()` helper function and updating the DOM 
+- Note that we are following the [HTML5 custom data](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) naming conventions by calling the attribute `data-name` rather than `name`, so that we don't get identifier collisions with existing HTML attributes
 
 
 
