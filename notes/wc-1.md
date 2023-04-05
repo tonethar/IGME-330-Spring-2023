@@ -166,20 +166,6 @@ customElements.define('my-element', MyElement);
 
 ![screenshot](_images/_wc/wc-1B.png)
 
-```js
-window.onload = () => {
-    // create a new <hello-2> element
-    const hello2 = new Hello2();
-    hello2.name = "Jimmy";
-    document.body.appendChild(hello2);
-
-    // another way
-    const hello2B = document.createElement("hello-2");
-    hello2B.name = "Johnny";
-    document.body.appendChild(hello2B);
-};
-```
-
 - You should now see "Hey Jimmy!" and "Hey Johnny!" in the browser window (with the CSS styles applied)
 
 <hr>
