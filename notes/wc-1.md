@@ -1,8 +1,5 @@
 # Web Components-1 - Intro to Web Components
 
-## Overview
-
-
 ## I. About Web Components
 
 - Modern web developers often utilize front-end frameworks like [React](https://reactjs.org/), [Angular](https://angular.io/) or [Vue.js](https://vuejs.org/) to develop rich user interfaces
