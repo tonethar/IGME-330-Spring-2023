@@ -167,7 +167,7 @@ class Hello2 extends HTMLElement {
   - register `Hello2` with the browser - and name the custom element `hello-2`
   - modify the CSS so that it is styled the same as `<hello-1>` is
   - add a `<br>` tag and this new element to the `<body>` tag
-- You should now see "Hello Ace Coder" in the browser window (with the CSS styles applied)
+- You should now see "Hey Ace Coder" in the browser window (with the CSS styles applied)
 
 <hr>
 
