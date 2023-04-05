@@ -167,6 +167,7 @@ customElements.define('my-element', MyElement);
 ![screenshot](_images/_wc/wc-1B.png)
 
 - You should now see "Hey Jimmy!" and "Hey Johnny!" in the browser window (with the CSS styles applied)
+- Now go ahead and comment out that "creation" code and move on
 
 <hr>
 
