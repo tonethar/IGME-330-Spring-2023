@@ -179,7 +179,6 @@ customElements.define('my-element', MyElement);
 - Note that we are following the [HTML5 custom data](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) naming conventions by calling the attribute `data-name` rather than `name`, so that we don't get identifier collisions with existing HTML attributes
 
 
-
 ![screenshot](_images/_wc/wc-1C.png)
 
 - Go ahead and ..
@@ -194,149 +193,29 @@ customElements.define('my-element', MyElement);
 ```
 
 - Reload the page - you should now see "Greetings Jeffrey!" in the browser window (with the CSS styles applied)
-- Look over the code, open up the console, reload the page, loog for the logs, and be sure that you understand what methods are being called when 
+- Look over the code, open up the console, reload the page, look for the log, and be sure that you understand what methods are being called when 
+
+<hr>
+
+## VII. Editing attributes in the web inspector
+
+- Open up the web inspector and change the value of `data-name` to something else
+- You should see a log to the console, and an update in the browser window
+
+![screenshot](_images/_wc/wc-1D.png)
 
 <hr><hr><hr><hr><hr>
 
-- Go ahead and preview this in a browser. There are 4 `<igm-footer>`s  in the browser web inspector, but they are not drawn to the browser window yet, so we need to do that next
-
 <hr>
 
-## IV. The Shadow DOM
-- Althought the *Shadow DOM* sounds kind of mysterious, it is simply a "scoped" DOM that components have that is separate from the main DOM of the document
-- For example, if our component had an `<h1>` in it,  and we wrote a `document.querySelector("h1")` call, or wrote a style rule like this `h1{color:red}` - our component's `<h1>` would be unaffected
-
-<hr>
-
-### IV-A. Creating a Shadow DOM
-
-- Add the following to the `constructor()` above, right after the call to `super()`:
-
-
-![screenshot](_images/_wc/HW-wc-1.png)
-
-- Now preview this in the browser:
-  - you should be able to see the `<hr>`s in the browser's window
-  - because we specified `mode: "open"`, some of the internal structure of the component is visible. Go ahead and look in the web inspector for `#shadow-root` to see this
-  - change the `mode` to `"closed"` and then head back to the inspector to see the change
-
-<hr>
-
-### IV-B. Adding style
-
-- Here we're going to add some style for the component, and a `<span>` (for use in the next part)
-- Update your constructor with these changes (note that the numbering has changed) 
-
-![screenshot](_images/_wc/HW-wc-2.png)
-
-- preview this in the browser, it shouldn't look different
-
-<hr id="fix">
-
-- **NOTE - there is a mistake in the last line of code above, and in my video I neglected to even use this last line of code. Here's the fix:**
-
-```js
-// Replace
-this.shadowRoot.append(style);
-// With
-this.shadowRoot.appendChild(style);
-
-// Now you will see that the styles are functioning
-// And you will also now see the <style> tag under the #shadow-root
-```
-
-- if you look in the inspector, under the `#shadow-root` you'll see the `<span>` and `<style>` tag
-- the `host:` CSS pseudo-class is documented here - https://developer.mozilla.org/en-US/docs/Web/CSS/:host
-
-<hr>
-
-### IV-C. Adding attributes
-
-- Here we are going to utilize the `connectedCallback()` lifecycle method to render the values of 2 attributes into our `<igm-footer>`
-- Add this code to the `class` definition AFTER (not inside) the `constructor()`
-
-![screenshot](_images/_wc/HW-wc-3.png)
-
-- reload the page, and you will now see an updated version of the `<igm-footer>` with default values for `year` & `text`
-
-<hr>
-
-### IV-D. Passing attribute values to components
-
-- Easy! Our code is looking for `data-year` and 'data-text'
-- Note: here we are following the [custom data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) naming conventions, even though we don't have to, so that our attribute names don't collide with existing ones
-- Go ahead and pass in unique values to your 4 `<igm-footer>` elements for `data-year` and `data-text`
-
-![screenshot](_images/_wc/HW-wc-4.png)
-
-<hr>
-
-### IV-E. Show that the Shadow DOM is in fact encapsulated from the regular DOM
-
-- To prove that the CSS we write in the main document will NOT be able to effect the component Shadow DOM do the following:
-  - add this HTML to the `<body>` tag, right before the first `<h2>`:
-  
-```html
-<span>I am a span</span>
-```
-
-- add this CSS to the `<head>` section of the document:
-
-```html
-<style>
-  span{
-    color:green;
-  }
-</style>
-```
-
-- You should see that our `<span>` is green, and that the components are unaffected
-- Of course, we can still style the *entire* component if we want to. Add this to the `<style>` tag:
-
-```css
-igm-footer{
-  border: 3px solid black;
-}
-```
-
-- Now all of the `<igm-footer>` elements have a black border
-
-<hr>
-
-## V. HTML Templates
-
-- Here is an improved version that is much more elegant and maintainable. It uses HTML template syntax instead of hard-coding the HTML in our class file
-- We are also going to move the component code into an external file, and load it
-- Note that `<script type="module" ...` - so that you'll need to run this code off of a web server, or VS Code's live server
-
-<hr>
-
-**footer-component-2.html** - almost all of this HTML is the same as before - just a few small changes in the `<head>`
-
-![screenshot](_images/_wc/HW-wc-5.png)
-
-<hr>
-
-**src/igm-footer.js** - much of this is the same, it just needs to be moved around
-
-![screenshot](_images/_wc/HW-wc-6.png)
-
-<hr>
-
-- We will talk about this code works in class
-- We changed the CSS slightly, and moved all of the CSS and HTML into `const template`
-- Go ahead and get these typed in and working! It should appear the same as before, except with a light gray background color for each component element
-
-<hr>
-
-## VI. Wrap Up
+## XX. Wrap Up
 
 - This might seem like we've done a lot of work above for this simple component, but as we add more capabilities to these web components you will hopefully see the benefits!
 - The last version above is how we will be writing our web component code going forward
 
 <hr>
 
-## VII. Homework
+## XX. Homework
 
 - ZIP and POST to the dropbox **footer-component-1.html** & **footer-component-2.html** & **src/igm-footer.js**
 - Create **footer-component-2-PLUS.html** / **src/igm-footer-plus.js**  - (and also ZIP and POST these to the dropbox) - the functionality will be the same as the versions above, except:
