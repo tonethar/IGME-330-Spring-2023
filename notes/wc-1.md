@@ -203,7 +203,7 @@ customElements.define('my-element', MyElement);
 
 <hr>
 
-# VIII. Add a boolean attribute
+## VIII. Add a boolean attribute
 
 - Add `"data-shout"` to the array of observed attributes (see the `observedAttributes()` static getter)
 - Add the following to the end of `render()`:
