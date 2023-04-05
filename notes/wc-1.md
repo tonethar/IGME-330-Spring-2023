@@ -172,7 +172,7 @@ customElements.define('my-element', MyElement);
 <hr>
 
 ## VI. Using attributes to pass values into a component
-- See below
+- See below that we are now watching for changs to a `` attribute, and then 
 - XXX
 
 
