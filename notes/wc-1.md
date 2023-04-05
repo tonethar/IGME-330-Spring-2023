@@ -204,7 +204,20 @@ customElements.define('my-element', MyElement);
 
 ![screenshot](_images/_wc/wc-1D.png)
 
-<hr><hr><hr><hr><hr>
+<hr>
+
+# VIII. Add a boolean attribute
+
+- Add `"data-shout"` to the array of observed attributes (see the `observedAttributes()` static getter)
+- Add the following to the end of `render()`:
+
+```js
+if(this.hasAttribute("data-shout")){
+  this.textContent = this.textContent.toUpperCase();
+}
+```
+
+![screenshot](_images/_wc/wc-1D.png)
 
 <hr>
 
