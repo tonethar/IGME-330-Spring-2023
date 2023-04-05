@@ -216,43 +216,36 @@ if(this.hasAttribute("data-shout")){
   this.textContent = this.textContent.toUpperCase();
 }
 ```
+- Then add another `<hello-3>` tag to the page
 
-![screenshot](_images/_wc/wc-1D.png)
+```js
+<hello-3 data-name="Janet" data-shout></hello-3>
+```
 
-<hr>
-
-## XX. Wrap Up
-
-- This might seem like we've done a lot of work above for this simple component, but as we add more capabilities to these web components you will hopefully see the benefits!
-- The last version above is how we will be writing our web component code going forward
+- Reload the page - you should see "GREETINGS JANET!" in the browser
 
 <hr>
 
-## XX. Homework
+- You can also set the attribute values programmatically - put this at then end of `window.onload`
 
-- ZIP and POST to the dropbox **footer-component-1.html** & **footer-component-2.html** & **src/igm-footer.js**
-- Create **footer-component-2-PLUS.html** / **src/igm-footer-plus.js**  - (and also ZIP and POST these to the dropbox) - the functionality will be the same as the versions above, except:
-  - there must be a custom `data-organization` attribute (the user might pass in a value of "RIT" or "IGM" or "IST" etc
-  - this organization will be displayed in another `<span>` - in the template - that looks like this - `<span id="org"></span>`
-  - In the `render()` method, display the value of the `data-organization` attribute in this new `<span>`
-  - If a value is not provided for the `data-organization` attribute in the HTML, display a default value of "IGM"
+```js
+// get first <hello-3> on the page
+// PS - the second "data-shout" is a convention for boolean attributes
+document.querySelector("hello-3").setAttribute("data-shout","data-shout");
+```
 
-<hr>
-
-**Screenshot of completed version**
-
-![screenshot](_images/_wc/HW-wc-7.png)
+- Reload the page - you should now see "GREETINGS JEFFREY!" in the browser
 
 <hr>
 
-## VIII. Submission
-
-- Putting your files in a containing folder named  **wc-1/** probably makes sense
-- See the dropbox for submission instructions
+## IX. Check it off!
 
 
+
+<!---
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
 |   :-\  |  [**IGME-330**](../README.md) | [**HW - Web Components II**](HW-wc-2.md)
+--->
