@@ -187,6 +187,14 @@ customElements.define('my-element', MyElement);
   - modify the CSS so that it is styled the same as the other tags
   - add a `<br>` tag and this new element to the `<body>` tag
 - You should now see "Greetings Ace Coder!" in the browser window (with the CSS styles applied)
+- Now modify the tag so that you pass in a `data-name` attribute
+
+```js
+<hello-3 data-name="Jeffrey"></hello-3>
+```
+
+- Reload the page - you should now see "Greetings Jeffrey!" in the browser window (with the CSS styles applied)
+- Look over the code, open up the console, reload the page, loog for the logs, and be sure that you understand what methods are being called when 
 
 <hr><hr><hr><hr><hr>
 
