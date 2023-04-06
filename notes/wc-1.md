@@ -179,7 +179,7 @@ customElements.define('my-element', MyElement);
 ![screenshot](_images/_wc/wc-1C.png)
 
 - Go ahead and ..
-  - register `Hello3` with the browser - and name the custom element `hello-2`
+  - register `Hello3` with the browser - and name the custom element `hello-3`
   - modify the CSS so that it is styled the same as the other tags
   - add a `<br>` tag and this new element to the `<body>` tag
 - You should now see "Greetings Ace Coder!" in the browser window (with the CSS styles applied)
