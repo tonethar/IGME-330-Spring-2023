@@ -238,7 +238,7 @@ document.querySelector("hello-3").setAttribute("data-shout","data-shout");
 ## IX. Check it off!
 - Grab [greeter-modules.zip](./_files/greeter-modules.zip) and unzip it
 - Rename the folder to ***lastName*-*firstInitial*-wc-1** (-5% if named incorrectly)
-- Create a `my-footer` custom element that has `data-name` and `data-name` custom attributes
+- Create a `my-footer` custom element that has `data-name` and `data-year` custom attributes
 - Add a `<my-footer>` element to the page, with the appropriate attribute values (use your name and the current year)
 - Once it's working:
   - move the component code (including the code that registers the component) to a JS file named **src/myFooter.js**
