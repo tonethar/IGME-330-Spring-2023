@@ -102,6 +102,12 @@ window.onload = () => {
 
 ## V. Separation of Concern
 
+<hr>
+
+## VI. Giving yourself enough time on the assignment
+- ... in order to do your best work
+- Did everyone do that?
+
 <hr><hr>
 
 ## XX. Instructor Notes
