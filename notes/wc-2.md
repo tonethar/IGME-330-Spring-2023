@@ -110,7 +110,7 @@
 
 <hr> 
 
-## III. Creating a `<template>`
+## III. Creating a `<template>` and Shadow DOM
 
 - A) Add the following right ***before*** the `MyBookmark` class definition
 
