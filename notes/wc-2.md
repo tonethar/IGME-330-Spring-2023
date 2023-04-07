@@ -4,7 +4,7 @@
 
 - Create this file and open it up in the browser
 - Look over the code and be sure that you understand how it works
-- Add a new `<my-bookmark>` and `<li>` to the bottom of the `<ul>` - in the HTML - have it link to the *MDN Web component docs* (use google to get the link)
+- **DO THIS:** - Add a new `<my-bookmark>` and `<li>` to the bottom of the `<ul>` - in the HTML - have it link to the *MDN Web component docs* (use google to get the link)
 
 **wc-2.html**
 
