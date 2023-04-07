@@ -109,3 +109,47 @@
 - https://blog.revillweb.com/open-vs-closed-shadow-dom-9f3d7427d1af
 
 <hr> 
+
+## III. Creating a `<template>`
+
+- A) Add the following right ***before*** the `MyBookmark` class definition
+
+```js
+const template = document.createElement("template");
+  template.innerHTML = `
+  <style>
+  :host{
+    display: inline-block;
+    background-color: #ddd;
+  }
+  span{
+    color: #F76902;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: sans-serif;
+  }
+  </style>
+  <span><a href="">???</a></span>
+  `;
+```
+
+- B) Add the following to the bottom of the `MyBookmark` constructor:
+
+```js
+// Attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
+this.attachShadow({mode: "open"});
+// Clone `template` and append it
+this.shadowRoot.appendChild(template.content.cloneNode(true));
+```
+
+- C) Modify `render()` to look like this:
+
+```
+// Is the template loaded?
+let a = this.shadowRoot.querySelector("a");
+// If so, update the shadow DOM
+if(a){
+  a.href = this._url;
+  a.textContent = this._text;
+}
+```
