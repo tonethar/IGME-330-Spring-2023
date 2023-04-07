@@ -144,7 +144,7 @@ this.shadowRoot.appendChild(template.content.cloneNode(true));
 
 - C) Modify `render()` to look like this:
 
-```
+```js
 // Is the template loaded?
 let a = this.shadowRoot.querySelector("a");
 // If so, update the shadow DOM
@@ -153,3 +153,5 @@ if(a){
   a.textContent = this._text;
 }
 ```
+
+- D) Reload the page - now the bookmarks are using their built-in HTML and styles from the template!
