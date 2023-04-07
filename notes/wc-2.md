@@ -155,3 +155,11 @@ if(a){
 ```
 
 - D) Reload the page - now the bookmarks are using their built-in HTML and styles from the template!
+
+- E) To see how the Shadow DOM of the `my-bookmark` components is encapsulated/protected, try running this line of code in `window.onload`:
+
+```js
+document.querySelector("span").innerHTML = "ZZZ";
+```
+
+- It will fail because the `<span>`s are all hidden inside of the `my-bookmark` instances shadow DOM
