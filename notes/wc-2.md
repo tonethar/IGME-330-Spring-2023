@@ -116,7 +116,7 @@
 
 ```js
 const template = document.createElement("template");
-  template.innerHTML = `
+template.innerHTML = `
   <style>
   :host{
     display: inline-block;
