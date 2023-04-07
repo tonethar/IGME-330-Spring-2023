@@ -33,13 +33,13 @@
     // called when the component is first created, but before it is added to the DOM
     constructor(){
       super();
-      this._title = "RIT";
+      this._text = "RIT";
       this._url = "https://www.rit.edu/";
     }
 
     // tell the component what attributes to "watch"
     static get observedAttributes() {
-      return ["data-title", "data-url"];
+      return ["data-text", "data-url"];
     }
 
     // ** lifecycle events **
@@ -53,8 +53,8 @@
     attributeChangedCallback(attributeName, oldValue, newValue) {
       console.log(attributeName, oldValue, newValue);
       if(oldValue === newValue) return;
-      if(attributeName == "data-title"){
-        this._title = newValue;
+      if(attributeName == "data-text"){
+        this._text = newValue;
       }
       if(attributeName == "data-url"){
         this._url = newValue;
@@ -64,7 +64,7 @@
 
     // helper method
     render(){
-      this.innerHTML = `<span><a href="${this._url}">${this._title}</a></span>`;
+      this.innerHTML = `<span><a href="${this._url}">${this._text}</a></span>`;
     }
   }
 
@@ -76,7 +76,7 @@
 
     // ANOTHER way to set custom attributes, the .dataset property
     // note that these 2 lines of code will also trigger attributeChangedCallback()
-    bing.dataset.title = "Bing";
+    bing.dataset.text = "Bing";
     bing.dataset.url = "https://www.bing.com/";
 
     const newLI = document.createElement("li");
@@ -90,7 +90,7 @@
   <h1>Web Components - Shadow DOM & HTML Templates</h1>
   <ul id="bookmarks">
     <li><my-bookmark></my-bookmark></li>
-    <li><my-bookmark data-title="Google" data-url="https://www.google.com/"></my-bookmark></li>
+    <li><my-bookmark data-text="Google" data-url="https://www.google.com/"></my-bookmark></li>
   </ul>
 </body>
 </html>
