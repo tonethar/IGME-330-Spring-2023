@@ -197,4 +197,7 @@ const bookmarks = [
 4) Your mission is use the data contained in the `bookmarks` array above to populate `<ul id="bookmarks">` 
 
 - Write the necessary code in the `window.onload = ...` event handler
+- You will be dynamically creating `<my-bookmark>` and `<li>` elemets and adding them to `<ul id="bookmarks">` 
+- Once you have that working, modify `MyBookmark.js`:
+  - add a `_comments` property and set its value to the applicable text
 
