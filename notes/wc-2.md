@@ -183,5 +183,11 @@ document.querySelector("span").innerHTML = "ZZZ";
   - the `customElements.define(...)` code
   - don't forget to `export` the `MyBookmark` class
 
+- 6) Create a JS file in **src/** folder - **main.js**
 
+- 7) **main.js**
+  - move the `window.onload = ...` code into it
+  - add this to the top of **main.js** - `import { MyBookmark } from "./myBookmark.js";`
+
+- 8) In the HTML file, go ahead and link to **main.js**
 
