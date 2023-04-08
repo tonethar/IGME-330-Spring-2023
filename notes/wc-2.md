@@ -166,9 +166,9 @@ document.querySelector("span").innerHTML = "ZZZ";
 
 <hr>
 
-## IV. Check it off
+## IV. Move the code to modules
 
-1) Make a copy of **wc-2.html** and name it ***wc-2-modules.html**
+1) Make a copy of **wc-2.html** and name it **wc-2-modules.html**
     - be sure that you keep a copy of **wc-2.html**, you might need it in the future
 
 2) Create a folder named ***lastName*-*firstInitial*-wc-2** and put ***wc-2-modules.html** into it
@@ -190,4 +190,16 @@ document.querySelector("span").innerHTML = "ZZZ";
     - add this to the top of **main.js** - `import { MyBookmark } from "./myBookmark.js";`
 
 8) In the HTML file, go ahead and link to **main.js**
+    - `<script src="src/main.js" type="module"></script>`
 
+- **Test your app, it should work the same as before**
+
+<hr>
+
+## V. Check it off
+
+1) In **main.js**, comment out (but don't delete, you might need some of it) all of the code inside of the `window.onload` handler
+
+2) In **wc-2-modules.html**, delete all of the `<my-bookmark>` (and associated <li> tags) from the `<ul>`- except for the first <my-bookmark></my-bookmark> that had no attributes
+  
+3) XX
