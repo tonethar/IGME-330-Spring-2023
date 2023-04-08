@@ -168,9 +168,33 @@ document.querySelector("span").innerHTML = "ZZZ";
 <hr>
 
 ## V. Check it off
+1) In **wc-2-modules.html**, delete all of the `<my-bookmark>` elements - and associated `<li>` elements - from the `<ul>`
 
-1) In **main.js**, comment out (but don't delete, you might need some of it) all of the code inside of the `window.onload` handler
-
-2) In **wc-2-modules.html**, delete all of the `<my-bookmark>` elements - and associated `<li>` elements - from the `<ul>`, except for the first `<my-bookmark></my-bookmark>` (the one that had no attributes)
+2) In **main.js**, comment out (but don't delete, you might need some of it) all of the code inside of the `window.onload` handler
   
-3) XX
+3) Add the following to the top of **main.js**, right after the `import` statement:
+
+```js
+const bookmarks = [
+  {
+    text: "Bing",
+    url: "https://www.bing.com",
+    comments: "Bing is a web search engine owned and operated by Microsoft."
+  },
+  {
+    text: "Google",
+    url: "https://www.google.com",
+    comments: "Google Search is a search engine provided and operated by Google."
+  },
+  {
+    text: "DuckDuckGo",
+    url: "https://duckduckgo.com/",
+    comments: "DuckDuckGo (DDG) is an internet search engine that emphasizes protecting searchers' privacy."
+  }
+];
+```
+
+4) Your mission is use the data contained in the `bookmarks` array above to populate `<ul id="bookmarks">` 
+
+- Write the necessary code in the `window.onload = ...` event handler
+
