@@ -181,4 +181,7 @@ document.querySelector("span").innerHTML = "ZZZ";
   - the `template`
   - the `MyBookmark` class
   - the `customElements.define(...)` code
+  - don't forget to `export` the `MyBookmark` class
+
+
 
