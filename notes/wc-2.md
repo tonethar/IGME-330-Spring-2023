@@ -208,7 +208,7 @@ const bookmarks = [
 5) Once you have that working, modify the `MyBookmark` class:
     - add a `_comments` property to the constructor and set its default value to "No comments found"
     - write the code necessary to handle a `"data-comments"` attribute
-    - the value of `"data-comments"` shows up as a tooltip - meaning you will need to set the built-in `.title` attribute of the `<a>` tag
+    - we want the value of `"data-comments"` will show up as a *tooltip* - meaning you will need to set the built-in `.title` attribute of the `<a>` tag to the value of `_comments`
     - in **main.js**, set that attribute's value to the appropriate value for each bookmark
     - when you are done, it should look like this (and make sure that the tooltip text is all correct):
 
