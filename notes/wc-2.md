@@ -218,3 +218,7 @@ const bookmarks = [
 ![screenshot](_images/_wc/wc-2E.png)
 
 <hr>
+
+## VI. Submission
+
+- Zip the ***lastName*-*firstInitial*-wc-2** folder and post it to myCourses
