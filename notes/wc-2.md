@@ -197,10 +197,13 @@ const bookmarks = [
 
 - Write the necessary code in the `window.onload = ...` event handler
 - You will be dynamically creating `<my-bookmark>` and `<li>` elemets and adding them to `<ul id="bookmarks">` 
-- It should look like this (and make ure that the links all function):
+- It should look like this (and make sure that the links all function):
+
+<hr>
 
 ![screenshot](_images/_wc/wc-2D.png)
 
+<hr>
 
 5) Once you have that working, modify `MyBookmark.js`:
     - add a `_comments` property and set its default value to "No comments found"
