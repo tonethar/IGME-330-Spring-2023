@@ -197,7 +197,7 @@ const bookmarks = [
 
 - Write the necessary code in the `window.onload = ...` event handler
 - You will be dynamically creating `<my-bookmark>` and `<li>` elemets and adding them to `<ul id="bookmarks">` 
-- It should look like this (and make sure that the links all function):
+- When you are done, it should look like this (and make sure that the links all function):
 
 <hr>
 
@@ -207,4 +207,13 @@ const bookmarks = [
 
 5) Once you have that working, modify the `MyBookmark` class:
     - add a `_comments` property and set its default value to "No comments found"
+    - write the code necessary to handle a `"data-comments"` attribute
+    - the value of `"data-comments"` shows up as a tooltip - meaning you will need to set the built-in `.title` attribute of the `<a>` tag
+    - in **main.js**, set that attribute's value to the appropriate value for each bookmark
+    - when you are done, it should look like this (and make sure that the tooltip text is all correct):
 
+<hr>
+
+![screenshot](_images/_wc/wc-2E.png)
+
+<hr>
