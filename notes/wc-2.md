@@ -133,7 +133,7 @@
 document.querySelector("span").innerHTML = "ZZZ";
 ```
 
-- It will fail because the `<span>`s are all hidden inside of the `my-bookmark` instances shadow DOM
+- ***It will fail because the `<span>`s are all hidden inside of the `my-bookmark` instances shadow DOM!***
 
 <hr>
 
