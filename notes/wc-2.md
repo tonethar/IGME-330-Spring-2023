@@ -168,26 +168,26 @@ document.querySelector("span").innerHTML = "ZZZ";
 
 ## IV. Check it off
 
-- 1) Make a copy of **wc-2.html** and name it ***wc-2-modules.html**
+1) Make a copy of **wc-2.html** and name it ***wc-2-modules.html**
   - be sure that you keep a copy of **wc-2.html**, you might need it in the future
 
-- 2) Create a folder named ***lastName*-*firstInitial*-wc-2** and put ***wc-2-modules.html** into it
+2) Create a folder named ***lastName*-*firstInitial*-wc-2** and put ***wc-2-modules.html** into it
 
-- 3) Create a folder named **src** inside of ***lastName*-*firstInitial*-wc-2**
+3) Create a folder named **src** inside of ***lastName*-*firstInitial*-wc-2**
 
-- 4) Create a JS file in **src/** folder - **myBookmark.js**
+4) Create a JS file in **src/** folder - **myBookmark.js**
 
-- 5) Move the following code into **myBookmark.js**
+5) Move the following code into **myBookmark.js**
   - the `template`
   - the `MyBookmark` class
   - the `customElements.define(...)` code
   - don't forget to `export` the `MyBookmark` class
 
-- 6) Create a JS file in **src/** folder - **main.js**
+6) Create a JS file in **src/** folder - **main.js**
 
-- 7) **main.js**
+7) **main.js**
   - move the `window.onload = ...` code into it
   - add this to the top of **main.js** - `import { MyBookmark } from "./myBookmark.js";`
 
-- 8) In the HTML file, go ahead and link to **main.js**
+8) In the HTML file, go ahead and link to **main.js**
 
