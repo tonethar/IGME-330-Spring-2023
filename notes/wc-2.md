@@ -183,7 +183,8 @@ const bookmarks = [
   },
   {
     text: "Google",
-    url: "https://www.google.com"
+    url: "https://www.google.com",
+    comments: "Google Search is a search engine provided and operated by Google."
   },
   {
     text: "DuckDuckGo",
