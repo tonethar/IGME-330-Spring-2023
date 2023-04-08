@@ -117,49 +117,13 @@
 
 ![screenshot](_images/_wc/wc-2A.png)
 
-```js
-const template = document.createElement("template");
-template.innerHTML = `
-  <style>
-  :host{
-    display: inline-block;
-    background-color: #ddd;
-  }
-  span{
-    color: #F76902;
-    font-variant: small-caps;
-    font-weight: bolder;
-    font-family: sans-serif;
-  }
-  </style>
-  <span><a href="">???</a></span>
-  `;
-```
-
 - B) Add the following to the bottom of the `MyBookmark` constructor:
 
 ![screenshot](_images/_wc/wc-2B.png)
 
-```js
-// Attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
-this.attachShadow({mode: "open"});
-// Clone `template` and append it
-this.shadowRoot.appendChild(template.content.cloneNode(true));
-```
-
 - C) Modify `render()` to look like this:
 
 ![screenshot](_images/_wc/wc-2C.png)
-
-```js
-// Is the template loaded?
-let a = this.shadowRoot.querySelector("a");
-// If so, update the shadow DOM
-if(a){
-  a.href = this._url;
-  a.textContent = this._text;
-}
-```
 
 - D) Reload the page - now the bookmarks are using their built-in HTML and styles from the template!
 
