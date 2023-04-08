@@ -142,7 +142,7 @@ document.querySelector("span").innerHTML = "ZZZ";
 1) Make a copy of **wc-2.html** and name it **wc-2-modules.html**
     - be sure that you keep a copy of **wc-2.html**, you might need it in the future
 
-2) Create a folder named ***lastName*-*firstInitial*-wc-2** and put ***wc-2-modules.html** into it
+2) Create a folder named ***lastName*-*firstInitial*-wc-2** and put **wc-2-modules.html** into it
 
 3) Create a folder named **src** inside of ***lastName*-*firstInitial*-wc-2**
 
