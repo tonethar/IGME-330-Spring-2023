@@ -115,6 +115,8 @@
 
 - A) Add the following right ***before*** the `MyBookmark` class definition
 
+![screenshot](_images/_wc/wc-2A.png)
+
 ```js
 const template = document.createElement("template");
 template.innerHTML = `
@@ -136,6 +138,8 @@ template.innerHTML = `
 
 - B) Add the following to the bottom of the `MyBookmark` constructor:
 
+![screenshot](_images/_wc/wc-2B.png)
+
 ```js
 // Attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
 this.attachShadow({mode: "open"});
@@ -144,6 +148,8 @@ this.shadowRoot.appendChild(template.content.cloneNode(true));
 ```
 
 - C) Modify `render()` to look like this:
+
+![screenshot](_images/_wc/wc-2C.png)
 
 ```js
 // Is the template loaded?
