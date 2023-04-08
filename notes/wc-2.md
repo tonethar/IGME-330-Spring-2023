@@ -183,8 +183,7 @@ const bookmarks = [
   },
   {
     text: "Google",
-    url: "https://www.google.com",
-    comments: "Google Search is a search engine provided and operated by Google."
+    url: "https://www.google.com"
   },
   {
     text: "DuckDuckGo",
@@ -199,5 +198,5 @@ const bookmarks = [
 - Write the necessary code in the `window.onload = ...` event handler
 - You will be dynamically creating `<my-bookmark>` and `<li>` elemets and adding them to `<ul id="bookmarks">` 
 - Once you have that working, modify `MyBookmark.js`:
-  - add a `_comments` property and set its value to the applicable text
+  - add a `_comments` property and set its default value to "No comments found"
 
