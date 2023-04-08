@@ -3,6 +3,7 @@
 ## I. Start Code
 
 - Create this file and open it up in the browser
+- Test it - the links should be "clickable"
 - Look over the code and be sure that you understand how it works
 - **DO THIS:** - Add a new `<my-bookmark>` and `<li>` to the bottom of the `<ul>` - in the HTML - have it link to the *MDN Web component docs* (use google to get the link)
 
