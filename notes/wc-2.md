@@ -205,6 +205,6 @@ const bookmarks = [
 
 <hr>
 
-5) Once you have that working, modify `MyBookmark.js`:
+5) Once you have that working, modify the `MyBookmark` class:
     - add a `_comments` property and set its default value to "No comments found"
 
