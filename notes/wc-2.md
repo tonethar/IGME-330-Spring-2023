@@ -201,6 +201,6 @@ document.querySelector("span").innerHTML = "ZZZ";
 
 1) In **main.js**, comment out (but don't delete, you might need some of it) all of the code inside of the `window.onload` handler
 
-2) In **wc-2-modules.html**, delete all of the `<my-bookmark>` (and associated <li> tags) from the `<ul>`- except for the first <my-bookmark></my-bookmark> that had no attributes
+2) In **wc-2-modules.html**, delete all of the `<my-bookmark>` (and associated <li> tags) from the `<ul>`- except for the first `<my-bookmark></my-bookmark>` that had no attributes
   
 3) XX
