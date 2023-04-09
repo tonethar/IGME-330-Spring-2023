@@ -37,9 +37,9 @@
 <hr>
 
 - ***There is A LOT of vanilla CSS and use of Bulma classes in the HTML/CSS above - we will talk about these in class**
-  - `display: inline-block` - `https://www.w3schools.com/css/css_inline-block.asp
+  - `display: inline-block` - https://www.w3schools.com/css/css_inline-block.asp
   - vertical text alignment - https://www.w3schools.com/css/tryit.asp?filename=trycss_align_line-height
-  - `rem` means "The root element's font-size - "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+  - `rem` means "The root element's font-size" - "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
   - Bulma:
     - https://bulma.io/documentation/helpers/typography-helpers/#font-family
     - https://bulma.io/documentation/elements/button/
