@@ -67,4 +67,12 @@
 
 #3 - Make your HTML look like this:
 
+<hr>
+
 ![screenshot](_images/_wc/wc-3C.png)
+![screenshot](_images/_wc/wc-3D.png)
+![screenshot](_images/_wc/wc-3E.png)
+
+<hr>
+
+## III. XXX
