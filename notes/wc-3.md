@@ -7,8 +7,8 @@
 
 #1 - First, rename a folder and a file from [**wc-2**](./wc-2.md):
     
-    - make a copy of ***lastName*-*firstInitial*-wc-2** from last time and name it ***lastName*-*firstInitial*-wc-3**
-    - rename **wc-2-modules.html** to **wc-3-modules.html**
+  - make a copy of ***lastName*-*firstInitial*-wc-2** from last time and name it ***lastName*-*firstInitial*-wc-3**
+  - rename **wc-2-modules.html** to **wc-3-modules.html**
     
     
 #2 - In **myBookmark.js**, modify `template.innerHTML = ...` to look like the screenshot below:
