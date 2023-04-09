@@ -253,3 +253,10 @@ document.querySelector("hello-3").setAttribute("data-shout","data-shout");
 
 ![screenshot](_images/_wc/wc-1E.png)
 
+
+<hr><hr>
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| :-\  |  [**IGME-330**](../README.md) | [**Web Components II**](wc-2.md) 
+
