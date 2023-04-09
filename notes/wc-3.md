@@ -99,4 +99,6 @@
 
 <hr>
 
-## III. XXX
+## III. Submission
+
+- Zip the ***lastName*-*firstInitial*-wc-3** folder and post it to myCourses
