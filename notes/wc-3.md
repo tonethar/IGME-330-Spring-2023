@@ -50,6 +50,21 @@
 #1 - Go ahead and link to the Bulma and Font Awesome CDNs (see "copy/paste" links above)
     - The `<title>` of the page is now "Web Components - Bulma & Interactivity"
 
-#2 - Make your HTML & CSS look like this:
+#2 - Make your CSS look like this:
+
+```html
+<style>
+  #bookmarks{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #bookmarks li{
+    margin-bottom: 2px;
+  }
+</style>
+```
+
+#3 - Make your HTML look like this:
 
 ![screenshot](_images/_wc/wc-3C.png)
