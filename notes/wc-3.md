@@ -34,9 +34,13 @@
 <hr>
 
 - ***There is A LOT of vanilla CSS and use of Bulma classes in the HTML/CSS above - we will talk about these in class**
+  - https://bulma.io/documentation/helpers/typography-helpers/#font-family
 
 <hr>
 
 ## II. Make some changes to index.html
+
+-  https://bulma.io/documentation/elements/title/
+
 
 
