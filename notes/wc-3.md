@@ -102,3 +102,10 @@
 ## III. Submission
 
 - Zip the ***lastName*-*firstInitial*-wc-3** folder and post it to myCourses
+
+
+<hr><hr>
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|  [**Web Components II**](HW-wc-2.md)  |  [**IGME-330**](../README.md) | :-\
