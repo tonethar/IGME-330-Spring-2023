@@ -1,5 +1,4 @@
-# Web Components-3
-## Adding Bulma support & Creating Interactive components
+# Web Components-3 - Adding Bulma support
 
 <hr>
 
