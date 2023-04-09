@@ -43,6 +43,7 @@
 - Reference:
   - https://bulma.io/documentation/elements/title/
   - https://bulma.io/documentation/form/general/
+  - https://bulma.io/documentation/columns/basics/
 
 #1 - Go ahead and link to the Bulma and Font Awesome CDNs (see "copy/paste" links above)
 
