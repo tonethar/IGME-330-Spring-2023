@@ -244,3 +244,10 @@ const bookmarks = [
 ## VI. Submission
 
 - Zip the ***lastName*-*firstInitial*-wc-2** folder and post it to myCourses
+
+
+<hr><hr>
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|  [**Web Components I**](wc-1.md)  |  [**IGME-330**](../README.md) | [**Web Components III**](wc-3.md) 
