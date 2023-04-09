@@ -1,4 +1,6 @@
-# Web Components-3 - Adding Bulma support / Interactive components
+# Web Components-3
+## Adding Bulma support
+## Interactive components
 
 ## I. Adding Bulma to a component
 
