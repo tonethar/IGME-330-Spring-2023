@@ -29,4 +29,6 @@
 
 ![screenshot](_images/_wc/wc-3A.png)
 
+![screenshot](_images/_wc/wc-3B.png)
+
 <hr>
