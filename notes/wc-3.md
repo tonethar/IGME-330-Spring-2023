@@ -37,6 +37,7 @@
 <hr>
 
 - ***There is A LOT of vanilla CSS and use of Bulma classes in the HTML/CSS above - we will talk about these in class**
+  - https://www.w3schools.com/css/tryit.asp?filename=trycss_align_line-height
   - https://bulma.io/documentation/helpers/typography-helpers/#font-family
 
 <hr>
