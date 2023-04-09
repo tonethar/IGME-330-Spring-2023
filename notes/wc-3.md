@@ -75,4 +75,13 @@
 
 <hr>
 
+- When you are done, it will look like this
+- Tip - use online validators to help find errors
+  - https://validator.w3.org/
+  - https://jigsaw.w3.org/css-validator/
+ 
+![screenshot](_images/_wc/wc-3E.png)
+
+<hr>
+
 ## III. XXX
