@@ -67,7 +67,7 @@
 
 <hr>
 
-- Your facorites list should now look like this
+- Your favorites list should now look like this
 
 ![screenshot](_images/_wc/wc-3G.png)
 
@@ -84,7 +84,7 @@
 <hr>
 
 - When you are done, it will look like this
-- Tip - use online validators to help find errors
+- Tip - use online validators to help find typing errors
   - https://validator.w3.org/
   - https://jigsaw.w3.org/css-validator/
  
