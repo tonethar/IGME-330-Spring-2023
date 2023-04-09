@@ -91,6 +91,7 @@
 <hr>
 
 - When you are done, it will look like this
+  - be sure to re-size the window - note that Bulma gives you responsiveness "for free"!
 - Tip - use online validators to help find typing errors
   - https://validator.w3.org/
   - https://jigsaw.w3.org/css-validator/
