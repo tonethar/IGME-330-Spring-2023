@@ -32,3 +32,11 @@
 ![screenshot](_images/_wc/wc-3B.png)
 
 <hr>
+
+- ***There is A LOT of vanilla CSS and use of Bulma classes in the HTML/CSS above - we will talk about these in class**
+
+<hr>
+
+## II. Make some changes to index.html
+
+
