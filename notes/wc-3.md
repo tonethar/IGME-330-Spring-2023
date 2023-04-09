@@ -48,10 +48,10 @@
   - https://bulma.io/documentation/columns/basics/
 
 #1 - Go ahead and link to the Bulma and Font Awesome CDNs (see "copy/paste" links above)
-    
-    - The `<title>` of the page is now "Web Components - Bulma & Interactivity"
 
-#2 - Make your the CSS in your HTML file look like this:
+#2 - Make the `<title>` of the page "Web Components - Bulma & Interactivity"
+
+#3 - Make your the CSS in your HTML file look like this:
 
 ```html
 <style>
@@ -74,7 +74,7 @@
 
 <hr>
 
-#3 - Make your HTML look like this:
+#4 - Make your HTML look like this:
 
 <hr>
 
