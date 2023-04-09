@@ -1,9 +1,9 @@
 # Web Components-3
-## Adding Bulma support
-## Interactive components
+## Adding Bulma support & Creating Interactive components
+
+<hr>
 
 ## I. Adding Bulma to a component
-
 
 #1 - First, rename a folder and a file from [**wc-2**](./wc-2.md):
     - make a copy of ***lastName*-*firstInitial*-wc-2** from last time and name it ***lastName*-*firstInitial*-wc-3**
