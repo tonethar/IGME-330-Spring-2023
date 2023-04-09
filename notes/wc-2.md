@@ -141,10 +141,13 @@
 
 ![screenshot](_images/_wc/wc-2C.png)
 
+<hr>
+
 - D) Reload the page - now the bookmarks are using their built-in HTML and styles from the template!
 
-
 ![screenshot](_images/_wc/wc-2F.png)
+
+<hr>
 
 - E) To see how the Shadow DOM of the `my-bookmark` components is encapsulated/protected, try running this line of code in `window.onload`:
 
