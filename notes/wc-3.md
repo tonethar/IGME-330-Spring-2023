@@ -43,8 +43,8 @@
 - Reference:
   - https://bulma.io/documentation/elements/title/
 
-#1) Go ahead and link to the Bulma and Font Awesome CDNs (see "copy/paste" links above)
+#1 - Go ahead and link to the Bulma and Font Awesome CDNs (see "copy/paste" links above)
 
-#2) Make your HTML & CSS look like this:
+#2 - Make your HTML & CSS look like this:
 
 ![screenshot](_images/_wc/wc-3C.png)
