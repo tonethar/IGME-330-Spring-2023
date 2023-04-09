@@ -48,6 +48,7 @@
   - https://bulma.io/documentation/columns/basics/
 
 #1 - Go ahead and link to the Bulma and Font Awesome CDNs (see "copy/paste" links above)
+    - The `<title>` of the page is now "Web Components - Bulma & Interctivity"
 
 #2 - Make your HTML & CSS look like this:
 
