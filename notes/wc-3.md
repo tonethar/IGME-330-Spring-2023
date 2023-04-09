@@ -21,6 +21,12 @@
     - https://bulma.io/documentation/elements/button/ (scroll down to "With Font Awesome icons")
     - https://www.geeksforgeeks.org/bulma-icon-font-awesome-variations/
     - https://www.geeksforgeeks.org/bulma-input-with-font-awesome-icons/
-- Latest CDN links for Bulma & Font Awesome:
-  - [XXX](https://cdnjs.com/libraries/bulma)
-  - XXX
+- NB: Here are latest CDN links for Bulma & Font Awesome:
+  - https://cdnjs.com/libraries/bulma
+  - https://cdnjs.com/libraries/font-awesome
+
+<hr>
+
+![screenshot](_images/_wc/wc-3A.png)
+
+<hr>
