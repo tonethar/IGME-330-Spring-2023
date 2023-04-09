@@ -40,7 +40,7 @@
 
 <hr>
 
-## II. Make some changes to index.html
+## II. Make some changes to the HTML file
 
 - Reference:
   - https://bulma.io/documentation/elements/title/
@@ -50,7 +50,7 @@
 #1 - Go ahead and link to the Bulma and Font Awesome CDNs (see "copy/paste" links above)
     - The `<title>` of the page is now "Web Components - Bulma & Interactivity"
 
-#2 - Make your CSS look like this:
+#2 - Make your the CSS in your HTML file look like this:
 
 ```html
 <style>
@@ -64,6 +64,14 @@
   }
 </style>
 ```
+
+<hr>
+
+- Your facorites list should now look like this
+
+![screenshot](_images/_wc/wc-3G.png)
+
+<hr>
 
 #3 - Make your HTML look like this:
 
