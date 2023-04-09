@@ -88,7 +88,7 @@
   - https://validator.w3.org/
   - https://jigsaw.w3.org/css-validator/
  
-![screenshot](_images/_wc/wc-3E.png)
+![screenshot](_images/_wc/wc-3F.png)
 
 <hr>
 
