@@ -219,7 +219,7 @@ const bookmarks = [
 4) Your mission is use the data contained in the `bookmarks` array above to populate `<ul id="bookmarks">` 
 
     - Write the necessary code in the `window.onload = ...` event handler
-    - You will be dynamically creating `<my-bookmark>` and `<li>` elemets and adding them to `<ul id="bookmarks">` 
+    - You will be dynamically creating `<my-bookmark>` and `<li>` elements and adding them to `<ul id="bookmarks">` 
     - When you are done, it should look like this (and make sure that the links all function):
 
 <hr>
