@@ -109,4 +109,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**Web Components II**](HW-wc-2.md)  |  [**IGME-330**](../README.md) | :-\
+|  [**Web Components II**](wc-2.md)  |  [**IGME-330**](../README.md) | :-\
