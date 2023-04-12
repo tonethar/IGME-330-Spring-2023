@@ -47,13 +47,16 @@
     - in TypeScript you would likely use an `interface`
 - **myBookmark.js**
 - **main.js**
+  - contains the coding logic that handles form submission and data validation
 - **localStorage.js**
-
-
 
 <hr>
 
-## V. Submission
+## V. FAQ
+
+<hr>
+
+## VI. Submission
 
 - Put the files from above into a parent folder named ***lastName*-*firstInitial*-hw3**
   - (-5%) for a misnamed folder
