@@ -5,10 +5,8 @@
 
 <hr>
 
-## I. Completed example
-
-### I-A. Functionality
-- **Add Favorite Form**
+## I. Functional Requirements
+- **I-A) Add Favorite Form**
   - User types info about a link into 3 form fields - the text, url, and comments about that link
   - When the user clicks the **Submit** button:
     - the newly submitted favorite will appear on the Favorites List 
@@ -17,9 +15,9 @@
     - they will be informed via an error message (see example below)
     - a favorite will not be created
   - If the user clicks the **Cancel** button, all 3 form fields will be *cleared* (e.g. `.value=""`)
-- **Favorites List**
+- **II-B) Favorites List**
   - When the user first loads or re-loads the HTML page, any existing favorites will be loaded in from `.localStorage` and displayed to the user in a list of **Bookmark Components**
-- **Bookmark Component**
+- **III-C) Bookmark Component**
   - Contains a functional hypertext link that displays the name of the favorite, as has tooltip text that displays that favorite's comments
   - Has a **Favorite** button that is disabled
   - Clicking the **Delete** button:
@@ -29,11 +27,15 @@
 
 <hr>
 
-### I-B. Screenshot
+## II. Screenshot
 
 ![screenshot](_images/HW-3A.png)
 
 <hr>
+
+## III. Code Requirements & Rubric
+
+
 
 
 <!--
@@ -58,4 +60,10 @@
 - ZIP the folder and post to myCourses
 
 -->
+
+## IV. Submission
+
+- Put the files from above into a parent folder named ***lastName*-*firstInitial*-hw3**
+  - (-5%) for a misnamed folder
+- ZIP the folder and post to myCourses
 
