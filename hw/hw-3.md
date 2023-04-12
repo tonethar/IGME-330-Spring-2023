@@ -56,8 +56,8 @@
 
 1) How much validation of the form data is required? For example, do we have to determine that the url is legal and well-formed? 
 
-  - In a shipping application (or portfolio pice) it is essential to do extensive validation of the form data before it is sent to `createFavorite()` - for example, that the url is valid and functional
-  - However, the only requirement for this HW is that you verify that after a `string.trim()` is performed on the input, each of the 3 fields has provided a 1-character length string or longer
+    - In a shipping application (or portfolio pice) it is essential to do extensive validation of the form data before it is sent to `createFavorite()` - for example, that the url is valid and functional
+    - However, the only requirement for this HW is that you verify that after a `string.trim()` is performed on the input, each of the 3 fields has provided a 1-character length string or longer
   
 <hr>
 
