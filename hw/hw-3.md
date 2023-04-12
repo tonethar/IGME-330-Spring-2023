@@ -13,7 +13,7 @@
 
 ### I-B. Screenshot
 
-[screenshot](_images/HW-3A.png)
+![screenshot](_images/HW-3A.png)
 
 <hr>
 
