@@ -36,7 +36,18 @@
 ## III. Code Requirements & Rubric
 
 
+<hr>
 
+## IV. Hints and Tips
+
+
+<hr>
+
+## V. Submission
+
+- Put the files from above into a parent folder named ***lastName*-*firstInitial*-hw3**
+  - (-5%) for a misnamed folder
+- ZIP the folder and post to myCourses
 
 <!--
 ## XX. Rubric
@@ -61,9 +72,5 @@
 
 -->
 
-## IV. Submission
 
-- Put the files from above into a parent folder named ***lastName*-*firstInitial*-hw3**
-  - (-5%) for a misnamed folder
-- ZIP the folder and post to myCourses
 
