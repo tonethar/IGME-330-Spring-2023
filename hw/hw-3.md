@@ -39,6 +39,16 @@
 <hr>
 
 ## IV. Hints and Tips
+- **favorite.js**
+  - contains `class Favorite` 
+  - `class Favorite` is a *model class* that has `fid`, `text`, `url` and `comments` properties
+  - NB - generally, a *model class* is a data structure we use to define the "shape" of our application data
+    - in Java or JavaScript or C# you would likely use a `class`
+    - in TypeScript you would likely use an `interface`
+- **myBookmark.js**
+- **main.js**
+- **localStorage.js**
+
 
 
 <hr>
