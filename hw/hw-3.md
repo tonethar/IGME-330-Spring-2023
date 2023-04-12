@@ -7,6 +7,16 @@
 
 ## I. Completed example
 
+### I-A. Functionality
+
+<hr>
+
+### I-B. Screenshot
+
+[screenshot](../_images/HW-3A.png)
+
+<hr>
+
 
 <!--
 ## XX. Rubric
