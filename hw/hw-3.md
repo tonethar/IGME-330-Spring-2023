@@ -18,7 +18,7 @@
     - a favorite will not be created
   - If the user clicks the **Cancel** button, all 3 form fields will be *cleared* (e.g. `.value=""`)
 - **Favorites List**
-  - When the user first loads or re-loads the HTML page, any existing favorites will be loaded in from `.localStorage` and displayed to the user in a list
+  - When the user first loads or re-loads the HTML page, any existing favorites will be loaded in from `.localStorage` and displayed to the user in a list of **Bookmark Components**
 - **Bookmark Component**
   - Contains a functional hypertext link that displays the name of the favorite, as has tooltip text that displays that favorite's comments
   - Has a **Favorite** button that is disabled
