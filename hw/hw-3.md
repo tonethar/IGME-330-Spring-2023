@@ -8,6 +8,24 @@
 ## I. Completed example
 
 ### I-A. Functionality
+- **Add Favorite Form**
+  - User types info about a link into 3 form fields - the text, url, and comments about that link
+  - When the user clicks the **Submit** button:
+    - the newly submitted favorite will appear on the Favorites List 
+    - the newly submitted favorite will be added to `.localStorage`
+  - If the user clicks the **Submit** button without first providing all 3 values
+    - they will be informed via an error message (see example below)
+    - a favorite will not be created
+  - If the user clicks the **Cancel** button, all 3 form fields will be *cleared* (e.g. `.value=""`)
+- **Favorites List**
+  - When the user first loads or re-loads the HTML page, any existing favorites will be loaded in from `.localStorage` and displayed to the user in a list
+- **Bookmark Component**
+  - Contains a functional hypertext link that displays the name of the favorite, as has tooltip text that displays that favorite's comments
+  - Has a **Favorite** button that is disabled
+  - Clicking the **Delete** button:
+    - Removes that component from the Favorites List
+    - Removes that favorite from `.localStorage`
+
 
 <hr>
 
