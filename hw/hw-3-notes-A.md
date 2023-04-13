@@ -8,7 +8,7 @@
   - 1) change the `<title>` and `<h1>` to "HW-3 - Link Buddy!" (or similar)
   - 2) change the `<h2>` to "Save your links for later!" (or similar)
 - In **main.js**:
-  - 1) comment out ALL of the existing code except for the "import MyBookmark" code that the top
+  - 1) comment out ALL of the existing code except for the "import MyBookmark" code at the top
   - 2) declare a `submitClicked(evt)` arrow function:
     - with a `console.log("submitClicked");` in it
     - and `evt.preventDefault();` in the 2nd to last line of the function (IMPORTANT!)
