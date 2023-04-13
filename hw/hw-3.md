@@ -47,7 +47,7 @@
   - must use Bulma effectively
  
 **v. Follow course coding standards**
-  - [Course Code Style Requirements](notes/code-style-required-330.md)
+  - [Course Code Style Requirements](../notes/code-style-required-330.md)
     - (-3%) per code style violation
   - For this HW you must use ES6 arrow functions (-3% per regular `function`)
 
