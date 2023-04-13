@@ -108,7 +108,7 @@
     - However, the only requirement for this HW is that you verify that after a `string.trim()` is performed on the input, each of the 3 fields has provided a 1-character length string or longer
  
  
-2) Errata - in your HTML file, delete the 3 `required` boolean attributes from the 3 `<input>` elements. If these are present, the browser is attempting to do it's own form validation. What we are doing instead is to let our JS do the form validation. Also, you can delete the `pattern="https://.*"` from the `id="favorite-url"` input
+2) Errata - in your HTML file, delete the 3 `required` boolean attributes from the 3 `<input>` elements. If these are present, the browser will attempt to do its own form validation as if there was server-side form submission happening. What we are doing instead is to let our JS do the form validation. Also, you can delete the `pattern="https://.*"` from the `id="favorite-url"` input
 
 <hr>
 
