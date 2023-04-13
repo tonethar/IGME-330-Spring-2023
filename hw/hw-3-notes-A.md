@@ -56,7 +56,7 @@
 
 - Write code in `submitClicked()` that:
   - grabs the input from the 3 form fields, validates it (see HW-3 FAQ), and prints out an error message if anything is missing
-  - if a 3 form values are present:
+  - if all 3 form values are present:
     - make a new `Favorite` instance
     - add it to the `favorites` array (this not necessary and does nothing now, but it will be needed later on when we utilize localStorage)
     - create a new bookmark component and add it to the page by calling `createBookmarkComponent()`
