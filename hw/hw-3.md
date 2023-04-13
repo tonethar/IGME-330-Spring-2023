@@ -38,10 +38,14 @@
 ## III. Rubric
 
 **i. Add Favorite Form Functionality (30%)**
+
 **ii. Favorites List/localStorage Functionality (30%)**
+
 **iii. Bookmark Component Functionality (30%)**
+
 **iv. Aesthetic Requirements (15%)**
   - must use Bulma effectively
+ 
 **v. Follow course coding standards**
   - (-2%) per code style violation
 
