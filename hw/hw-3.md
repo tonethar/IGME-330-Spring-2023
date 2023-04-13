@@ -35,12 +35,20 @@
 
 <hr>
 
-## III. Code Requirements & Rubric
+## III. Rubric
+
+**i. Add Favorite Form Functionality (30%)**
+**ii. Favorites List/localStorage Functionality (30%)**
+**iii. Bookmark Component Functionality (30%)**
+**iv. Aesthetic Requirements (15%)**
+  - must use Bulma effectively
+**v. Follow course coding standards**
+  - (-2%) per code style violation
 
 
 <hr>
 
-## IV. Hints and Tips
+## IV. Hints and Tips (check back frequently - might be updated as needed)
 - **favorite.js**
   - contains `class Favorite{...}` 
     - is a *model class* that has `fid` (stands for "favorites ID"), `text`, `url` and `comments` properties
@@ -78,7 +86,7 @@
 
 <hr>
 
-## V. FAQ
+## V. FAQ  (check back frequently - might be updated as needed)
 
 1) How much validation of the form data is required? For example, do we have to determine that the url is legal and well-formed? 
 
