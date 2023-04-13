@@ -93,7 +93,9 @@
       - `submitClicked()`
       - `clearFormFields()`
 - **localStorage.js**
-  - contains methods for reading from/writing to `localStorage`
+  - contains methods for reading from & writing to `localStorage`
+  - will use `JSON.parse()` and `JSON.stringify()`
+  - will use `localStorage.getItem()` and `localStorage.setItem()`
 
 <hr>
 
