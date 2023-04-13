@@ -7,7 +7,7 @@
 
 ## I. Functional Requirements
 - **I-A) Add Favorite Form**
-  - User types info about a link into 3 form fields - the text, url, and comments about that link
+  - User types info about a link into 3 form fields - the "clickable" *text*, *url*, and *comments* about that link
   - When the user clicks the **Submit** button:
     - the newly submitted favorite will appear on the Favorites List 
     - the newly submitted favorite will be added to `.localStorage`
