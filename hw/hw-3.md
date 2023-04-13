@@ -103,7 +103,13 @@
   
 <hr>
 
-## VI. Submission
+## VI. Resources
+
+- [HW-3 - Notes "A"](hw-3-notes-A.md)
+
+<hr>
+
+## VII. Submission
 
 - Put the files from above into a parent folder named ***lastName*-*firstInitial*-hw3**
   - (-5%) for a misnamed folder
