@@ -43,8 +43,9 @@
   - contains `class Favorite{...}` 
     - is a *model class* that has `fid` (stands for "favorites ID"), `text`, `url` and `comments` properties
     - NB - generally, a *model class* is a data structure we use to define the "shape" of our application data
-    - in Java or JavaScript or C# you would likely use a `class`
-    - in TypeScript you would likely use an `interface`
+      - in Java or JavaScript or C# you would likely use a `class`
+      - in TypeScript you would likely use an `interface`
+    - when you create a new `Favorite instance`, give it a unique `fid`
 - **myBookmark.js**
   - contains `class MyBookmark extends HTMLElement{...}`
     - is a component class that displays the information for 1 favorite
