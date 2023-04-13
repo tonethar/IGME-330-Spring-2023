@@ -91,7 +91,7 @@
       - `showNumberOfFavorites()`
       - `deleteFavorite(fid)`
       - `createBookmarkComponent(fid, text, url, comments)`
-      - `submitClicked()`
+      - `submitClicked(evt)`
       - `clearFormFields()`
 - **localStorage.js**
   - contains methods for reading from & writing to `localStorage`
