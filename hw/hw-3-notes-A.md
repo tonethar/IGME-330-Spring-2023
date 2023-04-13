@@ -60,3 +60,7 @@
     - make a new `Favorite` instance
     - add it to the `favorites` array (this not necessary and does nothing now, but it will be needed later on when we utilize localStorage)
     - create a new bookmark component and add it to the page by calling `createBookmarkComponent()`
+  - test it to be sure it works - you should be able to add new favorites and see them on the screen as `<my-bookmark>` elements
+  - if you click on a link and then "go back" to the app page, you will notice that any new `<my-bookmark>` elements are GONE
+  - this is normal, because we have not yet used `localStorage` to persist the data
+  - to get around this for now and make testing easier, add `target="_blank"` to the opening `<a>` tag of the `<my-bookmark>` element
