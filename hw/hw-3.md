@@ -61,10 +61,17 @@
     - displays the number of favorites for the user
     - calls methods in **localStorage.js** to update the list of favorites
     - handles form submission and data validation when creating new favorites
-  - variables
+  - variables & methods
     - a `favorites` array that contains `Favorite` instances
       - when the page loads, the initial contents of this array will be loaded in from `localStorage`
       - this array will grow and shrink as `Favorite` instances are added and deleted by the user
+    - some (but not all) methods you will need to write:
+      - `loadFavoritesFromStorage()`
+      - `showNumberOfFavorites()`
+      - `deleteFavorite(fid)`
+      - `createBookmarkComponent(fid, text, url, comments)`
+      - `submitClicked()`
+      - `clearFormFields()`
 - **localStorage.js**
   - contains methods for reading from/writing to `localStorage`
 
