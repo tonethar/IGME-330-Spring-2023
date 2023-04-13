@@ -47,7 +47,7 @@
     - NB - generally, a *model class* is a data structure we use to define the "shape" of our application data
       - in Java or JavaScript or C# you would likely use a `class`
       - in TypeScript you would likely use an `interface`
-    - when you create a new `Favorite instance`, give it a unique `fid`
+    - when you create a new `Favorite instance`, give it a unique `fid` using [`crypto.randomUUID()`](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID)
 - **myBookmark.js**
   - contains `class MyBookmark extends HTMLElement{...}`
     - is a component class that displays the information for 1 favorite
@@ -61,6 +61,10 @@
     - displays the number of favorites for the user
     - calls methods in **localStorage.js** to update the list of favorites
     - handles form submission and data validation when creating new favorites
+  - variables
+    - a `favorites` array that contains `Favorite` instances
+      - when the page loads, the initial contents of this array will be loaded in from `localStorage`
+      - this array will grow and shrink as `Favorite` instances are added and deleted by the user
 - **localStorage.js**
   - contains methods for reading from/writing to `localStorage`
 
