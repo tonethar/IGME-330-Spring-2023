@@ -20,7 +20,7 @@
 - **II-B) Favorites List**
   - When the user first loads or re-loads the HTML page, any existing favorites will be loaded in from `.localStorage` and displayed to the user in a list of **Bookmark Components**
 - **III-C) Bookmark Component**
-  - Contains a functional hypertext link that displays the name of the favorite, as has tooltip text that displays that favorite's comments
+  - Contains a functional hypertext link that displays the name of the favorite, and has tooltip text that displays that favorite's comments
     - Clicking the link will open the url in a new window
   - Has a **Favorite** button that is disabled
   - Clicking the **Delete** button:
