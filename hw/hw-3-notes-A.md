@@ -26,5 +26,17 @@
 
 - In **main.js**:
   - 1) declare a variable named `favorites` and have it point at an empty array
-  - 2) create **favorite.js** and the `Favorite` class (see hints here: [HW-3 - Hints - **favorite.js**](hw-3.md#hints)
+  - 2) create **favorite.js** and the `Favorite` "model" class (see hints here: [HW-3 - Hints - **favorite.js**](hw-3.md#hints)
      - don't forget to `export`/`import` it
+  - 3) create a single `Favorite` instance and put it in the `favorites` array - you can use the following values for its 4 properties
+
+```js
+{
+  fid: crypto.randomUUID(), // or just hard-code "d2e7e357-1b1f-4eea-b8f9-25af8aa17138"
+  text: "RIT", 
+  url: "https://www.rit.edu", 
+  comments: "A private university located near Rochester, NY."
+}
+```
+
+4) 
