@@ -25,7 +25,7 @@
 ## II. Creating Favorite instances, showing `<my-bookmark>` elements
 
 - Create **favorite.js**
-  - and the `Favorite` "model" class (see hints here: [HW-3 - Hints - **favorite.js**](hw-3.md#hints)
+  - and the `Favorite` "model" class - see hints here: [HW-3 - Hints - **favorite.js**](hw-3.md#hints)
   - don't forget to `export`/`import` it
 - In **main.js**:
   - 1) declare a variable named `favorites` and have it point at an empty array
