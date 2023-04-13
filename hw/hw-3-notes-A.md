@@ -22,7 +22,7 @@
 
 <hr>
 
-## II. Showing Favorites and Bookmarks
+## II. Creating Favorite instances, showing `<my-bookmark>` elements
 
 - In **main.js**:
   - 1) declare a variable named `favorites` and have it point at an empty array
@@ -41,4 +41,7 @@
 ```
 
 - Still in **main.js**: 
-  - 1) XXX
+  - 1) Implement `createBookmarkComponent(fid, text, url, comments)`
+    - this will create a new `<my-bookmark>` element, set its attributes, and add it to `#bookmarks` on the HTML page
+    - write some code to test it, then comment out your test code
+  - 2) Implement 
