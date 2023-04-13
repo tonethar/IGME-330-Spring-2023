@@ -39,4 +39,4 @@
 }
 ```
 
-4) 
+  - 4) `console.log(favorites);` or use the debugger to verify that you were successful in create a `Favorite` instance
