@@ -92,7 +92,7 @@
       - `deleteFavorite(fid)`
       - `createBookmarkComponent(fid, text, url, comments)`
       - `submitClicked(evt)`
-      - `clearFormFields()`
+      - `clearFormFields(evt)`
 - **localStorage.js**
   - contains methods for reading from & writing to `localStorage`
   - will use `JSON.parse()` and `JSON.stringify()`
