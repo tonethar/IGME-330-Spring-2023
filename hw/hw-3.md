@@ -52,6 +52,7 @@
   - [Course Code Style Requirements](../notes/code-style-required-330.md)
     - (-3%) per code style violation
   - For this HW you must use ES6 arrow functions (-3% per regular `function`)
+    - but in ES6 classes, regular methods are OK (and often necessary) to use!
 
 **vi. Do your own work, and follow RIT's Academic Integrity Policy**
   - Violations of this policy could result in an F in the course
