@@ -10,6 +10,7 @@
   - User types info about a link into 3 form fields - the "clickable" *text*, *url*, and *comments* about that link
   - When the user clicks the **Submit** button:
     - the newly submitted favorite will appear on the Favorites List 
+    - the number of favorites will be displayed to the user
     - the newly submitted favorite will be added to `.localStorage`
   - If the user clicks the **Submit** button without first providing all 3 values
     - they will be informed via an error message (see example below)
