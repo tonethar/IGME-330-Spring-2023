@@ -40,15 +40,26 @@
 
 ## IV. Hints and Tips
 - **favorite.js**
-  - contains `class Favorite` 
-  - `class Favorite` is a *model class* that has `fid`, `text`, `url` and `comments` properties
-  - NB - generally, a *model class* is a data structure we use to define the "shape" of our application data
+  - contains `class Favorite{...}` 
+    - is a *model class* that has `fid` (stands for "favorites ID"), `text`, `url` and `comments` properties
+    - NB - generally, a *model class* is a data structure we use to define the "shape" of our application data
     - in Java or JavaScript or C# you would likely use a `class`
     - in TypeScript you would likely use an `interface`
 - **myBookmark.js**
+  - contains `class MyBookmark extends HTMLElement{...}`
+    - is a component class that displays the information for 1 favorite
+    - has the following *properties*: `_fid`, `_text`, `_url` and `_comments`
+    - has the following *attributes*: `data-fid`, `data-text`, `data-url` and `data-comments` 
 - **main.js**
-  - contains the coding logic that handles form submission and data validation
+  - contains the coding logic that:
+    - calls methods in **localStorage.js** that will load in stored favorites
+    - creates instances of `MyBookmark` components and appends them to the HTML page
+    - deletes instances of `MyBookmark` components and removes them from the HTML page
+    - displays the number of favorites for the user
+    - calls methods in **localStorage.js** to update the list of favorites
+    - handles form submission and data validation when creating new favorites
 - **localStorage.js**
+  - contains methods for reading from/writing to `localStorage`
 
 <hr>
 
