@@ -37,7 +37,7 @@
 
 ## III. Rubric
 
-**i. Add Favorite Form Functionality (30%)**
+**i. Add Favorite Form Functionality (25%)**
 
 **ii. Favorites List/localStorage Functionality (30%)**
 
@@ -47,7 +47,9 @@
   - must use Bulma effectively
  
 **v. Follow course coding standards**
-  - (-2%) per code style violation
+  - [Course Code Style Requirements](notes/code-style-required-330.md)
+    - (-3%) per code style violation
+  - For this HW you must use ES6 arrow functions (-3% per regular `function`)
 
 
 <hr>
