@@ -57,6 +57,8 @@
   
 <hr>
 
+<a id="hints"></a>
+
 ## IV. Hints and Tips (check back frequently - might be updated as needed)
 - **favorite.js**
   - contains `class Favorite{...}` 
