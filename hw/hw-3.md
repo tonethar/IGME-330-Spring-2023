@@ -51,7 +51,9 @@
     - (-3%) per code style violation
   - For this HW you must use ES6 arrow functions (-3% per regular `function`)
 
-
+**vi. Do your own work, and follow RIT's Academic Integrity Policy**
+  - Violations of this policy could result in an F in the course
+  
 <hr>
 
 ## IV. Hints and Tips (check back frequently - might be updated as needed)
