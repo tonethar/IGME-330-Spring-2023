@@ -9,5 +9,5 @@
   - change the `<h2>` to "Save your links for later!" (or similar)
 - In **main.js**:
   - comment out ALL of the existing code except for the "import MyBookmark" code that the top
-  - stub in a `submitClicked()` arrow function (as they will all be) with a `console.log()` at the bottom
-  - hook 
+  - stub in a `submitClicked()` arrow function  (NB - all your functions will be arrow functions) with a `console.log("submitClicked");` at the bottom
+  - write code so that when the **Submit** button is clicked,  `submitClicked()` is called and a log is visible in the console
