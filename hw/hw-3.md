@@ -64,8 +64,9 @@
   - variables & methods
     - a `favorites` array that contains `Favorite` instances
       - when the page loads, the initial contents of this array will be loaded in from `localStorage`
+        your code will then need to create 1 `MyBookmark` instance for every favorite, and add it to the page
       - this array will grow and shrink as `Favorite` instances are added and deleted by the user
-    - some (but not all) methods you will need to write:
+    - some (but not all) of the methods you will need to write:
       - `loadFavoritesFromStorage()`
       - `showNumberOfFavorites()`
       - `deleteFavorite(fid)`
