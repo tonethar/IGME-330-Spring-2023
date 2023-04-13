@@ -42,9 +42,9 @@
 
 - Still in **main.js**: 
   - 1) Implement `createBookmarkComponent(fid, text, url, comments)`
-      - this will create a new `<my-bookmark>` element, set its attributes, and add it to `#bookmarks` on the HTML page
-      - write some code to test it (when **main.js** loads), and you should see a working `<my-bookmark>` component on the page
-      - once it's working, comment out your test code
+        - this will create a new `<my-bookmark>` element, set its attributes, and add it to `#bookmarks` on the HTML page
+        - write some code to test it (when **main.js** loads), and you should see a working `<my-bookmark>` component on the page
+        - once it's working, comment out your test code
   - 2) Implement `loadFavoritesFromStorage()`
-      - this version will loop through your `favorites` array (which only has one favorite right now) and will call `createBookmarkComponent()`
-      - call `loadFavoritesFromStorage()` when **main.js** loads, you should see a working `<my-bookmark>` component on the page (that uses that favorite's data)
+        - this version will loop through your `favorites` array (which only has one favorite right now) and will call `createBookmarkComponent()`
+        - call `loadFavoritesFromStorage()` when **main.js** loads, you should see a working `<my-bookmark>` component on the page (that uses that favorite's data)
