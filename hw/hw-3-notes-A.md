@@ -20,6 +20,7 @@
    - 3) declare a `clearFormFields()` arrow function
      - write code that "clears" any values that were typed into the form fields (hint: `.value=""`)
      - write code so that when the **Cancel** button is clicked, `clearFormFields()` is called
+     - also put `return false;` and  `evt.preventDefault();` at the bottom of that function
 
 <hr>
 
