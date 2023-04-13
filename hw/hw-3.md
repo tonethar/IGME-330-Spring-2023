@@ -46,7 +46,7 @@
 
 **iv. Aesthetic Requirements (15%)**
   - must use Bulma effectively
-  - must convert hero into a component
+  - must convert hero into a component - meaning, the whole `<header>...</header>`
  
 **v. Follow course coding standards**
   - [Course Code Style Requirements](../notes/code-style-required-330.md)
