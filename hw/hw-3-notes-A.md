@@ -29,6 +29,7 @@
   - 2) create **favorite.js** and the `Favorite` "model" class (see hints here: [HW-3 - Hints - **favorite.js**](hw-3.md#hints)
      - don't forget to `export`/`import` it
   - 3) create a single `Favorite` instance and put it in the `favorites` array - you can use the following values for its 4 properties
+  - 4) when you are done, `console.log(favorites);` or use the debugger to verify that you successfully in created the `Favorite` instance
 
 ```js
 {
@@ -39,4 +40,5 @@
 }
 ```
 
-    - 4) `console.log(favorites);` or use the debugger to verify that you were successful in create a `Favorite` instance
+- Still in **main.js**: 
+  - 1) XXX
