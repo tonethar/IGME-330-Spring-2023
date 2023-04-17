@@ -3,7 +3,7 @@
 
 ## I. The `deleteFavorite(fid)` function
 
-- In **main.js*, implement the `deleteFavorite(fid)` function
+- In **main.js**, implement the `deleteFavorite(fid)` function
 - This function will be called when the "Delete" button in the component is clicked
 - This function takes a `fid` ("favorites ID") as a parameter and:
   - A) will remove that `Favorite` from the `favorites` array
