@@ -3,6 +3,13 @@
 ## I. `localStorage` demo
 
 - See **local-storage-demo-start.zip** in myCourses
+- The magic happens in **storage.js**:
+  - contains methods for reading from & writing to `localStorage`
+  - will use `JSON.parse()` and `JSON.stringify()`
+  - will use `localStorage.getItem()` and `localStorage.setItem()`
+- **storage.js** is all done for you
+- Go ahead and write code in **main.js** to get everything working
+- Then move on to finishing up [HW-3 - Link Buddy](hw-3.md)
 
 <hr>
 
