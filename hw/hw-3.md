@@ -53,6 +53,14 @@
     - (-3%) per code style violation
   - For this HW you must use ES6 arrow functions (-3% per regular `function`)
     - but in ES6 classes, regular methods are OK (and often necessary) to use!
+  - Also (update 4/16/22):
+    - Encapsulation - Limit direct access to your module's variables
+    - Separation of concerns - keep each JS module focused on particular task(s) - example:
+      - `Favorite` *models* the app data
+      - `MyBookmark` is a *view object* focused on *presenting* the app data to the user
+      - **storage.js** interfaces with `window.localStorage`
+      - **main.js** manages the UI and connects the different parts of the application together 
+    - D.R.Y. - "Don't repeat yourself" - factor out repeated code into functions or methods
 
 **vi. Do your own work, and follow RIT's Academic Integrity Policy**
   - Violations of this policy could result in an F in the course
@@ -94,7 +102,7 @@
       - `createBookmarkComponent(fid, text, url, comments)`
       - `submitClicked(evt)`
       - `clearFormFields(evt)`
-- **localStorage.js**
+- **storage.js**
   - contains methods for reading from & writing to `localStorage`
   - will use `JSON.parse()` and `JSON.stringify()`
   - will use `localStorage.getItem()` and `localStorage.setItem()`
