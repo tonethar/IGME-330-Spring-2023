@@ -125,6 +125,7 @@
 
 - [HW-3 - Notes "A"](hw-3-notes-A.md)
 - [HW-3 - Notes "B"](hw-3-notes-B.md)
+- [HW-3 - Notes "C"](hw-3-notes-C.md)
 
 <hr>
 
