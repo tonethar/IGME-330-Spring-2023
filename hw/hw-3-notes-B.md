@@ -25,5 +25,7 @@
 <hr>
 
 ## II. The `MyBookmark` component
-- Modify the code to get the "Delete" button working (see lecture notes for help on this)
+- Modify the code to get the "Delete" button working:
+  - it needs to call the `.callback` property and pass in its `fid`
+  - see lecture notes for help on this
 - Don't forget to disable and "gray out" the "Favorite" button. You can do this with the `disabled` attribute
