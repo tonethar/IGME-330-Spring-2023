@@ -12,6 +12,7 @@
       - be sure to document (as a code comment) the url where you got your technique from 
   - B) will update the "Number of Favorites" count on the screen (PS - make sure that you are also doing this at app start up, and every time a new favorite is added)
   - C) the component that is displaying that favorite will also be removed from DOM using the `.remove()` method
+      - if you are doing this inside of the component, you'll want `this.parentElement.remove();` so that you get rid of the `<li>` too
       - this removal can be done either in the component code (in `MyBookmark`, easier to do here), or in **main.js**
 - You can test the `deleteFavorite(fid)` function with code like this:
 
