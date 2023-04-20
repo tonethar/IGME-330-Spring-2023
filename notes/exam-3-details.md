@@ -6,8 +6,8 @@
 - Since the last exam on 10B we've covered:
   - [Transpiling code with Webpack & Babel](bundling-transpiling.md)
   - TypeScript
-    - [Intro to TypeScript](intro-typescript.md)
-    - [Checkoff - TypeScript Practice](typescript-practice.md)
+    - [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
+    - [Checkoff - TypeScript Practice](../checkoffs/typescript-practice.md)
   - [PE-08 - Maps & Mapbox](../pe/pe-08.md)
   - Web Components
     - [Web Components-1 - Intro to Web Components](wc-1.md)
