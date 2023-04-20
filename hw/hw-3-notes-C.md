@@ -13,7 +13,7 @@
 
 <hr>
 
-## II. storage.js
+## II. HW-3 - Link Buddy & storage.js
 - Copy over **storage.js** from the example above and `import` it into **main.js**
 - Change the `storeName` variable to something meaningful - example `<yourActualBanjoID>-hw3-data`
 - Here's some default `Favorite` data you could use
@@ -29,7 +29,7 @@
 
 <hr>
 
-## III. main.js
+## III. HW-3 - Link Buddy & main.js
 - Get rid of any default `Favorite` data and instead just initialize `favorites` as an empty array
 - Modify `loadFavoritesFromStorage()` to actually load in the `Favorite` from `localStorage`
 - Save an updated version of `favorites` to `localStorage` when appropriate
