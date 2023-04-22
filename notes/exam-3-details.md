@@ -14,6 +14,9 @@
     - [Web Components-2 - Shadow DOM and HTML Templates](wc-2.md)
     - [Web Components-3 - Adding Bulma support](wc-3.md)
     - [HW-3 - Link Buddy!](../hw/hw-3.md)
+      - Web components with slots
+      - Web components and callbacks
+      - `.localStorage`
 
 <hr>
 
