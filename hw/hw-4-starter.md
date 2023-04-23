@@ -38,7 +38,7 @@
 
 <hr>
 
-- And go ahead and call `setupUI()` at the bottom of `init()``
+- And go ahead and call `setupUI()` at the bottom of `init()`
 - When you are done the buttons should function and the map should look like this
 
 <hr>
