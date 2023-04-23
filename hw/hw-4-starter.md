@@ -1,5 +1,5 @@
 # HW-4 Starter 
-## *(not done yet! - I will send out a Slack message Sunday night when it is!)*
+## *(Not done yet! - I will send out a Slack message Sunday night when it is!)*
 
 ## I. Download the start files
 - Rename the folder to ***lastName*-*firstInitial*-hw4**
