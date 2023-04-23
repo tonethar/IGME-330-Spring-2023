@@ -22,7 +22,7 @@
 
 ### II-A. The HTML for the buttons looks like this:
 
-<hr>
+- Make these changes in **index.html**
 
 ![screenshot](_images/HW-4B.png)
 
@@ -32,9 +32,7 @@
 
 ### II-B. The JS for the buttons looks like this:
 
-- Make changes in **main.js**
-
-<hr>
+- Make these changes in **main.js**
 
 ![screenshot](_images/HW-4D.png)
 
