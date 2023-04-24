@@ -96,3 +96,19 @@ addMarker(geojson.features[0], "poi", clickHandler);
 <hr>
 
 ## IV. Load the park data from a JSON file
+
+### IV-A. Declare a variable to hold the JSON
+
+- In the "Variables & Constants" section of **main.js**, declare a `geojson` variable
+
+```js
+let geojson;
+```
+
+### IV-B.
+
+
+
+
+
+
