@@ -222,3 +222,12 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 ![screenshot](_images/HW-4P.png)
 
 <hr>
+
+## VI. Showing Favorites
+
+- We are going to add a new panel to the right columm, under the map controls
+- This panel is going to show the user's "favorited" NYS parks
+
+### VI-A. Add HTML for the "Favorites Panel"
+
+- Go 
