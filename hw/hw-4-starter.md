@@ -251,7 +251,7 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 
 <hr>
 
-### VI-B. Set up a "favorites" array
+### VI-B. Set up a "favorites" array in main.js
 
 - Here is the array that will hold the ids of the user's favorite NYS parks
 - This goes in the "Variables & constants" section of **main.js**
@@ -259,3 +259,23 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 ```js
 let favoriteIds = ["p20","p79","p180","p43"];
 ```
+
+<hr>
+
+### VI-C. Implement `refreshFavorites()`
+
+- `refreshFavorites()` will be called when the app first loads, and (later on) whenever the user utilizes controls to add or remove favorite Ids from the `favoriteIds` array
+- Go ahead an implement `refreshFavorites()` (see below)
+- And call `refreshFavorites()` from the bottom of `setupUI()`
+
+<hr>
+
+![screenshot](_images/HW-4R.png)
+
+<hr>
+
+- When we call `refreshFavorites()` - we will get an error message - `Uncaught ReferenceError: createFavoriteElement is not defined` -  because `createFavoriteElement(id)` is not yet implemented - so let's move on!
+
+<hr>
+
+### VI-D. Implement `createFavoriteElement(id)`
