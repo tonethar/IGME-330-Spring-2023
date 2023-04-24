@@ -171,3 +171,10 @@ const showFeatureDetails = (id) => {
 ![screenshot](_images/HW-4M.png)
 
 <hr>
+
+## V. Showing feature details when a marker is clicked on
+
+- When a marker is clicked on, we want to show the park name, address, phone number and description in the "Info" row of the app
+
+
+
