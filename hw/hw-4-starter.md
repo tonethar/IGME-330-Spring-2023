@@ -223,7 +223,7 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 
 <hr>
 
-## VI. Showing Favorites
+## VI. Showing user Favorites
 
 - We are going to add a new panel to the right columm, under the map controls
 - This panel is going to show the user's "favorited" NYS parks
@@ -250,3 +250,12 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 ![screenshot](_images/HW-4R.png)
 
 <hr>
+
+### VI-B. Set up a "favorites" array
+
+- Here is the array that will hold the ids of the user's favorite NYS parks
+- This goes in the "Variables & constants" section of **main.js**
+
+```js
+let favoriteIds = ["p20","p79","p180","p43"];
+```
