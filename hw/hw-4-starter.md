@@ -161,7 +161,9 @@ const showFeatureDetails = (id) => {
 - Go ahead and reload the page and test the code
   - all the parks in the JSON file should have markers on the map
   - clicking a marker should give you a popup showing the park name, address and phone humber
-  - when a marker is clicked, you should also see a log in the console - something like - `main.js:36 showFeatureDetails - id=p84`
+  - when a marker is clicked, you should also see a log in the console:
+    - something like - `main.js:36 showFeatureDetails - id=p84`
+    - which is the `showFeatureDetails()` function above, getting called when the marker in clicked on
   
 <hr>
 
