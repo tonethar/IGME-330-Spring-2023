@@ -211,10 +211,10 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 
 ### V-C. DO THIS - Complete `showFeatureDetails()`
 
-- Go ahead and get `#details-2` displaying the park's address, phone number, and web site:
+- Go ahead and get `#details-2` displaying the clicked park's address, phone number, and web site:
   - the website must be a clickable link
   - the phone number must also be a clickable link - use the `tel:` protocol - google it if you are not familiar with how to use it
-- Get `#details-3` dsiplaying the park description
+- Get `#details-3` displaying the clicked park's description
 - See example screenshot below
 
 <hr>
