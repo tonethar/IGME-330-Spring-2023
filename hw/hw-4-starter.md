@@ -63,7 +63,7 @@
 ### III-B. Test the `addMarker()` helper function
 
 - Put the following test code into the end of the `initMap()` function in **map.js**
-- We Are using the "features" data for Letchworth park, which is hard-coded onto **map.js** as test data
+- We are using the "features" data for Letchworth park, which is hard-coded onto **map.js** as test data
 
 
 ```js
@@ -93,4 +93,4 @@ addMarker(geojson.features[0], "poi", clickHandler)
 
 <hr>
 
-## IV.
+## IV. Load the park data from a JSON file
