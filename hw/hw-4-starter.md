@@ -139,7 +139,7 @@ let geojson;
 
 ### IV-D. Head back to main.js
 
-- In main.js, we are going to call `addMarkersToMap()` in the ajax callback function - right after the JSON is loaded, but before `setupUI()` is called
+- In **main.js**, we are going to call `addMarkersToMap()` in the ajax callback function - right after the JSON is loaded, but before `setupUI()` is called
 
 <hr>
 
@@ -148,7 +148,7 @@ let geojson;
 <hr>
 
 - Note that we have not yet implemented `showFeatureDetails()` - this will be the function that is called when each marker is clicked
-- Here is the starter implementation of `showFeatureDetails()`:
+- Here is the starter implementation of `showFeatureDetails()` (this goes in **main.js**):
 
 ```js
 const showFeatureDetails = (id) => {
