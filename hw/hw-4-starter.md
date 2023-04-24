@@ -274,7 +274,9 @@ let favoriteIds = ["p20","p79","p180","p43"];
 
 <hr>
 
-- When we call `refreshFavorites()` - we will get an error message - `Uncaught ReferenceError: createFavoriteElement is not defined` -  because `createFavoriteElement(id)` is not yet implemented - so let's move on!
+- When we call `refreshFavorites()` - we will get an error message:
+  - `Uncaught ReferenceError: createFavoriteElement is not defined`
+  - because `createFavoriteElement(id)` is not yet implemented - so let's move on!
 
 <hr>
 
