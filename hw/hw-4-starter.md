@@ -64,7 +64,7 @@
 
 - Put the following test code into the end of the `initMap()` function in **map.js**
 - We Are using the "features" data for Letchworth park, which is hard-coded onto **map.js** as test data
-- PS - Once you have confirmed everything works, "comment out" or delete the test code
+
 
 ```js
 // test
@@ -80,3 +80,17 @@ addMarker(geojson.features[0], "poi", clickHandler)
 ![screenshot](_images/HW-4G.png)
 
 <hr>
+
+### III-C. DO THIS
+
+- Add the park phone number to the popup:
+  - modify the marker HTML
+  - pull the `.phone` property from the feature
+  - it should look similar to the screenshot below
+  - PS - Once you have confirmed everything works, "comment out" or delete the test code from `initMap()`
+
+![screenshot](_images/HW-4H.png)
+
+<hr>
+
+## IV.
