@@ -89,6 +89,8 @@ addMarker(geojson.features[0], "poi", clickHandler);
   - it should look similar to the screenshot below
   - PS - Once you have confirmed everything works, "comment out" or delete the test code from `initMap()`
 
+<hr>
+
 ![screenshot](_images/HW-4H.png)
 
 <hr>
