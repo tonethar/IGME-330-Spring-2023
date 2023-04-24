@@ -234,6 +234,7 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 
 - In **index.html** go ahead and add the bottom "favorites" panel to the right column
   - the HTML goes right after "panel 1"
+  - note that each "favorite" is a separate `<a>` tag that has been extensively styled
   - see screenshot below:
 
 <hr>
