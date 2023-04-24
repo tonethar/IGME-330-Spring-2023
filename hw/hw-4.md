@@ -20,11 +20,8 @@
 
   **II-A) HW-4 starter has been completed and works perfectly**
 
-  **II-B) The user can "favorite" and "unfavorite" parks by clicking "Favorite" and "Delete" buttons**
+  **II-B) The user can "favorite" and "unfavorite" parks by clicking "Favorite" and "Delete" buttons. The Favorites panel will be immediately updated with these changes**
 
-- The Favorites panel will be immediately updated with these changes
-
-  
   **II-C) User favorites are preserved in `localStorage` so that when the user reloads the page the contents of the Favorites panel are preserved**
 
 <hr>
