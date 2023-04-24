@@ -280,7 +280,7 @@ let favoriteIds = ["p20","p79","p180","p43"];
 
 <hr>
 
-### VI-D. Implement `createFavoriteElement(id)`
+### VI-D. Implement `createFavoriteElement(id)` in main.js
 
 - `createFavoriteElement(id)` looks like this
 - Note that we are again using `getFeatureById(id)` (which you wrote)
@@ -292,6 +292,7 @@ let favoriteIds = ["p20","p79","p180","p43"];
 <hr>
 
 - Reload the page, the code should run and create links for all 4 of your favorites
+- Cliking on a park in the favorites panel will scroll the map to the location of the park, and will display its data in the "Info" area
 
 <hr>
 
