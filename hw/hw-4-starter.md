@@ -54,7 +54,7 @@
 - They will also (very soon) display other information about each park, in the "Info" section of the HTML page
 
 ### III-A. Implement the `addMarker()` helper function
-- The following code goes in the "public" section of **map.js**
+- The following code goes in the "private" section of **map.js**
 
 ![screenshot](_images/HW-4F.png)
 
