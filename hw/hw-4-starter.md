@@ -105,9 +105,9 @@ addMarker(geojson.features[0], "poi", clickHandler);
 let geojson;
 ```
 
-### IV-B.
+### IV-B. Load the JSON file
 
-- Let's go ahead and load the JSON file and log it out to th console
+- Let's go ahead and load the JSON file and log it out to the console
 - Make `init()` in **main.js** look like the following
 
 <hr>
@@ -116,7 +116,7 @@ let geojson;
 
 <hr>
 
-
+### IV-C. 
 
 
 
