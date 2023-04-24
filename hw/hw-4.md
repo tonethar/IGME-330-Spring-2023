@@ -97,8 +97,8 @@
 1) You will likely implement `addToFavorites(id)` and `deleteFavorite(id)` methods in **main.js**
 
 2) When working on the favoriting, a `currentParkId` or similar variable in **main.js** will come in handy
-    - this variable will contain the id of the last park that was "clicked on"
-    - "clicked on" means a park's marker was clicked on, or a park's name in the "Favorites" panel was clciked on 
+    - this variable will contain the id of the last park that was *selected* by the user
+    - "selected" means a park's marker was clicked on, or a park's name in the "Favorites" panel was clicked on 
 
 <hr>
 
