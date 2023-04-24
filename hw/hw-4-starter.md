@@ -178,7 +178,8 @@ const showFeatureDetails = (id) => {
 
 ## V-A. Add HTML for the bottom "Info" row
 
-- Make the bottom row (the one right above `<div class="footer" ...`) appear a follows:
+- Make the bottom row (the one right above `<div class="footer" ...`. shown below) appear as below
+- NB - when you are done, you may wish to validate your HTML to help determine if you typed it in properly
 
 <hr>
 
