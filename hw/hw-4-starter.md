@@ -109,8 +109,8 @@ let geojson;
 
 ### IV-B. Load the JSON file
 
-- Let's go ahead and load the JSON file and log it out to the console
-- Make `init()` in **main.js** look like the following
+- Let's go ahead and load the **data/parks.geojson** file and log it out to the console
+- Make `init()` in **main.js** look like the following:
 
 <hr>
 
