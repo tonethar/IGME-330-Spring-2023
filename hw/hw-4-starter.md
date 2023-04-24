@@ -1,5 +1,4 @@
-# HW-4 Starter 
-## *(Not done yet! - I will send out a Slack message Monday night when it is!)*
+# HW-4 - *NY State Park Buddy* - Starter 
 
 ## I. Download the start files
 - Rename the folder to ***lastName*-*firstInitial*-hw4**
@@ -301,3 +300,14 @@ let favoriteIds = ["p20","p79","p180","p43"];
 ![screenshot](_images/HW-4U.png)
 
 <hr>
+
+## VII. All done with the *NY State Park Buddy* "starter"
+
+- You are done with the starter. You should now have an app that:
+  - displays a Mapbox map, centered on NY State, with controls for panning and zooming the map
+  - loads NYS park data from a JSON file and displays it on a map as individual markers, one for each park
+  - clicking on a marker shows a popup, and displays more details about that park on the "Info" section of the HTML page
+  - a list of hard-coded favorites is loaded in and displayed on th HTML pag. Clicking a favorite pans the map to that location and displays information about the park
+- And there's more to do for HW-4:
+  - adding and deleting favorites
+  - porting some of the HTML and JS to Web Components
