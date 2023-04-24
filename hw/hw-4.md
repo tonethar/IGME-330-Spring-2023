@@ -26,7 +26,16 @@
 
 <hr>
 
-## III. Rubric
+## III. Screenshot
+
+<hr>
+
+![screenshot](_images/HW-4V.png)
+
+<hr>
+
+
+## IV. Rubric
 
 **i. HW-4 starter has been completed and works perfectly (65%)**
 
@@ -58,15 +67,15 @@
 
 <hr>
 
-## IV. Hints and Tips (check back frequently - might be updated as needed)
+## V. Hints and Tips (check back frequently - might be updated as needed)
 
 <hr>
 
-## V. FAQ & Errata (check back frequently - might be updated as needed)
+## VI. FAQ & Errata (check back frequently - might be updated as needed)
 
 <hr>
 
-## VI. Submission
+## VII. Submission
 
 - Put the files from above into a parent folder named ***lastName*-*firstInitial*-hw4**
   - (-5%) for a misnamed folder
