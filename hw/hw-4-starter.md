@@ -262,7 +262,7 @@ let favoriteIds = ["p20","p79","p180","p43"];
 
 <hr>
 
-### VI-C. Implement `refreshFavorites()`
+### VI-C. Implement `refreshFavorites()` in main.js
 
 - `refreshFavorites()` will be called when the app first loads, and (later on) whenever the user utilizes controls to add or remove favorite Ids from the `favoriteIds` array
 - Go ahead an implement `refreshFavorites()` (see below)
@@ -281,3 +281,19 @@ let favoriteIds = ["p20","p79","p180","p43"];
 <hr>
 
 ### VI-D. Implement `createFavoriteElement(id)`
+
+- `createFavoriteElement(id)` looks like this
+
+<hr>
+
+![screenshot](_images/HW-4T.png)
+
+<hr>
+
+- Reload the page, the code should run and create links for all 4 of your favorites
+
+<hr>
+
+![screenshot](_images/HW-4U.png)
+
+<hr>
