@@ -127,7 +127,14 @@ let geojson;
 
 <hr>
 
-### IV-C. 
+### IV-C. Head over to map.js
 
+- In **map.js**, in the "public" section, implement the `addMarkersToMap()` function, and `export` it
 
+<hr>
 
+![screenshot](_images/HW-4K.png)
+
+<hr>
+
+### IV-D.
