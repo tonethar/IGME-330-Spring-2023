@@ -2,7 +2,7 @@
 
 ## I. Get started
 - Download the start files from myCourses
-- Rename the folder to ***lastName*-*firstInitial*-hw4**
+- Rename the folder to ***lastName*-*firstInitial*-hw4-starter**
 - Look over the HTML/CSS/JS files to be sure that you understand the structure of the app
 - Add your Mapbox API key to **map.js**
 - Change the name and year in the HTML footer to appropriate values
