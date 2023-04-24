@@ -94,6 +94,10 @@
 
 ## V. Hints and Tips (check back frequently - might be updated as needed)
 
+1) When working on the favoriting, a `currentParkId` or similar variable in **main.js** will come in handy
+    - this variable will contain the id of the last park that was "clicked on"
+    - "clicked on" means a park's marker was clicked on, or a park's name in the "Favorites" panel was clciked on 
+
 <hr>
 
 ## VI. FAQ & Errata (check back frequently - might be updated as needed)
