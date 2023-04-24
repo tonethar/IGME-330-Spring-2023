@@ -105,6 +105,8 @@ addMarker(geojson.features[0], "poi", clickHandler);
 let geojson;
 ```
 
+<hr>
+
 ### IV-B. Load the JSON file
 
 - Let's go ahead and load the JSON file and log it out to the console
@@ -113,6 +115,15 @@ let geojson;
 <hr>
 
 ![screenshot](_images/HW-4I.png)
+
+<hr>
+
+- Reload the page, and open the console, you should see the contents of **parks.geojson** logged out
+- What you are inrterested in is the `features` array - which is the array that contains all of the NYS park data
+
+<hr>
+
+![screenshot](_images/HW-4J.png)
 
 <hr>
 
