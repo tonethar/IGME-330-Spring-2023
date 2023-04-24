@@ -1,5 +1,13 @@
 # HW-4 - *NY State Park Buddy* - Starter 
 
+## Overview
+- NYS Park Buddy allows the user to:
+  - view NYS parks as markers on a map
+  - click on the markers to view more information about the park
+  - favorite and unfavorite parks and have this list preserved in `.localStorage`
+
+<hr>
+
 ## I. Get started
 - Download the start files from myCourses
 - Rename the folder to ***lastName*-*firstInitial*-hw4-starter**
