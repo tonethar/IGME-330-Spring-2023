@@ -311,4 +311,6 @@ let favoriteIds = ["p20","p79","p180","p43"];
   - a list of hard-coded favorites is loaded in and displayed on th HTML pag. Clicking a favorite pans the map to that location and displays information about the park
 - And there's more to do for HW-4:
   - adding and deleting favorites
-  - porting some of the HTML and JS to Web Components
+  - saving favorites to `.localStorage`
+  - porting some of the HTML to Web Components
+  - see [HW-4 - NY State Park Buddy](./hw-4.md)
