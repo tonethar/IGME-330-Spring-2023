@@ -20,10 +20,14 @@
 
   **II-A) HW-4 starter has been completed and works perfectly**
 
-  **II-B) The user can "favorite" and "unfavorite" parks by clicking "Favorite" and "Delete" buttons. The Favorites panel will be immediately updated with these changes. Parks can only appear on the favorites list ONCE**
+  **II-B) The user can "favorite" and "unfavorite" parks by clicking "Favorite" and "Delete" buttons**
   
   - The Favorites panel will be immediately updated with these changes
   - Parks can only appear on the favorites list ONCE
+  - The *state* of the "Favorite" and "Delete" buttons must be consistent
+    - if the currently selected park is already a favorite, only the "Delete" button should be enabled
+    - if the currently selected park is NOT a favorite, only the "Favorite" button should be enabled
+    - if no park is selected, neither button should be enabled (or they could be hidden with `display: none`)
 
   **II-C) User favorites are preserved in `localStorage` so that when the user reloads the page the contents of the Favorites panel are preserved**
 
