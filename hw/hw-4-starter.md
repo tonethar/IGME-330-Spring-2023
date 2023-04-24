@@ -294,7 +294,7 @@ let favoriteIds = ["p20","p79","p180","p43"];
 <hr>
 
 - Reload the page, the code should run and create links for all 4 of your favorites
-- Cliking on a park in the favorites panel will scroll the map to the location of the park, and will display its data in the "Info" area
+- Clicking on a park in the favorites panel will scroll the map to the location of the park, and will also display its data in the "Info" area
 
 <hr>
 
