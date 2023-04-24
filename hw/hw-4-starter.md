@@ -52,8 +52,31 @@
 - Let's go ahead and write the code that will add State park *markers* to the map
 - These markers will display a popup when clicked
 - They will also (very soon) display other information about each park, in the "Info" section of the HTML page
+
+### III-A. Implement the `addMarker()` helper function
 - The following code goes in the "public" section of **map.js**
 
 ![screenshot](_images/HW-4F.png)
+
+<hr>
+
+### III-B. Test the `addMarker()` helper function
+
+- Put the following test code into the end of the `initMap()` function in **map.js**
+- We Are using the "features" data for Letchworth park, which is hard-coded onto **map.js** as test data
+- PS - Once you have confirmed everything works, "comment out" or delete the test code
+
+```js
+// test
+const clickHandler = (id) => alert(`${id} was clicked!`);
+addMarker(geojson.features[0], "poi", clickHandler)
+```
+
+<hr>
+
+- When you are done there should be a single marker that looks like the screenshot below
+- Clicking the marker will show the popup and also run our test `clickHandler`, which "alerts" the `id` of the marker to a browser modal dialog box
+
+![screenshot](_images/HW-4G.png)
 
 <hr>
