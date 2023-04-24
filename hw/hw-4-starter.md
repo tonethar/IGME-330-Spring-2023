@@ -207,3 +207,18 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 ![screenshot](_images/HW-4O.png)
 
 <hr>
+
+
+### V-C. Complete `showFeatureDetails()`
+
+- Go ahead and get `#details-2` displaying the park's address, phone number, and web site:
+  - the website must be a clickable link
+  - the phone number must also be a clickable link - use the `tel:` protocol - google it if you are not familiar with how to use it
+- Get `#details-3` dsiplaying the park description
+- See example screenshot below
+
+<hr>
+
+![screenshot](_images/HW-4P.png)
+
+<hr>
