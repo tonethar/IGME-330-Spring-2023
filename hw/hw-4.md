@@ -37,6 +37,14 @@
 
 <hr>
 
+- Inital page load - favorites are loaded in from `.localStorage` and shown on the right in the "Favorites Panel"
+
+![screenshot](_images/HW-4W.png)
+
+<hr>
+
+- After 
+
 ![screenshot](_images/HW-4V.png)
 
 <hr>
