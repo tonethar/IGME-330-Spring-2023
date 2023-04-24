@@ -175,8 +175,9 @@ const showFeatureDetails = (id) => {
 ## V. Showing feature details when a marker is clicked on
 
 - When a marker is clicked on, we want to show the park name, address, phone number and description in the "Info" row of the app
+- To do this, we will need to write code that searches the `features` array for the park that matches the `id` of the marker that was clciked on 
 
-## V-A. Add HTML for the bottom "Info" row
+### V-A. Add HTML for the bottom "Info" row
 
 - Make the bottom row (the one right above `<div class="footer" ...`. shown below) appear as below
 - NB - when you are done, you may wish to validate your HTML to help determine if you typed it in properly
@@ -187,3 +188,22 @@ const showFeatureDetails = (id) => {
 
 <hr>
 
+### V-B. Keep working on `showFeatureDetails()`
+
+- Here are the next 2 lines of code for `showFeatureDetails()`
+
+```js
+const feature = getFeatureById(id);
+document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.title}`;
+```
+
+- Note that we did not give you the implementation of the `getFeatureById(id)` function - go ahead and implement that yourself:
+  - you need to "search" the `geojson.features` array for the park feature (object) that has a `.id` that matches the passed in `id` argument, and `return` it
+  - an optimal solution uses `array.find()` and can be done in one line of code (but get it working however you can)
+- Once you have it properly working, you should see the "Info" row displaying the name of the park that was just clicked on
+
+<hr>
+
+![screenshot](_images/HW-4O.png)
+
+<hr>
