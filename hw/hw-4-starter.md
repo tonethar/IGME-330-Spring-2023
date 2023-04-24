@@ -69,7 +69,7 @@
 ```js
 // test
 const clickHandler = (id) => alert(`${id} was clicked!`);
-addMarker(geojson.features[0], "poi", clickHandler)
+addMarker(geojson.features[0], "poi", clickHandler);
 ```
 
 <hr>
