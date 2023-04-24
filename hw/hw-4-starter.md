@@ -49,10 +49,9 @@
 
 ## III. Add Markers to the map
 
-- Let's go ahad and write the code that will add State park markers to the page
-
-<hr>
-
+- Let's go ahead and write the code that will add State park *markers* to the map
+- These markers will display a popup when clicked
+- They will also (very soon) display other information about each park, in the "Info" section of the HTML page
 - The following code goes in the "public" section of **map.js**
 
 ![screenshot](_images/HW-4F.png)
