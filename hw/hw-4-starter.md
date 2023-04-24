@@ -176,5 +176,13 @@ const showFeatureDetails = (id) => {
 
 - When a marker is clicked on, we want to show the park name, address, phone number and description in the "Info" row of the app
 
+## V-A. Add HTML for the bottom "Info" row
 
+- Make the bottom row (the one right above `<div class="footer" ...`) appear a follows:
+
+<hr>
+
+![screenshot](_images/HW-4N.png)
+
+<hr>
 
