@@ -270,7 +270,7 @@ let favoriteIds = ["p20","p79","p180","p43"];
 
 <hr>
 
-![screenshot](_images/HW-4R.png)
+![screenshot](_images/HW-4S.png)
 
 <hr>
 
