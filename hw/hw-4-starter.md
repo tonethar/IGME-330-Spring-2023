@@ -132,6 +132,7 @@ let geojson;
 ### IV-C. Head over to map.js
 
 - In **map.js**, in the "public" section, implement the `addMarkersToMap()` function, and `export` it
+- ***Don't forget to `export` it!***
 
 <hr>
 
