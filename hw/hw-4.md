@@ -5,7 +5,7 @@
 - NYS Park Buddy allows the user to:
   - view NYS parks as markers on a map
   - click on the markers to view more information about the park
-  - favorite and unfavorite parks and have this list preserved in `.localStorage`
+  - favorite and unfavorite parks and have their list preserved in `.localStorage`
 
 <hr>
 
