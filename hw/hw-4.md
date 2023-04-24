@@ -37,21 +37,23 @@
 
 <hr>
 
-- Initial page load - favorites are loaded in from `.localStorage` and shown on the right in the "Favorites" Panel
+- **Screenshot #1** - Initial page load - favorites are loaded in from `.localStorage` and shown on the right in the "Favorites" Panel
 
 ![screenshot](_images/HW-4V.png)
 
 <hr>
 
-- After a park (Hamlin Beach) is selected, its info is displayed in the "Favorites" Panel
-- Note the *state* of the buttons - because Hamlin Beach is NOT a favorite, the "Add Favorite" button is *enabled* & the "Delete" button is *disabled*
+- **Screenshot #2**
+  - After a park (Hamlin Beach) is selected, its info is displayed in the "Favorites" Panel
+  - Note the *state* of the buttons - because Hamlin Beach is NOT a favorite, the "Add Favorite" button is *enabled* & the "Delete" button is *disabled*
 
 ![screenshot](_images/HW-4W.png)
 
 <hr>
 
-- After a park (Stoney Brook) is selected, its info is displayed
-- Note the *state* of the buttons - because Stoney Brook IS a favorite, the "Add Favorite" button is *disabled* & the "Delete" button is *enabled*
+- **Screenshot #3**
+  - After a park (Stoney Brook) is selected, its info is displayed
+  - Note the *state* of the buttons - because Stoney Brook IS a favorite, the "Add Favorite" button is *disabled* & the "Delete" button is *enabled*
 
 
 ![screenshot](_images/HW-4X.png)
