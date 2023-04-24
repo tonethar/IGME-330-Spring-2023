@@ -77,6 +77,8 @@ addMarker(geojson.features[0], "poi", clickHandler);
 - When you are done there should be a single marker that looks like the screenshot below
 - Clicking the marker will show the popup and also run our test `clickHandler`, which "alerts" the `id` of the marker to a browser modal dialog box
 
+<hr>
+
 ![screenshot](_images/HW-4G.png)
 
 <hr>
