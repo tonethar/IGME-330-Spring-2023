@@ -22,7 +22,7 @@
 
   **II-B) The user can "favorite" and "unfavorite" parks by clicking "Favorite" and "Delete" buttons**
   
-  - The Favorites panel will be immediately updated with these changes
+  - The "Favorites" panel will be immediately updated with these changes
   - Parks can only appear on the favorites list ONCE
   - The *state* of the "Favorite" and "Delete" buttons must be consistent
     - if the currently selected park is already a favorite, only the "Delete" button should be enabled
