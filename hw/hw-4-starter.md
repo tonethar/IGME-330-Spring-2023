@@ -1,6 +1,7 @@
 # HW-4 - *NY State Park Buddy* - Starter 
 
-## I. Download the start files
+## I. Get started
+- Download the start files from myCourses
 - Rename the folder to ***lastName*-*firstInitial*-hw4**
 - Look over the HTML/CSS/JS files to be sure that you understand the structure of the app
 - Add your Mapbox API key to **map.js**
