@@ -46,3 +46,15 @@
 ![screenshot](_images/HW-4E.png)
 
 <hr>
+
+## III. Add Markers to the map
+
+- Let's go ahad and write the code that will add State park markers to the page
+
+<hr>
+
+- The following code goes in the "public" section of **map.js**
+
+![screenshot](_images/HW-4F.png)
+
+<hr>
