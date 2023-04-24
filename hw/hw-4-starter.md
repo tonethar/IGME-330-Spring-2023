@@ -150,11 +150,19 @@ let geojson;
 - Note that we have not yet implemented `showFeatureDetails()` - this will be the function that is called when each marker is clicked
 - Here is the starter implementation of `showFeatureDetails()`:
 
+```js
+const showFeatureDetails = (id) => {
+	console.log(`showFeatureDetails - id=${id}`);
+};
+```
+
+- Go ahead and reload the page and test the code
+  - all the parks in the JSON file should have markers on the map
+  - clicking a marker should give you a popup showing the park name, address and phone humber
+  - when a marker is clicked, you should also see a log in the console - something like - `main.js:36 showFeatureDetails - id=p84`
+  
 <hr>
 
 ![screenshot](_images/HW-4M.png)
 
 <hr>
-
-
-
