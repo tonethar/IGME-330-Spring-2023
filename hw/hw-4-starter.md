@@ -285,6 +285,7 @@ let favoriteIds = ["p20","p79","p180","p43"];
 
 - `createFavoriteElement(id)` looks like this
 - Note that we are again using `getFeatureById(id)` (which you wrote)
+- Also note that each "favorite" is containd in an `<a>` tag that we are creating dynamically
 
 <hr>
 
