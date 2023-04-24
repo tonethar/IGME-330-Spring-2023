@@ -230,4 +230,20 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 
 ### VI-A. Add HTML for the "Favorites Panel"
 
-- Go 
+- In **index.html** go ahead and add the bottom "favorites" panel to the right column
+  - the HTML goes right after "panel 1"
+  - see screenshot below:
+
+<hr>
+
+![screenshot](_images/HW-4Q.png)
+
+<hr>
+
+- When you are done, it should look like this:
+
+<hr>
+
+![screenshot](_images/HW-4R.png)
+
+<hr>
