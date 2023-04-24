@@ -197,7 +197,7 @@ const feature = getFeatureById(id);
 document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.title}`;
 ```
 
-- Note that we did not give you the implementation of the `getFeatureById(id)` function - go ahead and implement that yourself:
+- **DO THIS** - Note that we did not give you the implementation of the `getFeatureById(id)` function - so go ahead and implement that yourself:
   - you need to "search" the `geojson.features` array for the park feature (object) that has a `.id` that matches the passed in `id` argument, and `return` it
   - an optimal solution uses `array.find()` and can be done in one line of code (but get it working however you can)
 - Once you have it properly working, you should see the "Info" row displaying the name of the park that was just clicked on
@@ -209,7 +209,7 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 <hr>
 
 
-### V-C. Complete `showFeatureDetails()`
+### V-C. DO THIS - Complete `showFeatureDetails()`
 
 - Go ahead and get `#details-2` displaying the park's address, phone number, and web site:
   - the website must be a clickable link
