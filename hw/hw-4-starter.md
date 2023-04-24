@@ -227,6 +227,8 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 
 - We are going to add a new panel to the right columm, under the map controls
 - This panel is going to show the user's "favorited" NYS parks
+- When these favorites are clicked, the map will zoom to their location, and all of the data about them will be displayed in the "Info" area
+- Eventually, you will write code that allows users to add and delete these favorites
 
 ### VI-A. Add HTML for the "Favorites Panel"
 
@@ -240,7 +242,8 @@ document.querySelector("#details-1").innerHTML = `Info for ${feature.properties.
 
 <hr>
 
-- When you are done, it should look like this:
+- When you are done, it should look as below
+- Note that the 2 "favorites" are placeholders and are not functional - and it's fine if you only want to type in one of them
 
 <hr>
 
