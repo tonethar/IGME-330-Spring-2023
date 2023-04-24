@@ -87,7 +87,7 @@ addMarker(geojson.features[0], "poi", clickHandler);
   - modify the marker HTML
   - pull the `.phone` property from the feature
   - it should look similar to the screenshot below
-  - PS - Once you have confirmed everything works, "comment out" or delete the test code from `initMap()`
+  - ***PS - Once you have confirmed everything works, "comment out" or delete the test code from `initMap()`***
 
 <hr>
 
@@ -107,6 +107,14 @@ let geojson;
 
 ### IV-B.
 
+- Let's go ahead and load the JSON file and log it out to th console
+- Make `init()` in **main.js** look like the following
+
+<hr>
+
+![screenshot](_images/HW-4I.png)
+
+<hr>
 
 
 
