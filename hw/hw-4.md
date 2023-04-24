@@ -44,16 +44,16 @@
 <hr>
 
 - **Screenshot #2**
-  - After a park (Hamlin Beach) is selected, its info is displayed in the "Favorites" Panel
-  - Note the *state* of the buttons - because Hamlin Beach is NOT a favorite, the "Add Favorite" button is *enabled* & the "Delete" button is *disabled*
+  - After a park (Hamlin Beach State Park) is selected, its info is displayed in the "Favorites" Panel
+  - Note the *state* of the buttons - because Hamlin Beach State Park is NOT a favorite, the "Add Favorite" button is *enabled* & the "Delete" button is *disabled*
 
 ![screenshot](_images/HW-4W.png)
 
 <hr>
 
 - **Screenshot #3**
-  - After a park (Stoney Brook) is selected, its info is displayed
-  - Note the *state* of the buttons - because Stoney Brook IS a favorite, the "Add Favorite" button is *disabled* & the "Delete" button is *enabled*
+  - After a park (Stony Brook State Park) is selected, its info is displayed
+  - Note the *state* of the buttons - because Stony Brook State Park IS a favorite, the "Add Favorite" button is *disabled* & the "Delete" button is *enabled*
 
 
 ![screenshot](_images/HW-4X.png)
