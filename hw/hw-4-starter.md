@@ -129,7 +129,7 @@ let geojson;
 <hr>
 
 - Reload the page, and open the console, you should see the contents of **parks.geojson** logged out
-- What you are inrterested in is the `features` array - which is the array that contains all of the NYS park data
+- What you are interested in is the `features` array - which is the array that contains all of the NYS park data
 
 <hr>
 
