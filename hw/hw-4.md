@@ -1,4 +1,4 @@
-# HW-4 - *NY State Park Buddy* (DRAFT)
+# HW-4 - *NY State Park Buddy*
 
 
 ## Overview
