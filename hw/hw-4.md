@@ -75,7 +75,7 @@
   - web component uses slots to accept title and subtitle data
 - `<footer>` code is moved into a web component
   - web component is in its own JS file
-  - web component uses slots to accept title and year data
+  - web component uses slots to accept title (in this case, the name of the copyright holder) and year data
 
 
 **v. Follow course coding standards**
